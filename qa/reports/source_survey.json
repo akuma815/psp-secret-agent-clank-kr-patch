@@ -1,0 +1,3825 @@
+{
+  "schema_version": 1,
+  "validation_class": "static source and ISO9660 inventory verification",
+  "iso_rebuild_tested": false,
+  "runtime_tested": false,
+  "sources": {
+    "ja": {
+      "role": "japanese_reference_source",
+      "path": "original/iso/Clank & Ratchet - Maruhi Mission Ignition! (Japan).iso",
+      "size": 1115258880,
+      "sha256": "6ebeaa0021e40b9b150725deb18caeedca7d42b9c0330287ff18e9981c7ea647",
+      "root_copy_sha256_matches": true,
+      "file_count": 834,
+      "param_sfo": {
+        "BOOTABLE": 1,
+        "CATEGORY": "UG",
+        "DISC_ID": "UCJS10084",
+        "DISC_NUMBER": 1,
+        "DISC_TOTAL": 1,
+        "DISC_VERSION": "1.00",
+        "PARENTAL_LEVEL": 1,
+        "PSP_SYSTEM_VER": "4.01",
+        "REGION": 32768,
+        "TITLE": "クランク＆ラチェット　マル秘ミッション☆イグニッション"
+      },
+      "extracted_metadata_files": [
+        "PSP_GAME/ICON0.PNG",
+        "PSP_GAME/PARAM.SFO",
+        "PSP_GAME/SYSDIR/BOOT.BIN",
+        "PSP_GAME/SYSDIR/EBOOT.BIN",
+        "PSP_GAME/SYSDIR/UPDATE/DATA.BIN",
+        "PSP_GAME/SYSDIR/UPDATE/EBOOT.BIN",
+        "PSP_GAME/SYSDIR/UPDATE/PARAM.SFO",
+        "PSP_GAME/USRDIR/DATA/HUD/HELPLOCALDAT_J.BIN",
+        "PSP_GAME/USRDIR/DATA/HUD/LOCALDAT_J.BIN",
+        "PSP_GAME/USRDIR/DATA/HUD/MAINHUD.W3D",
+        "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/DHSAVE0.PNG",
+        "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/DRSAVE0.PNG",
+        "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/DSAVE0.PNG",
+        "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/HSAVE0.PNG",
+        "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/RSAVE0.PNG",
+        "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/SAVE0.PNG",
+        "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/SAVEBAK.PNG",
+        "UMD_DATA.BIN"
+      ]
+    },
+    "ko": {
+      "role": "korean_base_target",
+      "path": "original/iso/Secret Agent Clank [K].iso",
+      "size": 1222705152,
+      "sha256": "f0d5a191bdbf2fc05b403b065cbbb867a8974dd89686b3deb8a0d69601391007",
+      "root_copy_sha256_matches": true,
+      "file_count": 829,
+      "param_sfo": {
+        "BOOTABLE": 1,
+        "CATEGORY": "UG",
+        "DISC_ID": "UCKS45096",
+        "DISC_NUMBER": 1,
+        "DISC_TOTAL": 1,
+        "DISC_VERSION": "1.00",
+        "PARENTAL_LEVEL": 3,
+        "PSP_SYSTEM_VER": "4.01",
+        "REGION": 32768,
+        "TITLE": "Secret Agent Clank™"
+      },
+      "extracted_metadata_files": [
+        "PSP_GAME/ICON0.PNG",
+        "PSP_GAME/PARAM.SFO",
+        "PSP_GAME/SYSDIR/BOOT.BIN",
+        "PSP_GAME/SYSDIR/EBOOT.BIN",
+        "PSP_GAME/SYSDIR/UPDATE/DATA.BIN",
+        "PSP_GAME/SYSDIR/UPDATE/EBOOT.BIN",
+        "PSP_GAME/SYSDIR/UPDATE/PARAM.SFO",
+        "PSP_GAME/USRDIR/DATA/HUD/HELPLOCALDAT_K.BIN",
+        "PSP_GAME/USRDIR/DATA/HUD/LOCALDAT_K.BIN",
+        "PSP_GAME/USRDIR/DATA/HUD/MAINHUD.W3D",
+        "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/DHSAVE0.PNG",
+        "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/DRSAVE0.PNG",
+        "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/DSAVE0.PNG",
+        "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/HSAVE0.PNG",
+        "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/RSAVE0.PNG",
+        "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/SAVE0.PNG",
+        "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/SAVEBAK.PNG",
+        "UMD_DATA.BIN"
+      ]
+    }
+  },
+  "disc_comparison": {
+    "common_file_count": 820,
+    "identical_file_count": 291,
+    "differing_file_count": 529,
+    "only_in_ja": [
+      "PSP_GAME/USRDIR/ART/LEVELS/BUFFER1/DATA/BUFFER1.MB.WAD",
+      "PSP_GAME/USRDIR/CLIPS/04CD.PMF",
+      "PSP_GAME/USRDIR/CLIPS/05C2.PMF",
+      "PSP_GAME/USRDIR/CLIPS/LEGAL_J.PMF",
+      "PSP_GAME/USRDIR/CLIPS/LOGOS_J.PMF",
+      "PSP_GAME/USRDIR/DATA/HUD/HELPLOCALDAT_J.BIN",
+      "PSP_GAME/USRDIR/DATA/HUD/LOCALDAT_J.BIN",
+      "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BOMB_CONVEYOR_REMIND.AT3",
+      "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BOTDOOR_GRADE_ONE_TWO.AT3",
+      "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CAFETERIA_SPAWN_REMIND.AT3",
+      "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GIANTCLANK_UPDOWNCONTROL.AT3",
+      "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HYDROFOIL_TORPEDO.AT3",
+      "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_DEATH1.AT3",
+      "PSP_GAME/USRDIR/STREAMING/LANG00/SG_CASINO_OUTTAMYWAY.AT3"
+    ],
+    "only_in_ko": [
+      "PSP_GAME/USRDIR/ART/HUD/TEXTURES/SAC_MAPS/MAP02_GIANT_CTRLFILE.4BT",
+      "PSP_GAME/USRDIR/ART/HUD/TEXTURES/SAC_MAPS/MAP02_GIANT_OBSCURE.GIM",
+      "PSP_GAME/USRDIR/ART/HUD/TEXTURES/SAC_MAPS/MAP02_GIANT_REVEAL.GIM",
+      "PSP_GAME/USRDIR/ART/LEVELS/BUFFER/DATA/BUFFER.MB.WAD",
+      "PSP_GAME/USRDIR/CLIPS/LEGAL_K.PMF",
+      "PSP_GAME/USRDIR/CLIPS/LOGOS_K.PMF",
+      "PSP_GAME/USRDIR/DATA/HUD/HELPLOCALDAT_K.BIN",
+      "PSP_GAME/USRDIR/DATA/HUD/LOCALDAT_K.BIN",
+      "PSP_GAME/USRDIR/STREAMING/25O.AT3"
+    ],
+    "differing_files": [
+      {
+        "path": "PSP_GAME/ICON0.PNG",
+        "ja_size": 15314,
+        "ko_size": 13353,
+        "ja_sha256": "c126b967f3b012258120facd421c8d0a934f56b2757d5af037a3590e4c4cfc7b",
+        "ko_sha256": "1e38cd72459a9449168e5b684c6c4205e217b79094c20cec97e22034d44b8b57"
+      },
+      {
+        "path": "PSP_GAME/PARAM.SFO",
+        "ja_size": 472,
+        "ko_size": 472,
+        "ja_sha256": "b333827780402d9690cba9d4baf02d4686725c979c938f812dfbba17c6ce8b78",
+        "ko_sha256": "728a17479ed25acdf461c4b170f249f3f780ae2edac7664a564edd7e94e3d2ba"
+      },
+      {
+        "path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "ja_size": 412629,
+        "ko_size": 414285,
+        "ja_sha256": "f4a2f8622e3825756348375bfb14814d05a2f29fbbccbcdfcdf021d1b10c5f70",
+        "ko_sha256": "97e700ee6d1e8cceaf9d4021ef9530ad3949679801eca9f0b83babab62ac7236"
+      },
+      {
+        "path": "PSP_GAME/SYSDIR/EBOOT.BIN",
+        "ja_size": 412976,
+        "ko_size": 414624,
+        "ja_sha256": "7e9f0aa1d58faec281a458b8e8b8bd1ab03d8924ca3400227bf3966d70e2ef19",
+        "ko_sha256": "eee34310f0aefa0c6ccbcdf9cb84251072629eff653094528610769c90063294"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/HIGCREDITS/DATA/HIGCREDITS.MB.WAD",
+        "ja_size": 1549598,
+        "ko_size": 1549582,
+        "ja_sha256": "9e4f1e83b1227401535782d6812bb1870177dede849562965c4a51f59eb1df4b",
+        "ko_sha256": "89638e3b5bd54eb2f19c69661e2ff69ed006cf6e22a7d64703dd4e2518393a79"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/HIGTREEHOUSE/DATA/HIGTREEHOUSE.MB.WAD",
+        "ja_size": 4397349,
+        "ko_size": 4401092,
+        "ja_sha256": "ec556358376669a74a722aaf86cb40db011b69126355adc3e53af82d1a09dc17",
+        "ko_sha256": "fa924cac25195d4e86aef07e32fb3b3b70057b9b54d39c555ccffc6b92dee611"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL01_MUSEUM/DATA/LEVEL01_MUSEUM.MB.WAD",
+        "ja_size": 5614728,
+        "ko_size": 5614722,
+        "ja_sha256": "573f7eaa012cc4a9938c9bccb704b1d7c03d4e2494552a6f8790bdca607bcdc4",
+        "ko_sha256": "2a54b2ee6e341f02f4ed2ff0a18ea42163f7f5f39832e1447db316b2f8a600d3"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL01_PRISON/DATA/LEVEL01_PRISON.MB.WAD",
+        "ja_size": 5400559,
+        "ko_size": 5415762,
+        "ja_sha256": "b5236a23453e18cdb2ee4382536f6d9a7d10773a95a6fead384edc35db116b8b",
+        "ko_sha256": "c08076007df3b24b25944ac378bf2f36bc516ab747a5dbf9aa88532b12afe724"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL01_TIMING/DATA/LEVEL01_TIMING.MB.WAD",
+        "ja_size": 2583810,
+        "ko_size": 2584006,
+        "ja_sha256": "2c903b143679f3b10f8f31107b4198f84992ed2547f9af85065ef967789027ed",
+        "ko_sha256": "752165f7bc4f025cdaca1b66257459c2b36b83c38a1e017085130d7166f68fc0"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL02_GIANT/DATA/SKYSCRAPER_GIANT_LEVEL.MB.WAD",
+        "ja_size": 3106855,
+        "ko_size": 3106864,
+        "ja_sha256": "72a4071f38409e9c00287df25d8fd3facb90a745f3dd9ba9e2d97568dcda5e34",
+        "ko_sha256": "0340f38c76e10c9a522a3334c699d1628b298331a9db0167e77ca8b9a5b4a82d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL02_SKYSCRAPERS/DATA/SKYSCRAPER_LEVEL.MB.WAD",
+        "ja_size": 4663131,
+        "ko_size": 4663106,
+        "ja_sha256": "47821d860a9ad3724590159b40f6281318afaaaf24291eae595b128318d64183",
+        "ko_sha256": "40b61758632be3db6fec90657c4fd47894c57ddeda373d3dfd3729be2d6e772c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL03_CAFETERIA/DATA/LEVEL03_CAFETERIA.MB.WAD",
+        "ja_size": 5425888,
+        "ko_size": 5429241,
+        "ja_sha256": "12b75751551d422aa6c25615de0b681b616db011cee6c645519b30c01bfc411f",
+        "ko_sha256": "4547364b7d97f3570300cbfe9dfc33a20a749edc5b5c1d4d541daf78467e3247"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL03_COUNTESS/DATA/LEVEL03_COUNTESS.MB.WAD",
+        "ja_size": 6266193,
+        "ko_size": 6282774,
+        "ja_sha256": "d5ac66ea93618b86963c5c8bee39d43daa8656ddd2741b758bd3f5809359544c",
+        "ko_sha256": "1ef34f0e0a9b780a9e715b017b16392d8d1da1d78c7d66f773a2a38d0e399142"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL03_SNOWBOARD/DATA/LEVEL03_SNOWBOARD.MB.WAD",
+        "ja_size": 3380627,
+        "ko_size": 3380627,
+        "ja_sha256": "ef595633aae1cd8d0f87a345c1c9e777c4b213f5f2a494ab6c9345d05a29d0bb",
+        "ko_sha256": "8f5215a0a579eb87244545d9d378fe0e30d033f13c22a4d2a5c3ac1976ac73c7"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL04_CARNIVAL/DATA/L04CARNAVAL.MB.WAD",
+        "ja_size": 5148723,
+        "ko_size": 5148801,
+        "ja_sha256": "849937a5a49c1e3ccb6af36052151bf6a3a2cc594e9d6b69726e4a14fd149a58",
+        "ko_sha256": "177e20d0af90332160d79e0d5c557d37f714aad03755d379f9c717a8a08c05eb"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL04_GONDOLA/DATA/LVL04SECTION2.MB.WAD",
+        "ja_size": 5071464,
+        "ko_size": 5075754,
+        "ja_sha256": "db788c04fc12e08d9024e7e7665103dd27263b6934e12b07c043790de7361893",
+        "ko_sha256": "8ffefe605b2879fe329611b8a53687441cef7fdd3719494a1c37101250bb09b8"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL05_CASINO/DATA/LEVEL05_CASINO.MB.WAD",
+        "ja_size": 4225870,
+        "ko_size": 4225867,
+        "ja_sha256": "793ee4e7c72d908648949fc94e19d7402f98e74f4f78a54b53d33a0655f71275",
+        "ko_sha256": "b8ffa783b11008a113abd598a1279b0fdec0bdaa1b9e96cb9f23b8b01f3896c1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL05_HIGHSTAKES/DATA/HIGHSTAKES01.MB.WAD",
+        "ja_size": 3822803,
+        "ko_size": 3822987,
+        "ja_sha256": "d6bafed671eeb5a5b3c389de790ffe9d703baa4a15d66621913f63955cef1bfe",
+        "ko_sha256": "441810d3076ecb03c1ada5a2fb2114a4f233e2de425c76b791e436775c643f58"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL05_YARD/DATA/LEVEL05_YARD.MB.WAD",
+        "ja_size": 5540034,
+        "ko_size": 5547840,
+        "ja_sha256": "9fc2819088f206f3bf1da2d2a1c5645f066b98035de9099f467f08736b3797c7",
+        "ko_sha256": "3363155ac7aced905d316296e44cfa424cf787ab1ce01c479567d9cd997ef2b6"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL06_LAB/DATA/LEVEL06_LAB.MB.WAD",
+        "ja_size": 5369050,
+        "ko_size": 5369002,
+        "ja_sha256": "59ec681967ad021b718f0970551cc9250e1e8a6f0faf0d8f86e116f0bc50eb7b",
+        "ko_sha256": "744139d7eafead0d00f3d5ccade21a4d5a88addc32c5642648fdee1fcbd76705"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL06_QWARK/DATA/LEVEL06_QWARK.MB.WAD",
+        "ja_size": 3103180,
+        "ko_size": 3106585,
+        "ja_sha256": "3e079694faf3dbcf73b5e302b738c195423b93cf34d5f1c97230687b2de6dd1e",
+        "ko_sha256": "020c1acdfd570a6954af155f3d9bc68f427b5826823b90b50adb7465094ead29"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL06_RACE/DATA/LEVEL06_RACE.MB.WAD",
+        "ja_size": 3316940,
+        "ko_size": 3316940,
+        "ja_sha256": "81c0712e01a5e004b1a115beae7f83c317a04c367b89beb1a24e383113aab642",
+        "ko_sha256": "bfea52d2b615a1b905d4056d523bf66749d432a1784357487cb857c392d95d88"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL07_FOUNDRY/DATA/BOLTFOUNDRY.MB.WAD",
+        "ja_size": 5178709,
+        "ko_size": 5178636,
+        "ja_sha256": "c5e4d27ece2774dc9f738ea48c76b30d9988c3bb60aaecedaf2d93be9edf621a",
+        "ko_sha256": "986499a4caca203f0f50d3fcc687bb95a7f733a781a868836c0bf52543a15d94"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL07_GADGEBOT/DATA/LEVEL07_GADGEBOT.MB.WAD",
+        "ja_size": 2325871,
+        "ko_size": 2325892,
+        "ja_sha256": "f41c3cf9054294b77295b832564be9adc6a351b59d6c1f288768735a769c9d47",
+        "ko_sha256": "d4efced44d6e74f61ca2e72cd87972db4abf04b4bd0a2a8eee82aa7f23e4b657"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL07_SHOWER/DATA/LEVEL07_SHOWER.MB.WAD",
+        "ja_size": 5211822,
+        "ko_size": 5227663,
+        "ja_sha256": "7b55999da89d107de8edc38cb7fec90c8053d80e2f21c8a55e4dc4ffa15b0fac",
+        "ko_sha256": "d76c39b90de7e2874c1b89d988051cc1926be70faafb092f5185b504be825461"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL08_GIANTCLANK/DATA/GIANTCLANK.MB.WAD",
+        "ja_size": 2335062,
+        "ko_size": 2335042,
+        "ja_sha256": "eca010203ce8031834ca1d480bf312e8a40c42247dc76bb1cbc45879d1e43b05",
+        "ko_sha256": "015f8debde4f268ad27d11138cab0aed8f02616125f8a5e48d3b340827678d50"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL08_GRAVEYARD/DATA/LEVEL08_GRAVEYARD.MB.WAD",
+        "ja_size": 5712733,
+        "ko_size": 5713682,
+        "ja_sha256": "4e8e2428ac5032dbe7c017a40bedbda3b7b88c4edc96c3b958e8f825019750a7",
+        "ko_sha256": "96e7654ce3ed13f8cd2156399aeca91b9c3d5e88577d9b629044fc49d83cd578"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL08_QWARK/DATA/LEVEL08_QWARK.MB.WAD",
+        "ja_size": 3295193,
+        "ko_size": 3298592,
+        "ja_sha256": "a0cc1c9b3b21fe2313a764589b7753422d529e70cb4a462b0cd52f6e3f37f523",
+        "ko_sha256": "51f096fa18ad4650b854908d48956998dda66848961c71705012811a14eee90d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL09_DAMRACE/DATA/LEVEL09_DAMRACE.MB.WAD",
+        "ja_size": 2897040,
+        "ko_size": 2897040,
+        "ja_sha256": "1097ccffa2d6708df4bf9e111567ec9d13384a4556d847c5d6eba5747df884dd",
+        "ko_sha256": "c3c01f7cd0f2067ec11dd2bbf0cc909a0e49f7d813cf0d793a7f33f4556511f6"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL09_ESCAPEYARD/DATA/LEVEL09_ESCAPEYARD.MB.WAD",
+        "ja_size": 5912989,
+        "ko_size": 5911555,
+        "ja_sha256": "fcc19c1b5f6fc6563247d9c6b701419f275e0967439178c56ee705e5b91e598e",
+        "ko_sha256": "0e67056c9755b8d0513882d4494fb522c8bae5165cafce3afbb858b27a6e6853"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL09_QWARKDAM/DATA/LEVEL09_QWARKDAM.MB.WAD",
+        "ja_size": 2939565,
+        "ko_size": 2939565,
+        "ja_sha256": "d98a81fb9b317f8374aca9573e7374390dc67d3467febdd17b92181855898979",
+        "ko_sha256": "dd019e70397c87f9807529634c26a8dda0d6f4be4b1da0219e3a6f7ed335206a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL10_BASE/DATA/LEVEL10_BASE.MB.WAD",
+        "ja_size": 5710528,
+        "ko_size": 5710526,
+        "ja_sha256": "fd87be99e4ffa99b9a1fcc3cdf54105a55340ec860d88345c4393e1da7b0ea54",
+        "ko_sha256": "3ea6e145882b6f4258ad999f4a0fc50ae0a3286ce56489d2ca0c9060e66b88bf"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL10_BOSS/DATA/LEVEL10_BOSS.MB.WAD",
+        "ja_size": 2753029,
+        "ko_size": 2752995,
+        "ja_sha256": "22559104f287fa2da5b4f47de37f87c41fa5a24908b37c23591b82006bcb7324",
+        "ko_sha256": "a91162c53b26cc902bd47ce9929c24bafca916f616621facb93e6890ed150e58"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ART/LEVELS/LEVEL10_GADGEBOT/DATA/LEVEL10_GADGEBOT.MB.WAD",
+        "ja_size": 2236357,
+        "ko_size": 2236322,
+        "ja_sha256": "ab5b8fa98c16d17a6739c5764d0696f97d46185b4a75fa7870e8fc9ada26615c",
+        "ko_sha256": "b66226a0d0b48fa8163e49df790ca033550cb345c9295a68bf642ed35daabae3"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/FRONTEND.PRX",
+        "ja_size": 1883717,
+        "ko_size": 2150421,
+        "ja_sha256": "3ded9d3310d0b4686faecef011b8ad32f6a850926c05f7650f508f888a69c453",
+        "ko_sha256": "6eb79662da3b26eae4413434a04495677e910d9c1fdf19d44d769b1b94cb5aa5"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_01.PRX",
+        "ja_size": 3205969,
+        "ko_size": 3206689,
+        "ja_sha256": "7b3e26da1ec040611987704bc0daa9d00b65345a266ed55fa16221305df63abe",
+        "ko_sha256": "1f2dcdc8909d36583b8a5cd8e1d50ff42d15cb5c803473403e0354434dadbf5f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_02.PRX",
+        "ja_size": 2687681,
+        "ko_size": 2688697,
+        "ja_sha256": "df8bcf07024816e163d5dd8068de00631eed43a58a1006c66f01fb6f02d92bbd",
+        "ko_sha256": "cbca70c6e1d0ebc1c9021dbe396084790234868e2d62357c7ed5640d450afa11"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_03.PRX",
+        "ja_size": 3436273,
+        "ko_size": 3435273,
+        "ja_sha256": "04588755244b39fcc9ca58e3f7ce1fd9183bb497ad12383dcbc76dddb671a330",
+        "ko_sha256": "d2ed1815863f7c6102cd7fc21a4ba683a43b6725d56740ff0314f76e5221790a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_04.PRX",
+        "ja_size": 3359385,
+        "ko_size": 3359193,
+        "ja_sha256": "13ed9c7d57a1273d2f0f8b2650192ec862ec8746cfdc1f4a18f82ffa837cdeda",
+        "ko_sha256": "46117e35643eea9e173ac6f486942cce7dd9ede46a5d98b1eb71cbe956fb9900"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_05.PRX",
+        "ja_size": 2576737,
+        "ko_size": 2577529,
+        "ja_sha256": "43cef60e5f0b70fc73955761bc6bf2db4d84e6901a751ec9d074ed0bbcc04543",
+        "ko_sha256": "1c2bfd3e63c4eb8b40aa9e4a49c444d05e244a37d9b36f7c754cf8984beebe29"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_07.PRX",
+        "ja_size": 3029849,
+        "ko_size": 3030009,
+        "ja_sha256": "b857fe8ea0c3a2ac632f00970abd30ab960892e4216c70c44976bc0936259df8",
+        "ko_sha256": "755949f0c2097ac0a86e8b88a4825627ddc9424acf01490cd6d4f390460a26f1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_08.PRX",
+        "ja_size": 2408773,
+        "ko_size": 2410189,
+        "ja_sha256": "d9dc7c0c534456367b9ba740daf124191068db837333ba0feed80e81caf33372",
+        "ko_sha256": "eb5c0fdeb8ff6af83b57e5b24512bae95f778d4a4131df42e89a95a32aab798e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_09.PRX",
+        "ja_size": 3428033,
+        "ko_size": 3427201,
+        "ja_sha256": "9fa7c68c91624492eeabf6d74b07ee020c1e219df78b34de53f6911c3ca7bb94",
+        "ko_sha256": "f37bef4a6597c9dd6c8358eeb50be87c59ad169d329f1b860756e1c3d357fb0e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_10.PRX",
+        "ja_size": 3207441,
+        "ko_size": 3207585,
+        "ja_sha256": "c011349bb31af4035b7039c9929233cda8c8081fd650c221d81d7930b76aaa7d",
+        "ko_sha256": "2f60c90ae678db71e0e2a479a1e1bc9e96d2c59d922bef88c7bfa5238515bfed"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_11.PRX",
+        "ja_size": 3283313,
+        "ko_size": 3282913,
+        "ja_sha256": "9ddce8d8f87d03171478193e3578dfe02532e8c2553af29ba71a6a53503cc590",
+        "ko_sha256": "f165a8fbb5dd685ebdb8b2e9a72f36c55d9705576d2dd96ec84a08482f53203a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_13.PRX",
+        "ja_size": 3089225,
+        "ko_size": 3089425,
+        "ja_sha256": "04510f46bee26edd8e8b343cbd7ed5bc9c8413ba0e1a3be7edcd2081e1973ead",
+        "ko_sha256": "43e78b4009234799d7f03e3fc5cb46c615e8af3692ee9e727eaae04e0587858d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_14.PRX",
+        "ja_size": 3438937,
+        "ko_size": 3438249,
+        "ja_sha256": "c5b8ee9eecfd66bae52eea27519b5a1d428f382d0d66fc37f2c7446f21ca9811",
+        "ko_sha256": "ba2b458e795dcaa390a25ad41a00ea9411065cb8abaa8da0de41aca2776824bf"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_15.PRX",
+        "ja_size": 3100777,
+        "ko_size": 3101185,
+        "ja_sha256": "22ec28663a0891dce7ff5bd59271b0e7c69f040de2c6623bffc5f5c9dd535dd5",
+        "ko_sha256": "12b16de70ac9463a12274caa036a0c2b82b700aadd527193de047f1e2cc2a9a0"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_16.PRX",
+        "ja_size": 3273737,
+        "ko_size": 3274105,
+        "ja_sha256": "ec03ecbdbd3f06bbae8187c837940f45ea361304cc0259f2bf20d1e0e3e88bc7",
+        "ko_sha256": "56d6d5d7810d9a2f1a7b779cfaff14f9a01416ca0a94a736eba2ee84ec2233f4"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_17.PRX",
+        "ja_size": 2549161,
+        "ko_size": 2550177,
+        "ja_sha256": "6faa1d8115e99df621c197be23d92300183459ee32c913569ead927298822137",
+        "ko_sha256": "0d304711ccd258a66597f48bfa74770f5a523fa706102a568f6534ab6ed01be4"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_18.PRX",
+        "ja_size": 2652193,
+        "ko_size": 2653673,
+        "ja_sha256": "f23c05681aa652dd23b50380bb75d41658a37c53a8364902673d5685ecd2e1f4",
+        "ko_sha256": "43e1612d96cb0499f592e2823852b7802268584ad0d53045a21d031bffc71b92"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_19.PRX",
+        "ja_size": 3278457,
+        "ko_size": 3278833,
+        "ja_sha256": "eb33c2181df2e8e47132a1516c614d8e26e89dfc037cb3ae44bce0e45f48f6b1",
+        "ko_sha256": "4dedcd3602609992110795ef2e762a304dd7e0c668b257b7b32b315ad2889ecf"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_20.PRX",
+        "ja_size": 2542989,
+        "ko_size": 2544173,
+        "ja_sha256": "9d32f729e25f36209b1fad8bce89efb2ca4211f716ec171ab6f4c49c4c0cbf67",
+        "ko_sha256": "93e636729b05712fe9e9c8ff1b4726cdf6c9e77bb6ed1d515ae24bfc86f00587"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_21.PRX",
+        "ja_size": 3396329,
+        "ko_size": 3395937,
+        "ja_sha256": "f9d12247f899fad7fbecb35e9b90ccdefafb278cca66c27100504b606ce28408",
+        "ko_sha256": "17e3a245b3e7a6aeea4dfbbe5cd8788b3e0842e4681d0f1a804cc3d5bba60379"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_22.PRX",
+        "ja_size": 3281777,
+        "ko_size": 3281977,
+        "ja_sha256": "f6140d865ed3f09147cc3462d28e58df8fc3194cef7db9e3fed2e3a059e0532c",
+        "ko_sha256": "e7bb4d6f852f9e9e63f6786b2a7ea556586e24f95d075feea837c5aa4f949e7b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_23.PRX",
+        "ja_size": 2567365,
+        "ko_size": 2568661,
+        "ja_sha256": "0dc678a9d3533f1aa88c254d03c666ee86af8b02b28366c3502d53faf79350ee",
+        "ko_sha256": "c25ef2da0fc89d63acd203028a2c047841b43f620ec2c5ef1f5a8bf2e27b4f05"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_24.PRX",
+        "ja_size": 2643389,
+        "ko_size": 2644373,
+        "ja_sha256": "1f3e33066a20c8d40479f4bfc990e6701eea688ba904ac6982a5cb38629626e5",
+        "ko_sha256": "e0b3a0ee9c53e6fde502abd76299aa212e525c437d384c814cc32b330ed1b81c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_25.PRX",
+        "ja_size": 3475985,
+        "ko_size": 3475105,
+        "ja_sha256": "d11dccb832741aa0b8fd393525d70e9c1ce5dc59113d44fb9fa8e9d36135cc07",
+        "ko_sha256": "b4343fca9899aae9134ae1688e148a4c266e95bb273e5a30b4f36e9486909927"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_26.PRX",
+        "ja_size": 2565105,
+        "ko_size": 2565865,
+        "ja_sha256": "5cb04923a9a5f43dfebaab1c826fabfb3262ee51bc475d42272b1d9285855365",
+        "ko_sha256": "9f6f0012aefb3e79a0ed5d863167b41c7bd862c6b99d9a38a165a13602200890"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_27.PRX",
+        "ja_size": 2610593,
+        "ko_size": 2611609,
+        "ja_sha256": "2b5cdce252f9ceb5bb05377aadd6b1977a68994a634bb762e233f36ad59e6576",
+        "ko_sha256": "c6d52bb91e1224a517d643c975449c2342e6b000f0d9750b05ff232c22f3b4a9"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_28.PRX",
+        "ja_size": 2565389,
+        "ko_size": 2566445,
+        "ja_sha256": "9075a1600677c0e007b29763e23e311874f79e69ac7fd55eed22b53298293d75",
+        "ko_sha256": "bdfea6ced0c2dd006912acf4d7d08998ca71ff7ac18fa6f46c9fa4ce7462aa68"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_29.PRX",
+        "ja_size": 3312345,
+        "ko_size": 3312537,
+        "ja_sha256": "23aced99692cce6975c3fc2cf29a0cf2f30b9821330978f942b4027056ba0728",
+        "ko_sha256": "77ecdfcaf663d242a79d1368742abf1b996ec82c83b1ce715eee6c760a33af9e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_30.PRX",
+        "ja_size": 3062401,
+        "ko_size": 3062385,
+        "ja_sha256": "fe5d8be2ff5f55e312a3b486e9e69c7c45a0471cf5416b40ab9621a844e406e0",
+        "ko_sha256": "2217df8be23c647c732b17ab8c5549097b5af01da6de7dec6708f34ea869b0f5"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_31.PRX",
+        "ja_size": 2921473,
+        "ko_size": 2921713,
+        "ja_sha256": "5a7d87eef90934ef161c97bd5322f0d744e4c9ab7b0e230b9647b6b4d75acc34",
+        "ko_sha256": "1c9a6132a52688c337c8cfa9f548b9540e3bee6c313a73142b7999f6c6fe56fd"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/BIN/LEVEL_32.PRX",
+        "ja_size": 2633773,
+        "ko_size": 2634885,
+        "ja_sha256": "e3f0f1d36ec981b82902ce5ebabb96834e6f60caf99a82e9cabde1523e61bdb7",
+        "ko_sha256": "9188c8c681718c9a72de16bcabc5707c2c439eefb69183d82b3827c2ea0b5fbb"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/01A.PMF",
+        "ja_size": 25348096,
+        "ko_size": 36966400,
+        "ja_sha256": "71bab2c9a56f71af3a3fe1e4b3a5788a779aeaa5cf0abeffd10791f78c0e2154",
+        "ko_sha256": "bb78151ca81931eed05f87cd8d033d892f102a0a7bb501a2dcbad8ba1fef4b43"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/01C.PMF",
+        "ja_size": 5390336,
+        "ko_size": 7864320,
+        "ja_sha256": "21bb134f1b54fdabe51e2fb9dad8ae327142cf01e9344dd1daa4bbfa4a18a6f7",
+        "ko_sha256": "26c2b95d94545f9c203ef2aa416fd6bd9ce4911b403d4c59ff01d60928948d08"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/01D.PMF",
+        "ja_size": 10168320,
+        "ko_size": 14833664,
+        "ja_sha256": "1bc688eb3a4b75a8b20b6fa5c70e5f81ff2e6c02f36112b779552c4f80e91ca5",
+        "ko_sha256": "c239557feea5f8611057810fed2e8fb7c82ca39d00086f49c4958379795081b8"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/02A.PMF",
+        "ja_size": 9943040,
+        "ko_size": 14497792,
+        "ja_sha256": "7d8d87a09c3fc2a2c422d7bbd25919c120204e4a5976798c47564e067d14454e",
+        "ko_sha256": "5cf59d3f64088997461cc29928f247aa507f4832d821fab4497c3bf94e677a11"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/02B.PMF",
+        "ja_size": 3260416,
+        "ko_size": 4759552,
+        "ja_sha256": "e82fbb8859220df7f33a814247af74be5feb78b365f884c7cf7fe9e7c518b1ac",
+        "ko_sha256": "7835574812b20ad8dfd1de548659e643440cb239726e06a3aecdfb495fe36204"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/02C.PMF",
+        "ja_size": 7809024,
+        "ko_size": 11397120,
+        "ja_sha256": "5244d0061d3163ab8864af106f1f14dd1ee2dbfebdcd649f3cbc9f38f0623530",
+        "ko_sha256": "1459ab01af8153492292de1c5849ef4627b8aa8a897b3249ed9f39a454bc32f6"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/02D.PMF",
+        "ja_size": 11894784,
+        "ko_size": 17350656,
+        "ja_sha256": "b24926f54d3a834868a42893e3e77db2d6da7b63a2757c98507871671ccfb90b",
+        "ko_sha256": "388e14da1aac24bc4354bb544f9d299c81c57c56ae1f5959d0a27cbee793eac2"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/02E.PMF",
+        "ja_size": 2084864,
+        "ko_size": 3051520,
+        "ja_sha256": "ef16533adbab4d0738fa245595f2561a8326e88774dcc7412111f51f05b659fd",
+        "ko_sha256": "10354b7f5e3b7b214092aed6635a44eb787cea425a2ab6858b82855a31795fc9"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/02F.PMF",
+        "ja_size": 720896,
+        "ko_size": 983040,
+        "ja_sha256": "04fba3fe65d435bd7f1dc618133879983f89b772c2343aee5dcc139dff7ffff4",
+        "ko_sha256": "494eb1a1319236e7d2ad41c3e6bcbcb07b77459aaf760b675075b891ae78bbf6"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/03A.PMF",
+        "ja_size": 11524096,
+        "ko_size": 16799744,
+        "ja_sha256": "0b840347fed25f1fd78a18353616a0c36f79f5cb7b382513295583c4a454dc21",
+        "ko_sha256": "30192c41d26c2bc455f9c848cf91e3ed77accd7b147958c00c70e2410b7769c2"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/03B.PMF",
+        "ja_size": 5763072,
+        "ko_size": 8400896,
+        "ja_sha256": "bdf945838809492baa646f54c0ca6bd4cc2d91d4d57eeac44646b8a6a4a45a63",
+        "ko_sha256": "240f98364986ea24b776a3a0482d8757223f88139170ec7510da745958576822"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/03C.PMF",
+        "ja_size": 5556224,
+        "ko_size": 8101888,
+        "ja_sha256": "cc11eea5dd6aa912ddc1e55babf1cbe317248c131ab6bec8f589074be7c8db7c",
+        "ko_sha256": "3f7ece35f732553ef68ef9176e1e81d8660e3612a2e8e912f558b0311dbc25b5"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/04A.PMF",
+        "ja_size": 5388288,
+        "ko_size": 9086976,
+        "ja_sha256": "5036e22d32d36054515b2692bd71fe2ff8d3a54b82b3e997656b1a8c94319ea8",
+        "ko_sha256": "92dad00169bef3694fd036a59e9fdfd24c2f16a9b2e7ed0a14a04ce087704257"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/04B.PMF",
+        "ja_size": 2596864,
+        "ko_size": 3792896,
+        "ja_sha256": "aa99785c7d4f38051cb4a0cfcc998ff5697d5062f6cb249864849faa517716ae",
+        "ko_sha256": "53e0393129bb78e6dd7a5a71ed4e2f7aa84e90cae0a1262b820f34f9232d4ed7"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/04C.PMF",
+        "ja_size": 9418752,
+        "ko_size": 13744128,
+        "ja_sha256": "e546b7a30a4a10953b2001e5ffff47201374f20bf06b9384e8c6781f4e7653bc",
+        "ko_sha256": "ac4e1c5ac30409a6ca5ca17b0e26147d24f64089b8e914ddcf892a382295e4dd"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/04E.PMF",
+        "ja_size": 2818048,
+        "ko_size": 4120576,
+        "ja_sha256": "5b85b22c9261a2a7b2abe7fdee87d06ddf5a532dafb2a91444b57cf634dea4a4",
+        "ko_sha256": "9d2c10d5a54eb1bc6c7085c9936f8e8936deb16f45d70343fa3cc0200b10374d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/05A.PMF",
+        "ja_size": 7251968,
+        "ko_size": 10586112,
+        "ja_sha256": "30950a2da031299abf493d81ac1a09cdaa7d601ed35944f13f98350b8991ab7f",
+        "ko_sha256": "a936c5d17cdd8021732d7d1d0fd5d73394e337e25b4c6a76c5cc29f80d27aa21"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/05B.PMF",
+        "ja_size": 9199616,
+        "ko_size": 13426688,
+        "ja_sha256": "c2b8e3787ac92e07166002495f711549ed10721d5d262a20be9d936f267bc776",
+        "ko_sha256": "4d337cd2d04fb069b34af3f9471e13ae819c9d1af904d3f1a1cf27e09890624b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/05C.PMF",
+        "ja_size": 6721536,
+        "ko_size": 9793536,
+        "ja_sha256": "3b6285b7af16d8980f66635cb44e27a08bdf964e734cbf2cdf230efd6754f1af",
+        "ko_sha256": "0d720b4680230a3be5438547c83f4c75fa07c071f56b47d5b7062d5cb1c21335"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/05D.PMF",
+        "ja_size": 5064704,
+        "ko_size": 7391232,
+        "ja_sha256": "fefce5282cb015c0d70c3b1a13e21f8c765c367d41827a1de7ed52ab5e92a5c5",
+        "ko_sha256": "b57c6ad90e591e5906a2567d3c01074437a4aaf46fa5d054ad348e968219cf90"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/06A.PMF",
+        "ja_size": 5175296,
+        "ko_size": 7550976,
+        "ja_sha256": "cf7b1084937c15136ac5979c6b4822e4a26fdeede20efb04e51a005068e5d0da",
+        "ko_sha256": "b40315e881caf8fe589f96ad611a6473af231285303241d9dda53f1af10c071f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/06B.PMF",
+        "ja_size": 3895296,
+        "ko_size": 5689344,
+        "ja_sha256": "576be68a9fe74ce708f9b81b97780701be689183c33e905c9e8af9b37c3833e9",
+        "ko_sha256": "a7b3575d101b15b810c24a40c722184f0a59fda7551503de95abce029bc7e425"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/06C.PMF",
+        "ja_size": 5484544,
+        "ko_size": 9269248,
+        "ja_sha256": "a4ee184b58168c598ef3a48d124d0b58bfa98df5c422d6d12cc7841296645482",
+        "ko_sha256": "17fdf0652cf270a142cb845be8477959c0bfcd641ca6d4ee3dc5a88d84581a5c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/06D.PMF",
+        "ja_size": 6574080,
+        "ko_size": 9588736,
+        "ja_sha256": "b4b155eb6e30ad094ff766db0b1feee75c94a2553dacc47f719028c039bcc4e5",
+        "ko_sha256": "15376f4a8abcfcc21206dea70b37b997bd54bb14f1baeca133ee6bce8a486d70"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/06E.PMF",
+        "ja_size": 3774464,
+        "ko_size": 5478400,
+        "ja_sha256": "74c1b765425b7c84b6516759e0187e351c916621542e3639bc3abb373549cba2",
+        "ko_sha256": "768157923ed0f813730c7ae26dede3ef7b9f40229d8e40c14d3faa9978d92397"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/06F.PMF",
+        "ja_size": 3960832,
+        "ko_size": 5787648,
+        "ja_sha256": "dbd6f61d4154a252eb25e88c83cbba594e440d89e558a5778c1fffdca04fac34",
+        "ko_sha256": "ad60cdd0ab83d477cc9b9d5bf29c182df973289c166dc8b9ceb8fc34f152b56e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/07A.PMF",
+        "ja_size": 4009984,
+        "ko_size": 5836800,
+        "ja_sha256": "b1446931f015e0c689b0dd8d3966a2c31c9d7639e648e20a8bbae9200e93548a",
+        "ko_sha256": "56e9f68e5c83499b64b9f76f29332bf3cac296184625bdbda86709e5d0303981"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/07B.PMF",
+        "ja_size": 4481024,
+        "ko_size": 6537216,
+        "ja_sha256": "a69db8b50352c7771b4c14edcb0926c8d4ae714b4f85b5326e926d4a2d1b33c4",
+        "ko_sha256": "c674771170573b5f4181401245e139db40402786a5f08bdfd94da12b82f43c7f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/07C.PMF",
+        "ja_size": 4161536,
+        "ko_size": 6070272,
+        "ja_sha256": "8295a5144aff7c4611948463fc8bfd6efb114e63fa52c08290a2b232aa4375e3",
+        "ko_sha256": "41670dc00ea11728e7a071427bebcd7113ad4ec2e5c4c9c9f534cf5e7fdda207"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/07D.PMF",
+        "ja_size": 5527552,
+        "ko_size": 8065024,
+        "ja_sha256": "2af9e827967dcbb51e49aebebd88bd054c730e4d1bcfeb2d18c1f97c5a05bf64",
+        "ko_sha256": "9bd8118f1ab7dbe3bbbb1c0a6c03116409d1ed09bdd36894dfe0e7891a5e41f5"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/08A.PMF",
+        "ja_size": 3518464,
+        "ko_size": 5132288,
+        "ja_sha256": "dbfee0f26c9a57442b0d0c78de8369c9c3bb069bf596482556c84f390f3232cc",
+        "ko_sha256": "f91b001a8f575a3450eafddd9ed45da03ff24c2a5ff66584070a323343f9f6ec"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/08B.PMF",
+        "ja_size": 6537216,
+        "ko_size": 9535488,
+        "ja_sha256": "9b85a754e0c85fbe3a0d2acd1173bb1e2771a2850b7fcf85cca3cb3a2aed59af",
+        "ko_sha256": "2912e7ded96055bbad312fe008688d77226512c375746696eb735dbbf2e9331e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/08C.PMF",
+        "ja_size": 5412864,
+        "ko_size": 9136128,
+        "ja_sha256": "c26500bb92be918982c96cd3aec3bad181b124b1962b1b7c97fcca57acf7fe01",
+        "ko_sha256": "fbc54ada1d1f3df5094421fb486eccd208a4ae4eb0224d907fd0bed71816c1f0"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/08D.PMF",
+        "ja_size": 5183488,
+        "ko_size": 7550976,
+        "ja_sha256": "a62d65f546eecca4bf2e0da1c959c04e11eb12227f8f269b8c278fc417f43538",
+        "ko_sha256": "fbe3879688bb0f7ea4d9fd53614ab249efe5dcc70f43e91c66e0b543773b11ca"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/09A.PMF",
+        "ja_size": 13412352,
+        "ko_size": 19556352,
+        "ja_sha256": "3528eb5cdcb66a85a9af4e56b445c6e2cec36790f02e8ccdcf6170b1a8a09ca2",
+        "ko_sha256": "29442932f083d5226c9f0d68932c7f8e5c26095c0e3d0ecc7ecb9c0bcbb5ac5e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/09B.PMF",
+        "ja_size": 4691968,
+        "ko_size": 6848512,
+        "ja_sha256": "bdbf27c57671d503e09d6b3f59da2e00b24571a904d823e84910631300489cec",
+        "ko_sha256": "fb07ad9f1a80eafc1b4bdbcd5f4c5286a798ed2cf5804f2c2372d850caa31b73"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/09C.PMF",
+        "ja_size": 3418112,
+        "ko_size": 4982784,
+        "ja_sha256": "bc032f3014bb979f801214f5c9e36d86f448753ab28d2cd8ae252c73713d1f2c",
+        "ko_sha256": "84371ec8bf0734fe133410f9dffa337aff3f14ac574922af8b5aa7efef3d09df"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/09D.PMF",
+        "ja_size": 3545088,
+        "ko_size": 5175296,
+        "ja_sha256": "42f9aedfe9c6be3f6392e1f6ad2deb514705e409813873bfcb1c3e8e99a6331a",
+        "ko_sha256": "e772b192479ff41cd40be7aa97cf988eb57794b56d1e11bd747b13e96fe09f5e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/09E.PMF",
+        "ja_size": 2887680,
+        "ko_size": 4212736,
+        "ja_sha256": "b4ef030659055926650682bb5961b5865ec937c873bba6190114b21e3951980a",
+        "ko_sha256": "64d3aa823507be13c8faa2c729b13ec6694cd6f772942bc7b654ec1dc5b99566"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/10A.PMF",
+        "ja_size": 6987776,
+        "ko_size": 10207232,
+        "ja_sha256": "120bae468e9261787589ba14dccc99a39387e78dfefe345071eb4429a95bbb96",
+        "ko_sha256": "105876ff3848f137fff4a956f1de5eec85e83cd31ac98d5e33ab467cd07b47ae"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/10B.PMF",
+        "ja_size": 19539968,
+        "ko_size": 28297216,
+        "ja_sha256": "35dbf5479cd4ad4495c111ca13aacdbe6e6bb633896a180649ddb3b734c1e8d2",
+        "ko_sha256": "a4bcdedf67607c60329681a247aa04cfccb46ff539fa0fe768e271de0d901e83"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/10C.PMF",
+        "ja_size": 4644864,
+        "ko_size": 6782976,
+        "ja_sha256": "0ed89e46937927c42049cefbbf2b87611bedd9788745e59528362538c237d326",
+        "ko_sha256": "b5b82be0b3fe662d4ad625f283a3d443347b5967e674496fa0b40bf7255ae7cf"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/10D.PMF",
+        "ja_size": 27551744,
+        "ko_size": 40175616,
+        "ja_sha256": "38979c4d669087a27826ef7a3dca979194bb780a93c6aad42337792854c996b3",
+        "ko_sha256": "d023220b6b29c30469a89d156ea2c1231f65d50c0ad93747f63c111f40be458c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/11C.PMF",
+        "ja_size": 2209792,
+        "ko_size": 3209216,
+        "ja_sha256": "8dc338fbda3f413dc7b0844cf0064ac51e6bb51e02273cd494ee28cabeea0f8a",
+        "ko_sha256": "a7c1fe15be71326bfbf34719d2709dd8e2e9496ee8555401f9817ef897172797"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/11D.PMF",
+        "ja_size": 26189824,
+        "ko_size": 38197248,
+        "ja_sha256": "ee908b4a1eb7126c9b64863d5ffaa6137baed509ed16db978ba8296e1b739176",
+        "ko_sha256": "3207e3eb8794c663d3ed0e64d1f7ae308b0723f4e399b572c093873743565ee7"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/12A.PMF",
+        "ja_size": 2275328,
+        "ko_size": 3325952,
+        "ja_sha256": "47db1d648795113ad825579a4df890bca49ee64c762eb77afcca18af8f187baf",
+        "ko_sha256": "d722c5ba0da330b8e2dd80dd7a8d4f145713165b8c256be0be4834de88c9d6e5"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/12B.PMF",
+        "ja_size": 2281472,
+        "ko_size": 3328000,
+        "ja_sha256": "d0aa3760bbbecf81d55d4790137a3801cab35c0d713677b06b206f3e5b275280",
+        "ko_sha256": "8efe8e7323dff8049ad606dae2943c2955061158085ea54212e53e6b3fe93f58"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/12C.PMF",
+        "ja_size": 2281472,
+        "ko_size": 3328000,
+        "ja_sha256": "429077b80efab60b194f1f845fde58e9aaf8e536a054d8d5fa1518aeaa56685c",
+        "ko_sha256": "54ea0889be5f88a7cc945ae9048c8209bfc9ac4e4dee772e89f77e4418ca190c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/12D.PMF",
+        "ja_size": 2277376,
+        "ko_size": 3325952,
+        "ja_sha256": "5a87223deb9bf739137b1844b1498b32c90dc912abf46a009ebeaaf5b7b9a5e0",
+        "ko_sha256": "72db99eb43af6e16adca6ae77532e2770ca5854f8ee41f5edbf7babfbd74a696"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/12E.PMF",
+        "ja_size": 2277376,
+        "ko_size": 3328000,
+        "ja_sha256": "21204bdb462192ab781dfcac872d80c4394a19a28b7fb0163bc64bb0ddeb399b",
+        "ko_sha256": "812134224e7de1efb3085d7a829b7ec964620aeff9c36c3a16c16a8c4f68380a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/12F.PMF",
+        "ja_size": 2281472,
+        "ko_size": 3325952,
+        "ja_sha256": "858f246d2f762d8c851af8e82c596ca082c30a0d0fd5c761167775752107709d",
+        "ko_sha256": "5a2ab345a1af6cf581e471ca138e86f28fbd0b8a58358a23dff99aa43cfb278c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/12H.PMF",
+        "ja_size": 2285568,
+        "ko_size": 3334144,
+        "ja_sha256": "0167768860474ae5879e6f5853c5bb446e43734e5c84b2b5eb3604017cc930cb",
+        "ko_sha256": "f718aedfc85d3593151ec87e67c27cff221551311eda8a6c15553d22e38e47a8"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/15N.PMF",
+        "ja_size": 23844864,
+        "ko_size": 46342144,
+        "ja_sha256": "cc85e6368ef0a5d29f228c17a7f62f28ba6759c728d5aee560b7a6f0541ec748",
+        "ko_sha256": "3f03e15f4947c106678919a28ad6515fa26cc218cd2cc43b78077e4b7e7836e4"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CLIPS/TRACKREEL.PMF",
+        "ja_size": 8658944,
+        "ko_size": 9076736,
+        "ja_sha256": "5be094ed99ce399a029753e190fc7d00546d7d5944498baefdf2b3904e25c0f9",
+        "ko_sha256": "77658be35aa0cff35c8aeb3a451e51fd0a39806f87a02c5951d07ecf87baac2f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CODE/HUD/DATA/CARBOAT_HELPCONTROLS.PAK",
+        "ja_size": 919312,
+        "ko_size": 984992,
+        "ja_sha256": "545813d6846684933eabd8bbc02b568a5419d1dc70a28f4d46d0c3674f16f23a",
+        "ko_sha256": "131217ad24b708417136c1f59ee1ac73c060aeda5f18445d13bcf8ee6f6c7972"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CODE/HUD/DATA/CINEMATICS.PAK",
+        "ja_size": 2058944,
+        "ko_size": 2038096,
+        "ja_sha256": "9b2b78102aed7b0418227413d18bccd222a66d6ac54e5161408c938fa9a74afd",
+        "ko_sha256": "826ec25d2186433d8407974fe5064ae60ed1fbe6ff70225fc62375aeb79c1be9"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CODE/HUD/DATA/CLANK_HELPCONTROLS.PAK",
+        "ja_size": 919424,
+        "ko_size": 985104,
+        "ja_sha256": "6cee8c820316ff2ab3589fd26e9ed1391a8512bc2f09a36e61e26802e8a361b4",
+        "ko_sha256": "02a01f0c524407e469c52c1cde5ed0bd77772b2b6d8e461f8148beb7cc8ac1fe"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CODE/HUD/DATA/GADGEBOT_HELPCONTROLS.PAK",
+        "ja_size": 919312,
+        "ko_size": 984992,
+        "ja_sha256": "4190d8ed0d66124f19a66a91a3e0135e236b970ba48debdf4f0b110dec4e61e3",
+        "ko_sha256": "5f406279e96c6eb31122f003b2fb3143b44031aec42a32168a9358919fcec0b1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CODE/HUD/DATA/GIANTQWARK_HELPCONTROLS.PAK",
+        "ja_size": 853968,
+        "ko_size": 919648,
+        "ja_sha256": "cf5fcac5fe024fae1408312eb7a0f49465a88ad0279a0665422ae2efdc89e72e",
+        "ko_sha256": "cc74f14f8dfd68d8a5a8668fc038f1bc6f1a4d9d8f0ce1c2505e7363509c12ba"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CODE/HUD/DATA/GIAQWARKLVL2_HELPCONTROLS.PAK",
+        "ja_size": 853968,
+        "ko_size": 919648,
+        "ja_sha256": "2be9168a44a36df4bd1fd363ecce7567305b14c2c64b0867501ec26a1be939bd",
+        "ko_sha256": "98a235fd2ddff9e05a7ad4f2e59614dd9fad360bf8534def122f78317e1c446f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CODE/HUD/DATA/QWARK_HELPCONTROLS.PAK",
+        "ja_size": 1115040,
+        "ko_size": 1180720,
+        "ja_sha256": "c786f097a379898ff4748a4538ec5b96e288bd456bb6dc8bef790bdeaff392fe",
+        "ko_sha256": "1054fb4423bd4121d1295d8c989015b6a62d4b8322a147177ffada4c9e391f17"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CODE/HUD/DATA/RATCHETCHALLENGE.PAK",
+        "ja_size": 450176,
+        "ko_size": 433008,
+        "ja_sha256": "fef474d46689db72e04f34ef0fc68798ad36abea0680d41d84b25590ee8e63ad",
+        "ko_sha256": "34aa043bc37a626c571d5240729d7bc3ac8c124882273abc8204c4b19dbd7d6f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CODE/HUD/DATA/RATCHET_HELPCONTROLS.PAK",
+        "ja_size": 919344,
+        "ko_size": 985024,
+        "ja_sha256": "1000db7d9300af1375be5f504cf73539c6d049496b36651b9b1b17e163e52213",
+        "ko_sha256": "c338d6a26822d48a8903cbc8264fadbb02dff01f54c47274006c241e378b582c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/CODE/HUD/DATA/SNOWBOARD_HELPCONTROLS.PAK",
+        "ja_size": 919312,
+        "ko_size": 984992,
+        "ja_sha256": "b8db5c1ad52cf2a111520f475753b21482bca8b172e10f1ee047d2a340286a13",
+        "ko_sha256": "150401185f8a0e9d58fc21abd83a890f921d01e2fd5c1f12283e69db25196c4b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/DATA/HUD/MAINHUD.W3D",
+        "ja_size": 97340,
+        "ko_size": 97340,
+        "ja_sha256": "dd564fb59878f8b1c09069e7b6eb3ee78e1dfe1000b5d22bb11c297d3986f34e",
+        "ko_sha256": "553c9c8e7671d4259bf92ce0f6be547df616d2e5b47c7cea4be111bba28c0495"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/DHSAVE0.PNG",
+        "ja_size": 16675,
+        "ko_size": 15218,
+        "ja_sha256": "832827802c73e2327e531558574f780e658d26a2cc05a6b63e6f5de8fe69c220",
+        "ko_sha256": "93ee8dfb99ac2f70c66b074e23cd8c89392207ef1e7ef9d14ef2e4930efd4598"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/DRSAVE0.PNG",
+        "ja_size": 16654,
+        "ko_size": 15106,
+        "ja_sha256": "6989e64b64c41e260b15df8d3d7138bbfaeca5586790ef8fe0c3adb36dda3756",
+        "ko_sha256": "5e5dfba66254022227a111efa4adf9a68b85313b19dd344053f1bb2f513f9bf7"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/DSAVE0.PNG",
+        "ja_size": 16052,
+        "ko_size": 14362,
+        "ja_sha256": "3c33fd08a81302a92f8bda42ec72147a1d68a46eb55e56f1b4f10e4f5cae4409",
+        "ko_sha256": "e95164672e861b90a05cb2b7cc5400b189413ede9644ffaa5802843c518bc930"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/HSAVE0.PNG",
+        "ja_size": 16009,
+        "ko_size": 14324,
+        "ja_sha256": "ec5ffd6ef5f0317d9a70f5406ca360ce57dee5ee7e40feb5fe2550121df65809",
+        "ko_sha256": "ff11a4521ec78da11a101274d6a6426b65c6699ba8471f7a4f379edc9940fc52"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/RSAVE0.PNG",
+        "ja_size": 16015,
+        "ko_size": 14181,
+        "ja_sha256": "901f2b1f2cae071031fe0720038d2317f064df195386dd72671890d4f63ffde4",
+        "ko_sha256": "d05dde93ada05656d53e5cbe993cb9b28b638708a0c3ed789d36accca4d95fca"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/DATA/HUD/MEMCARD/SAVE0.PNG",
+        "ja_size": 15314,
+        "ko_size": 13353,
+        "ja_sha256": "c126b967f3b012258120facd421c8d0a934f56b2757d5af037a3590e4c4cfc7b",
+        "ko_sha256": "1e38cd72459a9449168e5b684c6c4205e217b79094c20cec97e22034d44b8b57"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/ETC/GLOBALWAD/DATA/GLOBAL.WAD",
+        "ja_size": 2908063,
+        "ko_size": 2908938,
+        "ja_sha256": "f3108f9c15c8f2b2f408ef772f7b2448644cdabbb2c828f7000ffcd1349c83cd",
+        "ko_sha256": "585caae89a694bc1bdb0d7a2dd0a77129722acbe3601f069252aa4f4f61158e6"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/AE_FOUNDRYBOTS_AAAAAA.AT3",
+        "ja_size": 42892,
+        "ko_size": 43084,
+        "ja_sha256": "fea1b4db450ffacd87fb9d495dc1cb72f50c96cc67a0a27a11d11dd1db6ba556",
+        "ko_sha256": "4770d18901aba3ab53495da29426186c4d0bb3755b9200606225f50e8a776f9c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/AE_FOUNDRYBOTS_CANNOT.AT3",
+        "ja_size": 42316,
+        "ko_size": 43084,
+        "ja_sha256": "34e10330894a6e9c5e034e3c792d204965b606a4da5ed98e1035e03c9f3bdb35",
+        "ko_sha256": "07086ace6a9691c79afb9e9ae961a8e3362ba0359435e4946e8aada71c14e4b9"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/AE_FOUNDRYBOTS_MIND_GOING.AT3",
+        "ja_size": 45964,
+        "ko_size": 41932,
+        "ja_sha256": "6c2adbfa86f7a79137062daecf56944d6068c520b365fe18eb178334215567eb",
+        "ko_sha256": "303abc0b75274fa835e0dd573985a640fb4915f6f771670970f05fa60f01ba1e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/AE_FOUNDRYBOTS_MINIONS.AT3",
+        "ja_size": 26572,
+        "ko_size": 26572,
+        "ja_sha256": "a3fdeef33c823bbd7d3ff0f92ac38b1edd57b2dbd358040b4ebcc39071b9e4b4",
+        "ko_sha256": "436a3231c1a40a78948f00c2a1e7d90c71087b9f4652b82d1ea84c29c5418360"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/AE_FOUNDRYBOTS_MUST_CONTROL.AT3",
+        "ja_size": 24844,
+        "ko_size": 22924,
+        "ja_sha256": "aefb00fa99af3fb71034a9996ab79d7e9f3b25f6eaa400e2abdd88db58f4ce2e",
+        "ko_sha256": "1579baf9fc0849fae73f6bca8e21e5471ab66e715730d47430b678eb59cca65f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/AE_FOUNDRYBOTS_NOT_PROCEED.AT3",
+        "ja_size": 20236,
+        "ko_size": 22348,
+        "ja_sha256": "18339acd20c71a116438e6379ebeb28432c6b32b64551a899088164b3c8d7631",
+        "ko_sha256": "86e4dead4c9e7ecee71bcf06a8041cb38137290c481c9b3753331fab8723defb"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/AE_FOUNDRYBOTS_OUTSMART.AT3",
+        "ja_size": 35404,
+        "ko_size": 35404,
+        "ja_sha256": "4c13f11fa09b4257b4e28844c90748a2b0fd2d103308445c21f64b2f2f55a0dc",
+        "ko_sha256": "5a747e9c4478896fff425f714121be607f11c6c97ca35c81095b7b5136709fa9"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/AE_FOUNDRYBOTS_PLEASE_STOP.AT3",
+        "ja_size": 47500,
+        "ko_size": 52300,
+        "ja_sha256": "6ef2f19f11c56687d6d596982c2823a3dbf177e50d76c162e8bd62cb167d5eb1",
+        "ko_sha256": "11fc668995351ac2d0f08def3258ba4637344bf7e4f96bbd9c0be6c08bda80d7"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/AE_FOUNDRYBOTS_STOP.AT3",
+        "ja_size": 31948,
+        "ko_size": 31372,
+        "ja_sha256": "533c90e0e6a11e05d71cfe3543923da0e992fd3f9b7a2462da36cdec97a119cd",
+        "ko_sha256": "457c6b670757cd4e45dbb99612d1eb40c997779d2dfdbccd9f70a78c17b08afc"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/AE_FOUNDRYBOTS_WAKING_UP.AT3",
+        "ja_size": 58828,
+        "ko_size": 57676,
+        "ja_sha256": "e87c5e089c15589c7e7e7454d5d2623af500a673ad80e7c2b192a40473711127",
+        "ko_sha256": "07f358703f0720991506cc4db68c49d97aeefde2579c92d0b0206df3a5691060"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/AE_FOUNDRYBOTS_WHERE_BOLTS.AT3",
+        "ja_size": 45580,
+        "ko_size": 43468,
+        "ja_sha256": "baaebfeece5f16117654dbf0889b9e41b1ea856c9222a0ec4cd99ec6146c40e6",
+        "ko_sha256": "2b8d63d5a105ac86ed177aa5fead5d379e70ccf7c8d589097beaf15ebb6f8cdc"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/AE_FOUNDRYBOTS_WHOS_THERE.AT3",
+        "ja_size": 12556,
+        "ko_size": 8908,
+        "ja_sha256": "25d713eeba8d8180be74db906da4e5a4dd1b922d2d39f669b35dd30b188c5e78",
+        "ko_sha256": "e9b9c91985c0d048103d1d8ec6a8227af652b8c5b28399d4004a727a71b4554c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/AE_FOUNDRYBOTS_WILL_U.AT3",
+        "ja_size": 46348,
+        "ko_size": 44812,
+        "ja_sha256": "3a3f084352ae8aae0d9d1271e39a3e269ec64c503a14150a8553b6e7acea4a28",
+        "ko_sha256": "d33e76dc79a554afadcb6390b711f95ce5ad7d50e5c4514787899df3ace8429f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CB_CARDS_DANGER.AT3",
+        "ja_size": 72076,
+        "ko_size": 80716,
+        "ja_sha256": "84a57d5834b067e27231acbd0c75b76548efb5c6bdc96aace9f671a643b5c48d",
+        "ko_sha256": "8b331e74a6f1025a389691aecfc1d96b552c0a86fb234b650a77f2a469bcb1bc"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_ANSWER1.AT3",
+        "ja_size": 17356,
+        "ko_size": 17164,
+        "ja_sha256": "efe246f6166df9ee4539ac65aff3cf9631eafc94da377762df1259254d2406be",
+        "ko_sha256": "5ca7da7d9cf6704c890003ab31c331776dff2ec277211b3dcc90ced3645238bd"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_ANSWER10_CORRECT.AT3",
+        "ja_size": 20236,
+        "ko_size": 18700,
+        "ja_sha256": "8526a01a966ca349c429f142c19f70616a04ac9683306480f6f89c710b15488d",
+        "ko_sha256": "4e469b0360bdd12a91afd2a53037a54c4ad7d5f68fcfb6a1bff455e94860d6b1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_ANSWER10_INCORRECT.AT3",
+        "ja_size": 5260,
+        "ko_size": 5452,
+        "ja_sha256": "e2aad61e9f6782376942756f35d51f04317d4ab4c3fd2e9419c0c75b269a4726",
+        "ko_sha256": "e4eb5c00ff06c9ab3280a65e78685ac2ca0618024287d4e455d281ab4c2e9b1a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_ANSWER2.AT3",
+        "ja_size": 32140,
+        "ko_size": 28300,
+        "ja_sha256": "4051079d96267867f3cffd19d1e3334dab3d124c88f182c2354049f2d232c377",
+        "ko_sha256": "a6976601028bcc8f1f1e709e44dfcbb3ed4f7e886271de6b207c10168eaebbef"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_ANSWER3.AT3",
+        "ja_size": 34060,
+        "ko_size": 34252,
+        "ja_sha256": "65878a27d8aeff63dca10eeb967712770dca3c7d44859d590f9d8f93c94c62fc",
+        "ko_sha256": "cbb5a3c2a763e83fd288f462880001d7ef1affb77b29d68e4ff535db32e7aa6c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_ANSWER4.AT3",
+        "ja_size": 28876,
+        "ko_size": 29452,
+        "ja_sha256": "55f74e6e731e083499519c4fe7c23ed41b6457a243b61f1cf52af275b42bb70d",
+        "ko_sha256": "7cb915a97904e1ae937ac45227946e578ba859af2e660bb0ed66277f7e48c42e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_ANSWER5_CORRECT.AT3",
+        "ja_size": 31756,
+        "ko_size": 32716,
+        "ja_sha256": "8ce724e7b6b7be73359a90f1261a0b4aed21b819d354eea26bba475a2c3f6914",
+        "ko_sha256": "77852da57d23931e67dae7308c59163b7b1fc069233edbfff7bd6449f0e62ba9"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_ANSWER5_INCORRECT.AT3",
+        "ja_size": 24652,
+        "ko_size": 27532,
+        "ja_sha256": "c2619932c2d979cd52e9a0ce98545b4d3d86f73f8f7d619f1354ac00fb9ade11",
+        "ko_sha256": "a2d2d80331737febceebca85ce0af63cfa6b86a28827aca04e55304fbc69709a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_ANSWER6.AT3",
+        "ja_size": 6412,
+        "ko_size": 6220,
+        "ja_sha256": "e9a6ce87babc6cb8c26df8492b701363fff5384dd4bb2770fea112a2b4b1596f",
+        "ko_sha256": "e3a95f8dba224906247e940047e2cd41f15625ce4e9f6a3851ba748f7d7fec80"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_ANSWER7.AT3",
+        "ja_size": 30028,
+        "ko_size": 28876,
+        "ja_sha256": "f79e888ec7897896ba34bc4bdc16e1f655b6788193cdd9d6bc759ffcb1df4a6b",
+        "ko_sha256": "7627fabf88f6f425a3e0bd36a0d6d17d1b1e7f0a64709e847e5b3024ef8a3735"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_ANSWER8.AT3",
+        "ja_size": 33484,
+        "ko_size": 34252,
+        "ja_sha256": "225508f5d040b3e3d91481ce450fa8fc8e03bbdef8fd193fa33d550f493d6fee",
+        "ko_sha256": "e68a1c7f338c2c9d12c5afeb9f71203f7fd0774644309353555b95b8d73a514d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_ANSWER9.AT3",
+        "ja_size": 44620,
+        "ko_size": 44812,
+        "ja_sha256": "e2d7fb6bd1b611623fe3664e8c544810404603ccad0b0a11a886532574f3488d",
+        "ko_sha256": "b34236aa39acf06ceafba58b815c6f40054cca16ce0425a4e962d9b5d4a1a3e3"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_ATTACKS.AT3",
+        "ja_size": 8716,
+        "ko_size": 9676,
+        "ja_sha256": "db4811f49e8b6f971c5af471b484301bad1bdae7bf66e0e9f491f8ae8253fefc",
+        "ko_sha256": "e5c0dcde0187473a9ed4e76f80a278f13f226437a31bdafe1fc375724a42b7e5"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_BASE_ELECTRIC_FLOOR.AT3",
+        "ja_size": 27148,
+        "ko_size": 32140,
+        "ja_sha256": "a498d7947f48ca190db684d9abc1f94954b1fc0826411395030e98d1adee7c5f",
+        "ko_sha256": "99f124c8ffa802c78e4c660b28deb629a7ad7b50b3ecadae8ed7f56b6dd044b8"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_RIO_DISGUISED_HUM.AT3",
+        "ja_size": 26188,
+        "ko_size": 24268,
+        "ja_sha256": "14dd93967818a5a226126b79b4f51ad8cff3729bedc2b7b447d3ed9fa6f51f36",
+        "ko_sha256": "9b5394538cf1602f9ffc90dddefc7b015930e1bce5df192511c40abed8bcd501"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_RIO_DISGUISED_WHISTLE.AT3",
+        "ja_size": 12748,
+        "ko_size": 12748,
+        "ja_sha256": "756e38034a09c2129e3a1a818ce8cd36ae3605eaa5d5a5a9c79c511e647728bc",
+        "ko_sha256": "4636068d203aa6c8a1bd412f2f7cecee425eef6cb61f8c8bdea42aed1b75b998"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_RIO_HIDE.AT3",
+        "ja_size": 15436,
+        "ko_size": 16204,
+        "ja_sha256": "a0e3b164cf5cd76253cbff0ca1294c419b0a5b076f66469be329cf7688c36dad",
+        "ko_sha256": "4ce8e908f5b54b00445880f25132f02c40119e1499fe2a1c303aced813109999"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_RIO_SPOTTED.AT3",
+        "ja_size": 10636,
+        "ko_size": 9676,
+        "ja_sha256": "b5dcd1490ffea59731d2a3f85049b927b79509d103b6b8b546550d7a30169f74",
+        "ko_sha256": "07a7d0f797fa91a43300be4b7552b5da9d1c8ffc9c962b2d18f79a7e0f3ebac1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_SNOWBOARD_ICE_CAVE_ENTER.AT3",
+        "ja_size": 8716,
+        "ko_size": 25228,
+        "ja_sha256": "db4811f49e8b6f971c5af471b484301bad1bdae7bf66e0e9f491f8ae8253fefc",
+        "ko_sha256": "061752f19e63896b8d24925334bcd10a792c5009b7dfd79e6126766c10bc156d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/CL_ZAP.AT3",
+        "ja_size": 12172,
+        "ko_size": 12172,
+        "ja_sha256": "695bdbe37582b6a7dc340f32e826df43fafa7effd6bbeed3ef2eebbb316191ca",
+        "ko_sha256": "2debe42113221a031427b07c4c993fbf4889c694864070a1abec0a6e5882e15e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/GD_CASINO_BE_ON_LOOKOUT.AT3",
+        "ja_size": 98188,
+        "ko_size": 98380,
+        "ja_sha256": "2b8e5639a18b8258ccff636d757f8fe8dd181e4ed9cf0daaedffb4928908d9ab",
+        "ko_sha256": "8a60347e39142dea21762bbfb7c85e6268c5e605ef39aca8206d4854d10a4183"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/GD_CASINO_NO_ONE_THROUGH.AT3",
+        "ja_size": 33868,
+        "ko_size": 30028,
+        "ja_sha256": "f9cbd5adc43bb47c5ec7adf83c1ef839be61a798a15c7c92a1e48e36fb7d0d28",
+        "ko_sha256": "8e0401edb0d77775925e691d8e1bfb162f03dfeffb4522e32832904e4e80eca3"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/GD_CASINO_SABOTAGED.AT3",
+        "ja_size": 39628,
+        "ko_size": 18124,
+        "ja_sha256": "fa47d997824b8dca6eb8f9e92252fdfd441450738d006a00c59f9699379e4bbb",
+        "ko_sha256": "b96c51f6424eb07ecb95b598b9efffc55c6bf4b4ca61bdf2bf484716768a456e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/GU_CASINO_HEY_YOU_1.AT3",
+        "ja_size": 9292,
+        "ko_size": 6988,
+        "ja_sha256": "8ebedb2fcf2c610f785c55d603b537947e15acb2b4db8ba38a06f48016732fd8",
+        "ko_sha256": "a926fe411b393b739a70485287a6d86fa5a933b0a9b9271122cd1129d0c7aff2"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/GU_CASINO_HEY_YOU_2.AT3",
+        "ja_size": 9292,
+        "ko_size": 7756,
+        "ja_sha256": "8ebedb2fcf2c610f785c55d603b537947e15acb2b4db8ba38a06f48016732fd8",
+        "ko_sha256": "41f3cc139ddbee40321becc89771ce74bf231f7f18bb42dc277d8ef7757311a1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/GU_CASINO_HEY_YOU_3.AT3",
+        "ja_size": 9292,
+        "ko_size": 9292,
+        "ja_sha256": "8ebedb2fcf2c610f785c55d603b537947e15acb2b4db8ba38a06f48016732fd8",
+        "ko_sha256": "9686321f59cf78e5b10bc17a29f62c17a129e1c9faeb35ca91b5886218a66966"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/GU_CASINO_KITCHEN_ONLY.AT3",
+        "ja_size": 21004,
+        "ko_size": 22156,
+        "ja_sha256": "f03952ba9e81db16ba145594dc96d86c2a1b5c69c3a4d03adea830507f7e95e7",
+        "ko_sha256": "81406b38cd0cb4f4eddf900ef0f1cd5d6bcea7b82c2c5c7239d15ff1704dab47"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/GU_CASINO_SECURE_ACCESS_1.AT3",
+        "ja_size": 24460,
+        "ko_size": 21964,
+        "ja_sha256": "7abfe0f8b973a2adfab94179af89d6f784272d19e4458f7111b4f7d5360e8bab",
+        "ko_sha256": "8aef6d5f2038c1882e7d6520b8ad7cf46543efd35e323bba10d15fc8105d2d97"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/GU_CASINO_SECURE_ACCESS_2.AT3",
+        "ja_size": 24460,
+        "ko_size": 24076,
+        "ja_sha256": "7abfe0f8b973a2adfab94179af89d6f784272d19e4458f7111b4f7d5360e8bab",
+        "ko_sha256": "f8991971da3dd8fe9dc6be9cda7a36c155107d0ed5884fd957544c84a3aa3051"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/GU_CASINO_YES_SIR.AT3",
+        "ja_size": 6220,
+        "ko_size": 7180,
+        "ja_sha256": "3eedb964efb89fabfdf4199592ac438c02166d93ad84a7381c90ee3c970be997",
+        "ko_sha256": "863e7023b2821a65de1f9d562081fe3ccb6ad62ab4d74d1c143d2dc1f92e9b5e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HD35_WRENCH_THROW.AT3",
+        "ja_size": 74168,
+        "ko_size": 107980,
+        "ja_sha256": "7ccf55fe353b98c78919fd5cea8993eca97c41a59b4556c1063cf313b7c1507e",
+        "ko_sha256": "b5ab443d77a8457340a1d82d2a691a3b0e39ad49f4e0e6628a7e7579f83a3d60"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HD38_STRAFE_OPTIONS.AT3",
+        "ja_size": 60632,
+        "ko_size": 107596,
+        "ja_sha256": "5ea17fc7f1572049b0f8e80dee85b65ac388eadd01c7f246cc6170b82e729d57",
+        "ko_sha256": "24884a0c3867b60890501f7715b77c3f977ab9d5acaea10da9945b34bdb1344a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HD39_CENTER_CAMERA.AT3",
+        "ja_size": 47472,
+        "ko_size": 72652,
+        "ja_sha256": "33eb5437e210b7baf849e67c362839fcad829612072a3a691a382555c8feb8da",
+        "ko_sha256": "094b6583c1b469a38671aafeea35bc5eeb29011836501745a70605a166906f58"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HD43_VIEW_MAP.AT3",
+        "ja_size": 47848,
+        "ko_size": 83404,
+        "ja_sha256": "a355acd1087748c15d33d2f08e831153880834c478b4a3dddbe5d5b6a9d68950",
+        "ko_sha256": "ca35b021d9131ebb344e6f298b6e2f7b07732437e7b2911eeba7e2692cd59d63"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HD44_COMPLETED_ALL_MISSIONS.AT3",
+        "ja_size": 91464,
+        "ko_size": 158668,
+        "ja_sha256": "2b13972a82d74880a7e7164a375c323c7ad28fd18dfa3d63d6d1bb23a16fa496",
+        "ko_sha256": "ce4378c3324d84730bf70548812bf504185cf6be923adca18fff3afa141753c0"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HD45_VIEW_MISSIONS.AT3",
+        "ja_size": 70784,
+        "ko_size": 80716,
+        "ja_sha256": "e5496cf9cb7354666a403d77d6390010c2b151f431d62aa8eecdbb75f400c18b",
+        "ko_sha256": "380707772521d049f133bc71b86094f0b5422dfb0bf8a453821c60a0db4a4beb"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_ACTIVE_CAMERA.AT3",
+        "ja_size": 76684,
+        "ko_size": 67852,
+        "ja_sha256": "bef2b4d4fab9cbbfe48c3432c1495195c5b98057015990d78893f4491ee59a53",
+        "ko_sha256": "da1a5ea1beba50219275f87cd6c554c21784c8f9f0d0a97706ada06504b228f1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_AGENCY_CASEFILES.AT3",
+        "ja_size": 90124,
+        "ko_size": 83404,
+        "ja_sha256": "1ce0563c002ed82e74df6adca54f44fdc3bc6f9d2f4f28a49231744c567a91ae",
+        "ko_sha256": "f6c4d55f5fcdea75d8d412e6ca910af88d40fafef4143e793d42dd9560fa3b26"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_AGENCY_DELIVERY_FIRST.AT3",
+        "ja_size": 32332,
+        "ko_size": 30220,
+        "ja_sha256": "f725d282d20a46aa693b8edf2c1f89ea7b7fe99767dc112b2eb07e8284940837",
+        "ko_sha256": "02b18c9877097da9323529cb375fdb2b4a01085bdd502d1a5790f4daac2110ca"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_AGENCY_DELIVERY_POOL1.AT3",
+        "ja_size": 15436,
+        "ko_size": 14668,
+        "ja_sha256": "b610e79c1ceed9187ffa067af3fd5fe50533dad6ef65d79f11a413dbd4632a20",
+        "ko_sha256": "89da4111cf2457368eeca57b4dd8692ae9452d7fad0230fd5b5d4749321b6df1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_AGENCY_DELIVERY_POOL2.AT3",
+        "ja_size": 21580,
+        "ko_size": 19276,
+        "ja_sha256": "df79323bc6c30d39202d98b18fce35037d0a2e654e63865b0216885b38e3976e",
+        "ko_sha256": "964700af5c7ad68a9a1f66af42ff46cc235ac3de978b8badb60862d62276f07f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_AGENCY_VENDOR.AT3",
+        "ja_size": 30604,
+        "ko_size": 27148,
+        "ja_sha256": "0438c900b3a89fee08d4771b146ad1711e7764bfa38307426f6e2d07ec755e5e",
+        "ko_sha256": "5c76cfa62a4fd18daa8d75b30c8a1b5ea26039492ec9a01132e0057c8ebc325f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_ALL_BOLTS.AT3",
+        "ja_size": 33100,
+        "ko_size": 34060,
+        "ja_sha256": "a9b9bcab8118748d0c67eeb7619ffd2e1b001ae25b412e47cf8a76ec7ba1dafc",
+        "ko_sha256": "b7d50d7c4aac4cb8243b2e503dded32e0e6c1a8bf4f4d8c6db7134bc72fe100d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_AMBUSH.AT3",
+        "ja_size": 6604,
+        "ko_size": 6604,
+        "ja_sha256": "49d205900b0f708b1e7f38aac2cae1553452a2eebc22f48049f4117e6bc52b31",
+        "ko_sha256": "00e3150cc32fa502d388f27aa5da5282ac1ffe07cc5d9e8b3036fb03d41bf390"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_AMOEBOID_ALTER.AT3",
+        "ja_size": 25804,
+        "ko_size": 23308,
+        "ja_sha256": "b28cac382da4b86ad803d828572e4d8cf4d2273304a40c9c15a5db360dbecc0c",
+        "ko_sha256": "93e89a1d8b71929b2212689c5aa81709cf510077be0ba12b6535b59292890e8b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_AMOEBOID_EXPLODE.AT3",
+        "ja_size": 27148,
+        "ko_size": 24076,
+        "ja_sha256": "45c982123cdb10f6f71f94297eb3906400f6d9f787a7b9f1266d4d8e2122e058",
+        "ko_sha256": "cb8d7ba13ca7598f96494612c3a0210ad8024d3a0d539dc53d850e1ccf02e4c5"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_ARENA_TURRETNOSHOT.AT3",
+        "ja_size": 47884,
+        "ko_size": 41932,
+        "ja_sha256": "eeb7f7606b936d65b7ae7ae587a6656fa28d380ae697bbe7ab2757af9332529c",
+        "ko_sha256": "99d6d1ff53dabf5dc0f1dac7b201a0e410a913d9f93b7b3db4c7c008247e5000"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_ASSASSINS.AT3",
+        "ja_size": 8524,
+        "ko_size": 8524,
+        "ja_sha256": "82da2e1697a5b3498f5cdd28c2e221973820380cb2e26a15764d81079555c1c7",
+        "ko_sha256": "de9c4caa80f84b54f3a4443321647f31367258094fd683a4b7f8cd24ea560b64"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BAD_DOG.AT3",
+        "ja_size": 8332,
+        "ko_size": 8716,
+        "ja_sha256": "00ce0175d138bfaecf9621713e779d37b808c831e94d0957a6b22a27e5cc45e0",
+        "ko_sha256": "dca37064e76089b668aaedf4eff0b222c6bf855686f89f80ca04ced29ea7561e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BASE_CUT_TETHERS.AT3",
+        "ja_size": 35404,
+        "ko_size": 31756,
+        "ja_sha256": "4fa180e967755c18096aa950ea7dc3a5f9668857181246c9a43ae990a78fa381",
+        "ko_sha256": "36e4182847b1783dc0660bc38aa35b607beac11b3fb797b6fd5c3717ef256c23"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BASE_RUN_LIKE_HELL.AT3",
+        "ja_size": 19852,
+        "ko_size": 20236,
+        "ja_sha256": "78e32907527a6ba70e89ccac13f3523d0d671354ad1239947800b977dbd81c77",
+        "ko_sha256": "4a4516990f565b1ad59b234001be74177a078589d06d5c4eaa9be5032ed11094"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BEDTIME.AT3",
+        "ja_size": 16780,
+        "ko_size": 20236,
+        "ja_sha256": "a913b4ff7b871584dee3c3e59991ae3fa20e9b63150555df4cb786335b33abfc",
+        "ko_sha256": "77a3f4866f7f3023caca308a549b22611a041ac0d93710e300e17091952b4551"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BEE_MINES_INTRO.AT3",
+        "ja_size": 31756,
+        "ko_size": 35212,
+        "ja_sha256": "05c797c20ddbec8a17586fe51e742b09dbd2f0aebe9559dcec37e08a1776c157",
+        "ko_sha256": "6705937bac77b91c0a09c862ed33784bd3dc0b500c75efb40d1e86c80cfe02e9"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BEE_MINES_MOD_BEE.AT3",
+        "ja_size": 69004,
+        "ko_size": 62284,
+        "ja_sha256": "f0e5c8bb67a0fafbcd28d5ce5e2e53930dd72edd4e8f21403ec7ecb704b24536",
+        "ko_sha256": "a344ea3cc2bc18df4e7c4e24224d8fb3ac45e840ec274dff5184ffe41c0129ed"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BEE_MINES_MOD_HIVE.AT3",
+        "ja_size": 41164,
+        "ko_size": 41548,
+        "ja_sha256": "0f435eb41aa977bc1163b1a5f087b68f99244db7a7a44e733e981ec86392c7a7",
+        "ko_sha256": "9f4c493cf274ff9cdd66c5ac7603fde77a4c8170760d17a070774f3e9c7ee1ef"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BIG_JUMP.AT3",
+        "ja_size": 10252,
+        "ko_size": 6796,
+        "ja_sha256": "ae6aa62ed66733b4a0e6c4e1c9d58cb8fddff5da05368149351fdff13fc2cd80",
+        "ko_sha256": "3e88cdaf80cd3883c87913b97b46268ec9acd749d1005376416e217d3f84447f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BLACKOUT_PEN_AMMO.AT3",
+        "ja_size": 68236,
+        "ko_size": 74764,
+        "ja_sha256": "b2e49979362216ec1f7f6ed34b7421e16bc0db4fa2d3de6c95737ecdc67061d6",
+        "ko_sha256": "7500fc75c63e0a375a425b5d2bdca44076f86b2d2a5458ecf8db6db760ce41bc"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BLACKOUT_PEN_INTRO.AT3",
+        "ja_size": 71116,
+        "ko_size": 75724,
+        "ja_sha256": "aaf59b82ab677ac3147de2d83d6b7dfad61dca43229112143b7a5e4169c21ba1",
+        "ko_sha256": "82b8b60193a15e2d5b6910ef419ba78da7d6aa12f80fd074fbf8d35f25ee7062"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BLACKOUT_PEN_TRAINING.AT3",
+        "ja_size": 54220,
+        "ko_size": 55372,
+        "ja_sha256": "9ff880158263fe4acdab1ccb8c03c26786fb46921508f6a6f077954083565e8d",
+        "ko_sha256": "9e22ce36b2789bca4ffd6bdcf3204be1e392b9c57c0d094a61d34dfe57e09741"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BOLT_EXTRACTOR.AT3",
+        "ja_size": 47692,
+        "ko_size": 52300,
+        "ja_sha256": "e3a31313930a711b10fc7dbbfb0eab8a76a3a5a4180738f5f039d0b808d1761e",
+        "ko_sha256": "9593ab972acf092ce3678aa4b92ede6144db18d06edc25c1737dee983c41c8bf"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BOTDOOR_ELECTRICAL_ARCS.AT3",
+        "ja_size": 25804,
+        "ko_size": 25804,
+        "ja_sha256": "102e6c6fe47ff0717335ce14a6fb2249a28ecc12a9d02ee39b84b8383d7d6cd1",
+        "ko_sha256": "2291be3f7932b0e026fbaaa823ff6b25d90eac12067a2f93a67924f53174eaa7"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BOTDOOR_GRADE_ONE.AT3",
+        "ja_size": 73036,
+        "ko_size": 39820,
+        "ja_sha256": "d97f8dfa9cfb9e3d18bdb88c2d526515b2866e9556446245f2d2317c0dc2e9ef",
+        "ko_sha256": "c26d96ca51193e41c1ea5f5a196370aedcfbb3fde8836e98aac2ce457ddb3298"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BOTDOOR_REVERSE_POLARITY.AT3",
+        "ja_size": 31756,
+        "ko_size": 34060,
+        "ja_sha256": "91d6e0ebf15ed4a2ba57dca6bff9729edb3e54250c14ec6f184e6576495cbd5e",
+        "ko_sha256": "ad3e005447ec78f891224931a1eb5a86af0d3d4892e51e568c4a225158a26ebd"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BOX_MOVE.AT3",
+        "ja_size": 35404,
+        "ko_size": 34060,
+        "ja_sha256": "1834a3669ce79ec1fc0f9b9c26c94db5bea5c4327bb4a4d3b759999502c6085a",
+        "ko_sha256": "e038bfb8830e221f80040a50574b1368854826c587449ee5d5d462f6f5ca77f3"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_BULLSEYE.AT3",
+        "ja_size": 8908,
+        "ko_size": 8908,
+        "ja_sha256": "4b048bf94e4838d36025401a9d9fa19854efbfede0fe67d30d61a25284d9a4db",
+        "ko_sha256": "0fcc88a32c9eba818685e64d68d05aae775bd3c765440f69c81c2330045d7c69"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CAFETERIA_SPAWNERS.AT3",
+        "ja_size": 29260,
+        "ko_size": 26572,
+        "ja_sha256": "713ecf6a898b80e7ec00524e65e4517167e24c0ace3822fc08a1e95aa3b213df",
+        "ko_sha256": "67ba28d79e9d5a78c49bdb029c8f7e6fbdbfc970ee878c9c86899b737837c631"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CANNOT_LET.AT3",
+        "ja_size": 12172,
+        "ko_size": 14284,
+        "ja_sha256": "bdf15fc1de362f29669c71385619fbeab70b31b25e93383bbcb45293a861c32b",
+        "ko_sha256": "61ea8340aa1f0e7f342d2684050c34761ead9b6d0e1c5799a140facbe18caba6"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CAPTURED_ALL.AT3",
+        "ja_size": 65548,
+        "ko_size": 68620,
+        "ja_sha256": "99735f2ba9804cbe761ae2e2fdf10f296a38b3d33c4bb7cb2790b0cdf95c0af7",
+        "ko_sha256": "762a90b56963e06e71f29d800b7f7852862e898a8bb1f6aca1c5298cbea2143a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CAPTURED_ALL_LEVEL.AT3",
+        "ja_size": 27532,
+        "ko_size": 18124,
+        "ja_sha256": "8ac0f43728553ee9a7b71fe726d82cbd802c142182896ffcdc108d6a04dc6bcf",
+        "ko_sha256": "7f7346c78e29517737b63e296f5828b3aac6f0cec74918755309a9f25787d64c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CARDS_FAVOR.AT3",
+        "ja_size": 26572,
+        "ko_size": 23692,
+        "ja_sha256": "419ecae3007226b2dbdfa3b48f8c68e97e98ec2cdb5eda35bbbdb3b2963bb36b",
+        "ko_sha256": "66da59340229c9c853f5c66f98e42a483a0f87c632ad8ccbff9d5063980edd1c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CARGO_SHIP.AT3",
+        "ja_size": 43852,
+        "ko_size": 44044,
+        "ja_sha256": "627ffffe885eba364df71fd16360ae285ab9013ed11bd9741c078c205cefc1eb",
+        "ko_sha256": "7f94bedabdea23db6964c1546a14dda3c66e0e46e51cd9f25b02a2e1758d5eae"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CASHOUT.AT3",
+        "ja_size": 16012,
+        "ko_size": 19084,
+        "ja_sha256": "6b01af121d6ee1818c34b9af24e387736ce88f4f5b1af6706ef1fba2b3217a7a",
+        "ko_sha256": "01baa0a4532f3e11558747cb3155a4e519d1a850e4c275985df87b4cf16f52f9"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CASINO_FACE_CENTERED.AT3",
+        "ja_size": 18124,
+        "ko_size": 19084,
+        "ja_sha256": "20f30cc018c3c822bc67602a4b4779913dfcafbd3c5b6aed3622cff29105ed92",
+        "ko_sha256": "f8a05b3747a4aabca5297c09a1c453ac27f1a31622d12391a2ad9da42a342478"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CASINO_FIELD_DETECT.AT3",
+        "ja_size": 37900,
+        "ko_size": 38092,
+        "ja_sha256": "39e6d429a7de60bdbb47eba1009f743cbae06d933dcaf48a86290b58cf1b21cc",
+        "ko_sha256": "5fccf3da6fabcc9ef300335e7f893908ac6916b4cc949a2df63907bb111aacf7"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CASINO_MONOCLE_EXPLAIN.AT3",
+        "ja_size": 67852,
+        "ko_size": 68428,
+        "ja_sha256": "23e7595b8b2020e886bcf2ce19e2f4b148944c9cab3f96cb14bdb4c1d30d1f5a",
+        "ko_sha256": "34752d920239cc7094b885a9cc1d6bf8df4a7a87582222cce556472c1f3d5aaf"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CASINO_NEED_FRONT.AT3",
+        "ja_size": 24076,
+        "ko_size": 22348,
+        "ja_sha256": "502f4243762a1a38682389a41f818e4ddfa4ed561544b38092e07c465acf7919",
+        "ko_sha256": "84731578eaf49daa4be377efadab85ca060ae5ee9f4d53e3210a5691e47a4ffe"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CASINO_NEED_MONOCLE.AT3",
+        "ja_size": 46732,
+        "ko_size": 45196,
+        "ja_sha256": "7b25b2960261c26ee26170bda6078d59e8ec54ee5412af061bba8a7e70059d36",
+        "ko_sha256": "91a9c7bf5ce7a5e306dc70b38fed604a2f05778aaf0d74eeb28143d8e02705c9"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CASINO_PATCHED_IN.AT3",
+        "ja_size": 43660,
+        "ko_size": 45772,
+        "ja_sha256": "011b7b113a64509b576e2ebaf8b4c97f6bc72332a5f9fc14f49768d86faf39a5",
+        "ko_sha256": "b067c16bd449938f0f487685868c7b9fd171e7aa2a93ba5b6d742ecf5d966d40"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CASINO_PATCHED_IN_NEW.AT3",
+        "ja_size": 43660,
+        "ko_size": 35596,
+        "ja_sha256": "011b7b113a64509b576e2ebaf8b4c97f6bc72332a5f9fc14f49768d86faf39a5",
+        "ko_sha256": "e0b263cd9d5e32bf22a113ea0892873573a6d79f8dbd21a779549e5aeeb6dc90"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CASINO_SABOTAGED2.AT3",
+        "ja_size": 25612,
+        "ko_size": 29068,
+        "ja_sha256": "c4e611bde90105245d5f6c47c000a045a338cedce738fb4264d1e373a7be727f",
+        "ko_sha256": "0ea63a7e9ac3c994b0e9d8d06d7c3ebd81108b9f55b481d68165d05d8780f587"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CASINO_SCANNED_SYSTEM.AT3",
+        "ja_size": 55372,
+        "ko_size": 54220,
+        "ja_sha256": "70d44b66c275bfac8404ed4810936209e58e23d528080a54ded63fe5634d5bce",
+        "ko_sha256": "fbe07be187b193cfb8bf179cbb178449b88df51995b75597f37ee610ec2fb11d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CASINO_TARGETCANSEE.AT3",
+        "ja_size": 36748,
+        "ko_size": 27148,
+        "ja_sha256": "21c564a042614a8fed4950fde4e44a5079eac8788591c531e427ac72fe834eb5",
+        "ko_sha256": "346b6d56ba818e5da77179050670ded4a74c5e053832dd64cad2403497bfb8fa"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CASINO_TARGETRECOGNIZE.AT3",
+        "ja_size": 18124,
+        "ko_size": 14860,
+        "ja_sha256": "c0991b37243c5e3d152f118d715f62ecc3789a80c3d87dfa58fa8f28aa1c3bc2",
+        "ko_sha256": "f983d71ae70f081b6de18529f3bec98927bd942ad1490afc70f6a7ed506acda2"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CASINO_ZOOM_INNOUT.AT3",
+        "ja_size": 27340,
+        "ko_size": 18316,
+        "ja_sha256": "bd95d827fe4c770bc480ab823d040eaabce7f5bb48576a6357d056e48f917445",
+        "ko_sha256": "6defca89cabe03e9ac81094b2a82284385b2961ff2506265b6372c9875ab04f6"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CASINO_ZOOM_ON_FACE.AT3",
+        "ja_size": 18700,
+        "ko_size": 18892,
+        "ja_sha256": "2e4849d58c375fd928e8d2b8928723907b60e912d122e78f12eb6c04f050a5b0",
+        "ko_sha256": "44cad6c6fe59390ebd7e8dcd6a6b9cae4b0152d72b7ddac6a1367fb205be1504"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CLANK_GLIDE.AT3",
+        "ja_size": 56716,
+        "ko_size": 53836,
+        "ja_sha256": "419673142f4fb67b0cafddf8f68672d845bbe0613e7fc2d811ac3fb835894bdf",
+        "ko_sha256": "fb5b0ef7017d91e465b8d93b1ae25b28f60fc84b4b0df72815d95d73d7a2db0f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CROSSFIRE.AT3",
+        "ja_size": 21964,
+        "ko_size": 22732,
+        "ja_sha256": "4ce96a06e4c7ea536a6ea26598925dbb02ee17e6cdeb8859a02dd549841354ba",
+        "ko_sha256": "703b4a53c41224871cb49686daddca418da5ea935613766350b0b10f5ee7151d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CUFFLINK_BOMB.AT3",
+        "ja_size": 49612,
+        "ko_size": 50956,
+        "ja_sha256": "23ebddd496e20bb7d519eddc78527d58be8d8347a460e4dfea2ecec8c2ea1fd5",
+        "ko_sha256": "a84c8d65b70802ac4b0e3e1cb366a95bc8c22e2e743a7ea55bf57cf31deab03b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CUFFLINK_BOMB_CONVEYOR.AT3",
+        "ja_size": 53644,
+        "ko_size": 61708,
+        "ja_sha256": "af2414c943826ce20476b6326b83c653dc8ff941c28537e9c959af45f4081299",
+        "ko_sha256": "0fd981376606f98fa8833980f8c8ef2fc3f09d69db65519151699fa34d50bd2e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CUFFLINK_BOMB_PRIMING.AT3",
+        "ja_size": 88780,
+        "ko_size": 83020,
+        "ja_sha256": "512c4b915e9e996e89d734ceae13d42f5370c55dd31db0669d9efed8b030ff66",
+        "ko_sha256": "18e424be2a7db4c2182d81ed41ca464bc353525f2a950d12fc12524869f73749"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CUFFLINK_BOMB_SPAWNER.AT3",
+        "ja_size": 53068,
+        "ko_size": 47692,
+        "ja_sha256": "0e1ae26395e07be02498ae8a2db17dc5dc8c3b6831a0b8db2c9004140f400932",
+        "ko_sha256": "98bf44cb62b58c4a4ec13650c2fa3e437f05c4af978359c4293ca80d9003d75d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_CUFFLINK_HOLDTHIS.AT3",
+        "ja_size": 10444,
+        "ko_size": 9484,
+        "ja_sha256": "b8b728ef5477c13be7e306ed02b0056b9fb5ed14fc14de3756f0ecb9adf86585",
+        "ko_sha256": "5983570d9523a204390c4239f54b226d321444cf9a95196735109de09f9278ab"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_DANGER_MIDDLE_NAME.AT3",
+        "ja_size": 15052,
+        "ko_size": 16972,
+        "ja_sha256": "cd147cfc56bccaec56194c197313324ee13ab78278b23ec546eb1aecc295b32b",
+        "ko_sha256": "8382ae37d582330190a92a2da3a0de748ef48f546a46e9115eb5747fb2b57d52"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_DIRTY_LAB.AT3",
+        "ja_size": 40972,
+        "ko_size": 41164,
+        "ja_sha256": "d1906412054036b70eff2aade1f2bfc629b417a0c5a86b26ca60567b4513cbca",
+        "ko_sha256": "1d23d75a1c9e11d2793b3462b67e6620faf52fc4d6dc385babb1695b32bd3834"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_DODGE_MISSILE.AT3",
+        "ja_size": 34636,
+        "ko_size": 25612,
+        "ja_sha256": "48a37ff7a30919eef88704084bdd9a188fd2ef7bd1eab46bb096c274383fad1a",
+        "ko_sha256": "d6d9649bad24c5a75091b477535a183e065a190915a4d797b2eb830a03c788ca"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_DOOR_NOFLAME.AT3",
+        "ja_size": 57292,
+        "ko_size": 52108,
+        "ja_sha256": "66b7f3681e6f13b467c028091766bbae3c824237d776d8ada24b8e88f9c405ba",
+        "ko_sha256": "31d05ce3d77f26c1597a08c87a1b2ead7c54df8be3f11152f41a5abe40f0767b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_DOPPELGANGER_INFILTRATE.AT3",
+        "ja_size": 24652,
+        "ko_size": 30028,
+        "ja_sha256": "bb0e5a75a2c1fe102374e729f360b75e1175b9a39d6b41c7d03960a2c7483d39",
+        "ko_sha256": "3ee750ef3356c0d4e2b27c1c902d978621bc692e3d8b672bd985f1c70e3b8a5d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_ENGINE_ROOM.AT3",
+        "ja_size": 40588,
+        "ko_size": 40588,
+        "ja_sha256": "690147b555a1df8dee0c139ab2476c11a4b9e183a5f018efcf3db0ea76675292",
+        "ko_sha256": "8197870397eec43b678b9cb4b6d243de0b885e99879ad5dd3b10e92726da9568"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_EXHIBIT_BLOCKED.AT3",
+        "ja_size": 34252,
+        "ko_size": 34636,
+        "ja_sha256": "0e857a019711bfe9723c62cc9d251e074f0fecefbbdb4f94dfe628615722161e",
+        "ko_sha256": "00b305977e327fc540b9f02bf3549456aaf2f3d9e144588e94db78dd5eb2fa37"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_EXPECT_TALK.AT3",
+        "ja_size": 14092,
+        "ko_size": 14860,
+        "ja_sha256": "ffaaceee12eb4bd4abbcfe7917b9b3f06075ed978a999fd608962dfeeb6d19b8",
+        "ko_sha256": "93110eea59656f5376e7df902683ededd1eb21bc9e288ffd90425e77efe1d3e1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_EXPERIMENT_WRONG.AT3",
+        "ja_size": 39820,
+        "ko_size": 41356,
+        "ja_sha256": "dd3118029b7d9e530894e1010d0004805417cf764c7b2d25df9df5230f468c4d",
+        "ko_sha256": "538dc62adbce4957cad3e5cb4e8b2e293f12657dcfc64538dcd4cf9e91141cf9"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FASCINATING.AT3",
+        "ja_size": 10252,
+        "ko_size": 9484,
+        "ja_sha256": "35e9f58ce64f0b3c7b27575ba94fac3e7344d4c67a46e66ab32c1e6792b881b7",
+        "ko_sha256": "35537ab6efe547393dbb7423709b35e347e30ca481eff122ccf878cde4e6cb60"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FIRE_TORPEDOES.AT3",
+        "ja_size": 18508,
+        "ko_size": 21964,
+        "ja_sha256": "17dd77a64cd1f5d5b597e8b36d07f0c200f5a1844e664606b099f07133e83ffb",
+        "ko_sha256": "6140dcdd1e9010e866a2a034232d88109c514674e457a6189801e745b9cb319e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FISH.AT3",
+        "ja_size": 26956,
+        "ko_size": 29068,
+        "ja_sha256": "e0dbdc56cd28f88eb5b90990694cf6dbf785ae6ce21da76a588f7f6b5f1941dd",
+        "ko_sha256": "7529270e20357eff331601838fbd429054e7e1b06db73d213bbeeb72a19f8a1f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FLAMETHROWER_FLAVOR1.AT3",
+        "ja_size": 21004,
+        "ko_size": 20044,
+        "ja_sha256": "66585d5894ce5b74c14b68d20915afde9aa5960267e48bd79ea300dd66455ff3",
+        "ko_sha256": "9352b6a2743d020f27aa9ce89ec5e4d617528e04e81d31ae9f520cd52c692459"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FLAMETHROWER_FLAVOR2.AT3",
+        "ja_size": 14092,
+        "ko_size": 12172,
+        "ja_sha256": "307fe8e01432e1dfbb544658e930e29ce6f6f8bf1815944582e83aebdf579978",
+        "ko_sha256": "798c5d198de1fe949dcb6f3eeaa64230e810850a4974f27ff223093deb541421"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FLAMETHROWER_FLAVOR3.AT3",
+        "ja_size": 11980,
+        "ko_size": 14860,
+        "ja_sha256": "232a41ce57c2dc2f982674750951c3b725e23aaf005a44c35b5ad8578c04f853",
+        "ko_sha256": "e10cd49f081daa1e5f72f2389e6c7bb272d93f6945136534198a6db7eab3937b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FLAMETHROWER_PEN.AT3",
+        "ja_size": 59020,
+        "ko_size": 61900,
+        "ja_sha256": "00bce407bafda8d9d341957eba6c05342a019a4d576bcd4772676ba1d4d0e862",
+        "ko_sha256": "01e855557f6099fad402932053d9c1cea4c46080e0daa7192faad3cc3b255ff8"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FLAMETHROWER_PEN_BRACKET.AT3",
+        "ja_size": 30604,
+        "ko_size": 34252,
+        "ja_sha256": "948c776c33ccf3db83a9b5670f2161c111a499a09fd6d06c362c3529c2991d57",
+        "ko_sha256": "6615e001c4f8f605e108b4f1503b415157e5c4ff5b995ed84673ed1cf1eda61d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FOLD.AT3",
+        "ja_size": 12940,
+        "ko_size": 18892,
+        "ja_sha256": "5f5baae801235acd3b6a6a115e5c002f63dbde9d63f94bdd2ef829482468d05a",
+        "ko_sha256": "d6da8a9d357ac1331cf58e6f1c87c9ff6e3f0ecbd14dd5873f07d6e1d9db9c5e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FOUNDRYBOTS_MAGNE.AT3",
+        "ja_size": 44236,
+        "ko_size": 50572,
+        "ja_sha256": "bc360dafe803cf518315e01340c79f5a08c44918b9c67030d8c4658a8a2f7371",
+        "ko_sha256": "a368aa2e200a54aee28c30568b450ff232d67807ecc50f8881b49f887838f862"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FOUNDRYBOTS_NEED_THREE.AT3",
+        "ja_size": 29836,
+        "ko_size": 24844,
+        "ja_sha256": "b5a466d67cd76a2f12535dca8b605b77543f6dbae9998339b582af8371144816",
+        "ko_sha256": "b60fc17d5b289dc520e6ef474ab3e127a2c5a14d42faf19c2c1ad776bc9ad75a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FOUNDRYBOTS_SCANNER.AT3",
+        "ja_size": 44236,
+        "ko_size": 43468,
+        "ja_sha256": "3d71ab128719d8d468f82d72b08cbc11df711643203ab51ef5e9edefb20dee15",
+        "ko_sha256": "24f329a2488e40bb4d491d23980e835b31ed19ffc6e0a950a4a10999e4547cd9"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FOUNDRYBOTS_SEVERED_HEAD.AT3",
+        "ja_size": 32716,
+        "ko_size": 30796,
+        "ja_sha256": "f09b182aac47cfe9833382b7f9e20fee8063c3b721bbd254b4cf54edfc0bfa85",
+        "ko_sha256": "573aae1105e4dbbc0430e189e8f0b2ac4ad0ec5fb23a9e8c1e896b1dd960732c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FOUNDRYBOTS_SWITCH_BOTS.AT3",
+        "ja_size": 25420,
+        "ko_size": 22540,
+        "ja_sha256": "1bf672d53962720250a77cf2d063b728de401ac7d83dc89821edadbc76eecf65",
+        "ko_sha256": "523baf84ddb24ba462981b64f805ab57b8a4de497a2499ad42c08fbcb7974098"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FOUNDRY_GEARS.AT3",
+        "ja_size": 50380,
+        "ko_size": 66316,
+        "ja_sha256": "04df2cf4ed36fce0712229ab5374967fd4410b27d73edd6a792ef05752d60ca6",
+        "ko_sha256": "bbd23ef29618254a91c84baa3b35ee6d78fa8c7e5fcaba6c2a09b4a981bab773"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FOUNDRY_MIDGE.AT3",
+        "ja_size": 40204,
+        "ko_size": 40204,
+        "ja_sha256": "9e839ede7bbca14c192a290dee808aae39375dbb8e00925d7bbea6805f110565",
+        "ko_sha256": "e36c3e3dd65e611e4e0a471b774e9457ef1b253faec9db760b8d47252ffffd46"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_FOUNDRY_MINERAL_BUST.AT3",
+        "ja_size": 53260,
+        "ko_size": 58636,
+        "ja_sha256": "535ca3c5b415e1d76b029c50fac8e24cd14e026bbf4d1625da00d503689db947",
+        "ko_sha256": "1486412b4f703ad567e3dea77de15318056f527bb9d117b0fe89e1cc3becfcaf"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GAS_TANKS.AT3",
+        "ja_size": 32716,
+        "ko_size": 29644,
+        "ja_sha256": "67b3f3340d38a4e270db14dc74bf40db5a6b32e0465898330a2ba3eae5419476",
+        "ko_sha256": "0c037b2afbd1186566344c39cda15d36dd3190db6a1471b6a9ce95c7658ad87f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GAS_TRAP.AT3",
+        "ja_size": 32140,
+        "ko_size": 30604,
+        "ja_sha256": "09ce2eac573c765204034c9f4b3306306af432e6302f3ed077b5fa2d088209db",
+        "ko_sha256": "f91b457c8c2edfefa10dd14e03f8aa5920a944845ba46adcf14a164e707dc705"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GCS_COLLECT_MISSLES.AT3",
+        "ja_size": 21388,
+        "ko_size": 22924,
+        "ja_sha256": "6ad7f40fb2a5f333decf9aa52e88785c5c5a4bd91d376cd8bff57eef2a47f95a",
+        "ko_sha256": "d9adb5311636f8e398a6df4a5d53eb931e7c211eb08142cd9f33488be8e4183c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GCS_LASER_RECHARGE.AT3",
+        "ja_size": 21004,
+        "ko_size": 23116,
+        "ja_sha256": "8738b57ea9129cbe87b357c63d13cb67f13996b1d6a74198f67f6daae78eab02",
+        "ko_sha256": "29cfe52e345a7ab089703c7e288c9f429c5e43958ad204077be62bc1b1acbe60"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GC_WEAPONS.AT3",
+        "ja_size": 54988,
+        "ko_size": 41932,
+        "ja_sha256": "1d86e6d09731b74b82d6d888ea85f677508a8c91156d229ad03fba72fa4e7971",
+        "ko_sha256": "8b76b40252357da9cdcb4575c43fb03bcda7cd49014329042a484236c012781b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GC_WEAPONSAGAIN.AT3",
+        "ja_size": 34252,
+        "ko_size": 34060,
+        "ja_sha256": "ddcf3715e4ef5676cc3b456bd820703a83b416391d407e46b7d7d62851883f62",
+        "ko_sha256": "ee8e95e31935acda87cc505759ba3e7a23e1c9789185b7406652395e659ebd93"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GEM_WING.AT3",
+        "ja_size": 29068,
+        "ko_size": 28300,
+        "ja_sha256": "6dc6e953f2e9b4e41a741249ca40e0e4f52ebe04ac84bd876885a445b47d25b4",
+        "ko_sha256": "a7882ac0ea59a9717d8192bfda80bf2c729f6485bfd586a1b3d8290ec9c2b859"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GETTING_STARTED.AT3",
+        "ja_size": 15244,
+        "ko_size": 16588,
+        "ja_sha256": "e9832bb8e6ac116008eb40c860715b25368a92d6eca7795b1e3e39331e71f578",
+        "ko_sha256": "0f131896f254b6530e1d9c0038264e258d9fc2fa2ba11ab1351f9f75641a388f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GIANT_QWARK_DODGE.AT3",
+        "ja_size": 36364,
+        "ko_size": 37324,
+        "ja_sha256": "6f0dd748cd3c268342d97fd3c4a0c3582aed0378bca34253ec96852be59e012a",
+        "ko_sha256": "d4c878c430234862e3076208d24df45d1a4d6a6d652514035cd5a5f75a678354"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GIANT_QWARK_MEGA_BLASTER.AT3",
+        "ja_size": 40012,
+        "ko_size": 34060,
+        "ja_sha256": "6954aa854dfc8c530d62c250e3d8f3dcba9e67195a1438e6ab7a59f0b31a99d9",
+        "ko_sha256": "e1fcf3f58a05b3888d4d7022ac8bc48cab5fdd475cab95c77c3953ed5b93bc7e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GIANT_QWARK_NINJA_HIT.AT3",
+        "ja_size": 41548,
+        "ko_size": 38668,
+        "ja_sha256": "1ca3ad9c76bbb8fffe65fcf6b785be477bb7a8e236ce524c31fb4d32eec67929",
+        "ko_sha256": "7330a0af02cfbc8fb3b5421f93b6c7ab4b6f2b4ec9cbd9774d4944102f2f4fb3"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GOODNIGHT.AT3",
+        "ja_size": 6988,
+        "ko_size": 7564,
+        "ja_sha256": "1af1ec3ae4814c5d04efa000816ef5e198e9a07071f41f75eed08974a379769b",
+        "ko_sha256": "eb97bbbc849b07adcb3eae8ef73df9b5ba5fa9ebf8711d57e287273ba0d37d69"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GOT_SPOTTED_OHNO.AT3",
+        "ja_size": 12748,
+        "ko_size": 12364,
+        "ja_sha256": "3e37955cba2a199f5628bf2af167f67355f8a25479db2b9431782296f1a9b45d",
+        "ko_sha256": "9389edc27555f3153c48aca0204c488ae3cd5004b366d93b0997de76c3070fde"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GOT_SPOTTED_UHOH.AT3",
+        "ja_size": 8524,
+        "ko_size": 6988,
+        "ja_sha256": "2adff71dc8a2c66670a44c8e64bd025c7f0691a5103559c8f66643115d9cd938",
+        "ko_sha256": "2fccba4ee7f8ad73c9e15e7b7da7b4a2d01b49b63d898ace51c2e0c74409d0f1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GRAVEYARD_HACKING.AT3",
+        "ja_size": 19084,
+        "ko_size": 19468,
+        "ja_sha256": "f2afc63d51a211cb37eb7d321e506485ed8c59283575ecdd94d32ca482c2ffd5",
+        "ko_sha256": "cd3300a337e246208187b19bfc6ae0c222717ddb1912d044c780937582bf67c3"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GRAVEYARD_SHIPS.AT3",
+        "ja_size": 39244,
+        "ko_size": 34636,
+        "ja_sha256": "d12cb7cc8a11e84ba9ba1969bcf36da7539e8adf71e7c99e844ba2b417eca633",
+        "ko_sha256": "62f130a82c5618c1ddd3d3e2385fc6de05de13b0cefc4d8c4e133f97775c8ca6"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GRAVEYARD_TURRET.AT3",
+        "ja_size": 40780,
+        "ko_size": 42700,
+        "ja_sha256": "38e1b6bd3d224b8c8d686702ec06b8c617944d2987bba8be104412045fbb45bb",
+        "ko_sha256": "44c37d82079fdeb5007fa515ac3083ac39397a71dfba25a17ed16fdda82aacd1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GROOVY.AT3",
+        "ja_size": 11596,
+        "ko_size": 11596,
+        "ja_sha256": "990dd2fae8fd7ddc74218d33f7d5a2abed168966d78720f13d25cd7d6fc8b22e",
+        "ko_sha256": "557cd0c7b21263530aeafc1ce0f5f5c399b0ccae0e06fc1c3eadb627a43630d2"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_GROOVY_BABY.AT3",
+        "ja_size": 14860,
+        "ko_size": 16780,
+        "ja_sha256": "c029ae5e9ff999ae23bb5e323021002a7a2c938f282ececd31f2efae3d2224ad",
+        "ko_sha256": "58efdce826c84a4abf3c0da2c23fe26cfc7914c0aea6c59b8d2a081c6b63e55e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HEAD_CORP.AT3",
+        "ja_size": 28300,
+        "ko_size": 28300,
+        "ja_sha256": "bedab1ce0b2dd25e12b85c5536568ffe288c711b06baa021e4ad43c6a2c4773d",
+        "ko_sha256": "931775175bb5c901cd9cb0bb7f6de93839be1aa3b31bf330793c850a9b487c8d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HEAD_LOSE.AT3",
+        "ja_size": 18508,
+        "ko_size": 18892,
+        "ja_sha256": "5762e5c0063e9982c8494d1132c269d822c5e3ffc6d13b6937d46330ba060373",
+        "ko_sha256": "ee5d3951581c5729848c76806f35cc7d8d61cbfdcb331b38130eade6c352deb5"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HEAD_STRONG.AT3",
+        "ja_size": 28492,
+        "ko_size": 28492,
+        "ja_sha256": "3a7c7cb56eba12a69f79fa270ba99321afb4b3bd8b8c05738c0acded62a87ae1",
+        "ko_sha256": "b502a3ceefaba247586b63840c35caded2d8139e99b8ce266a17f9e5d687a313"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HEALTH_CRATE_EXPLAIN.AT3",
+        "ja_size": 27148,
+        "ko_size": 20620,
+        "ja_sha256": "20648b380d43d77a1ddbd2b4e1a6385886741ce8b1f7efda33e7fc88aa5d7d9b",
+        "ko_sha256": "10499eea620a2082f6ec23b64250d63bdaad31b19393f74d060b24be2f9eeabe"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HIDDEN_WORLD.AT3",
+        "ja_size": 40588,
+        "ko_size": 34636,
+        "ja_sha256": "b99c83e41589ea609369095b1eb5b462eed1796754054bd1dbb1dee1d11fffd7",
+        "ko_sha256": "854751d09b9d7cbb2911f04ddf3321e217a088b123360775b656ffb334145327"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HIDE_CLANK.AT3",
+        "ja_size": 36748,
+        "ko_size": 36940,
+        "ja_sha256": "57600b98b03f8441cdb820390f736f8dc289d96bf8e77a1ae3af32c13a269988",
+        "ko_sha256": "c18bdfb2d4b26ff2e7cb878ace124a3fb794963c0aa4de6ca837e960aa71d764"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HIDE_IN_PLAIN_SIGHT.AT3",
+        "ja_size": 45580,
+        "ko_size": 45004,
+        "ja_sha256": "588bd62abe977d378cb2d45b205fbcfa0969399fa35607810bb213fe14d04181",
+        "ko_sha256": "d6097872152326d121a929e8c3c47f742c7a603edea8bcef21f4dc663a75dd40"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HIDE_STATUES.AT3",
+        "ja_size": 37132,
+        "ko_size": 42892,
+        "ja_sha256": "9453428bc01d625ae47d61aa1813f36d1c4cf7aaa29723a0c6e860eb3d48f13a",
+        "ko_sha256": "3f3463fd4ab9556c90867982c5346353e5d3d39f931ad3433e478ae7b40d708c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HIT_ME.AT3",
+        "ja_size": 17164,
+        "ko_size": 16204,
+        "ja_sha256": "2cad512e9c4d7849b02c80a064354e092263432cb77686a8e0411ebf5c58db2f",
+        "ko_sha256": "99ea8b3e66e6b7efec58b885a73e479454f9180002596446118a67c6518f460e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HOLOKNUCKLES.AT3",
+        "ja_size": 42892,
+        "ko_size": 52108,
+        "ja_sha256": "bd374221bfd5539e1c94d16887c229bade2ea300f05db97deb5865dc833fcba5",
+        "ko_sha256": "67c5718275d47789e6b39a98d00f50096a947fcb3883f35abe22c2b5f0bd74de"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HOLOKNUCKLES_MINE.AT3",
+        "ja_size": 29260,
+        "ko_size": 30028,
+        "ja_sha256": "3773b1c0cbaab70436a9e5cc00613609d624df76ee28717867f6306c6cd43c29",
+        "ko_sha256": "24fa4c11827d7ec838145cd7b03918e25b08f090ed742929da3057ecd7e51d07"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HOLOKNUCKLE_DEFEND.AT3",
+        "ja_size": 55180,
+        "ko_size": 64204,
+        "ja_sha256": "a4199a727d7377aeb9042f1f5d7715d48cf4d9f465d76276d379898e2e4b323e",
+        "ko_sha256": "8a560c2b29ab88e12238071ec66c6bea7a078e7d38887e3f3e7322f7eda56939"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HOLO_BAD_ANGLES.AT3",
+        "ja_size": 21772,
+        "ko_size": 21196,
+        "ja_sha256": "c91ca59ccfd709648fdfa329a956b32f7df34d8beba340b98d53dc5598e5d03f",
+        "ko_sha256": "5c18c424c3f8ea415ad9ae593cb801f814c25444c4e689620b94054b37f89fc2"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HOLO_CLOSEUP.AT3",
+        "ja_size": 14860,
+        "ko_size": 14860,
+        "ja_sha256": "3d61b5f1fc37b30652dbb7dea0e3ca834a1d644816f055f62c4da830bbf8e755",
+        "ko_sha256": "381f113728941d82c7b22c17d689d5efacf91ecc32c711013ef46740abe17833"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HOLO_GOODSIDE.AT3",
+        "ja_size": 8716,
+        "ko_size": 18316,
+        "ja_sha256": "db4811f49e8b6f971c5af471b484301bad1bdae7bf66e0e9f491f8ae8253fefc",
+        "ko_sha256": "3190b6eed4c11c6204ed0427b325cf0e38d6fef0496f6e5fcff4dcdce9999d36"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HOLO_INTRODUCTION.AT3",
+        "ja_size": 16780,
+        "ko_size": 16780,
+        "ja_sha256": "cbf6754ce2ace9a901897926768a8e25c43c3b891f9dd90126813185431979bb",
+        "ko_sha256": "f769b07a1e06e59154ad5d27cfc3b976456cf5808311e673f3e087e32ca89772"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HOLO_MONOCLE_BASE.AT3",
+        "ja_size": 31948,
+        "ko_size": 32524,
+        "ja_sha256": "e02bb9b811a26c7d78b90f93fd1a133dc05fd613619ec21597231d942e3ec721",
+        "ko_sha256": "bf6637f972a03b77132fe5e7aa6a202d15c730331554cb91e6cb21fea7a81deb"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HOLO_TEN_POUNDS.AT3",
+        "ja_size": 21388,
+        "ko_size": 21004,
+        "ja_sha256": "e6e9a323c08fc42a8ed843e137f489487f673a7be43eb524f3c05cdb4bcbdb88",
+        "ko_sha256": "3bc346624bf734d9d5d430e3d8b138bfc8789beb21167e972ea135296960aee2"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HURRY.AT3",
+        "ja_size": 14092,
+        "ko_size": 16204,
+        "ja_sha256": "836bd1d15f31a6adcd38f35c1ff1c25f9bab45222fa677444ccdf98caca6435d",
+        "ko_sha256": "d8acfb3850c514ad24344ebdfa05f6d5376d3e542a2f6d699ef2b7b6ef0d69ef"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HYDROFOIL.AT3",
+        "ja_size": 34636,
+        "ko_size": 26764,
+        "ja_sha256": "63ab19fb5deb823b5ded76b809e48e76444d4e941d0c4c371e7703ec5624da7b",
+        "ko_sha256": "cab5b5426e5689532a418d7f099207623e94de82950c597da1002d3db423e5ab"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_HYDROFOIL_MINE.AT3",
+        "ja_size": 28108,
+        "ko_size": 21388,
+        "ja_sha256": "1ed09764b9995c94558ebb16ef34d29065f08633cbd4d985beefddc53dd3e7db",
+        "ko_sha256": "e1ddf3d5f1e8c048fbf09de7c45b680a221215f06cc67d088265a70dd4aac7ff"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_JUMP_OBSTACLE.AT3",
+        "ja_size": 18508,
+        "ko_size": 14860,
+        "ja_sha256": "772a841988f0f94b261e8e821c245a22c00edf8260895544780f1edb39ec0f4c",
+        "ko_sha256": "095b88229c7401fc25d68cd9ee424f9beb983c31733d6c53c2f82920fa17fa15"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_KUDZU_NATURE.AT3",
+        "ja_size": 31372,
+        "ko_size": 43468,
+        "ja_sha256": "ac93f0cf8436abfb4ce79a9ed05d61d825146b136c3beb9f61ce813e27d10004",
+        "ko_sha256": "cfdf311474fa8574f47901eb018beab4ec9a361926313f6d9b9f4735b5d0102e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_LACERATORS_INTRO.AT3",
+        "ja_size": 35212,
+        "ko_size": 38092,
+        "ja_sha256": "296953d6a852597498bcfb106ca89819b93971a76de1e54b5ce18c52aa6abb61",
+        "ko_sha256": "fccacf6ea81729c021608d8ae28b3effd2821da733afee1e0092b334b63742a5"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_LACERATORS_MOD_LOCKON.AT3",
+        "ja_size": 66700,
+        "ko_size": 28876,
+        "ja_sha256": "c81f92e2c38f38252b7e38fdaa47cf908b1f0323b4d5db43f75cec73cdbbc96d",
+        "ko_sha256": "b687726c38407d34a769fba942b5bcd44ea6168364cede2602236a93fbc6b7a9"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_LACERATORS_MOD_SEEKING.AT3",
+        "ja_size": 46156,
+        "ko_size": 42124,
+        "ja_sha256": "c7410485b2eaecfc09942506fc73a4a525cc281c4523813aea33ec6fa21e961b",
+        "ko_sha256": "843d1766d82da88262aed0f67f13c7061bc0ceb9c16038f00fd9fbf99acecb69"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_LEDGE_GRAB_TRAINING.AT3",
+        "ja_size": 30412,
+        "ko_size": 30604,
+        "ja_sha256": "39ba869e49b578f4fc5a9aafebb9f554cf7ed0b560ffdc32e20678f627175901",
+        "ko_sha256": "a770bd2232ee354126440874d15c7ef9ccd73e03c0909583ff58395d0c5b0c87"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_MAGNET_MINES.AT3",
+        "ja_size": 10828,
+        "ko_size": 13324,
+        "ja_sha256": "5e19ce5e288b9b435098f6b5c6b7f33cab4717bc24555a462cb47c91194ffaf2",
+        "ko_sha256": "5b02769b7eade3d8876f8c1387cb0090d4f2e9744b6494cda5602826974facc5"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_MELEE_FINISHER.AT3",
+        "ja_size": 52684,
+        "ko_size": 50380,
+        "ja_sha256": "f848fffcbd1360351c103282a55843a0e6586b1435519decd30248871c09a516",
+        "ko_sha256": "0ae4ba91b39edbdcb5b6e20e2569201b9d8acee2b74677b1cbf0121e1ad1443d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_MELEE_TRAINING.AT3",
+        "ja_size": 57868,
+        "ko_size": 52300,
+        "ja_sha256": "14fab6f6b8b260ea9a96fa10c8bb07e64536bfd2d9652b06a03cfa83b61bc111",
+        "ko_sha256": "3685d6666b6ca06980e278562e61ed5f634bd39a887ba1642035c2afe102c691"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_MIDGE_ARENA_COMEBACK.AT3",
+        "ja_size": 53260,
+        "ko_size": 46156,
+        "ja_sha256": "d5f9fec9d5d357c9c5a464df0de6bcf21457e259876dccbdadd0bbb1df393c6b",
+        "ko_sha256": "7e0cf1778e1c9a1819864b3b0f337a80bab034d563a1ccb6d01507f326ee0197"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_MINES_INTRO.AT3",
+        "ja_size": 35404,
+        "ko_size": 33100,
+        "ja_sha256": "6e201f83dc1e9a63c7159c800ecb8d71b434b9a3c4316a2534883fd87c1d176b",
+        "ko_sha256": "5488c92e34ce7443a704ea6e505a4288e2bdb23598e302c76f9a9eea981e8607"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_MINES_MOD_ORDINANCE.AT3",
+        "ja_size": 68236,
+        "ko_size": 34252,
+        "ja_sha256": "0fa4c2f639fa59ce30822cba8d7d9734d2c0bc4b6e1d16ec4c9f00df464c6d2a",
+        "ko_sha256": "692a9198d6b99bbd4a101e3feec1ac355520b1b54eaca4af197a7503e9f6fe15"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_MINES_MOD_PERSISTANCE.AT3",
+        "ja_size": 54604,
+        "ko_size": 36364,
+        "ja_sha256": "ac722bfa72b61d56297ab85739df43d09330a28e7b3c8435f6bb2678f651e5b4",
+        "ko_sha256": "d995aeade8897e4fb5015aa494b2f8a6080bb2322d3da3a58a2adb0c2164cc22"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_MINE_BRIDGE.AT3",
+        "ja_size": 21004,
+        "ko_size": 31180,
+        "ja_sha256": "ae78587a339d943033373e1e460d5d106c4fe53531fb8312e54b5276a4eb1cac",
+        "ko_sha256": "4cff4053892911d6adb5c13fd65a69fa369b94e51cd1291e934c0938082f79df"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_MONEY_CLIP.AT3",
+        "ja_size": 55372,
+        "ko_size": 48652,
+        "ja_sha256": "9e5ba3f125fdae2770135ec045fa3f6bfff6d824c2259b284f84f269c457c40f",
+        "ko_sha256": "dff363b351a9d331f15587e903b554d3356cec690b5b602f2c27c5037433e90b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_MUSEUM_CLIMB_SERIOUSLY.AT3",
+        "ja_size": 38476,
+        "ko_size": 41356,
+        "ja_sha256": "16f7f70aec0e5674abb1eb73eadcbf25bdc8ab5d20d836792d7031add48039be",
+        "ko_sha256": "72b1dbd10c16cde5720a6caa9e436f3ad30d75487a5177c7b3c58bea56fef586"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_MUSEUM_CLIMB_STATUE.AT3",
+        "ja_size": 27340,
+        "ko_size": 29068,
+        "ja_sha256": "1d40e4c807fb75488bd4e72cc1691384921afb173a647a1039440fb9ebb4d3b5",
+        "ko_sha256": "fbe1eada5de5a67c1084c98e2a007e728913e2fa72329fca2b71d98f99e7dd6a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_MUSEUM_LEDGE_GRAB.AT3",
+        "ja_size": 53836,
+        "ko_size": 49228,
+        "ja_sha256": "edeff6c6fda962b91dd3115112fd4b7d71fdcab1d9a996e4ea436b5bda5f8bf4",
+        "ko_sha256": "7fc66613becea5b49a2297bf522db5f97b1c0398ce6d39898db659a3a038f0fd"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_MUSEUM_SMASH_CASE.AT3",
+        "ja_size": 64780,
+        "ko_size": 59020,
+        "ja_sha256": "0e9762c2a41f7f4dc82ad57c37cc870a4d3f4b309b10c4cf5953293be73ef3d6",
+        "ko_sha256": "56713853b929ba07b10c2fcb0cc1b85ea911af259f6e9fcb693121b385f6ee98"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_NINJA_DISAPPEAR.AT3",
+        "ja_size": 12172,
+        "ko_size": 9676,
+        "ja_sha256": "81814eea4b805b9089ce626cd9dd5f6fd414be883f6f01fa1ebfb280f9665da6",
+        "ko_sha256": "c4b4fa3a19b60db73f2dfbb79ec3a7772220bd2986318e48273b2725d91a3c45"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_NOT_KITTEN.AT3",
+        "ja_size": 12748,
+        "ko_size": 18124,
+        "ja_sha256": "551bc3f5e19a2dfa8ca5e1457d85f59510ceefc0e5ee87a6aa785a16c02ebbef",
+        "ko_sha256": "4a1f583521d729baa131bb29b2694661c57841b9f0b24937422fe969a8030c94"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_NOT_SO_FAST.AT3",
+        "ja_size": 13324,
+        "ko_size": 11020,
+        "ja_sha256": "1c3258f8fc1e88acf4500d48bce6e50e5ee7910f5fee0e62481792ec9c3124c7",
+        "ko_sha256": "5304cff5588e8c9912b5abdd8297f72c8b8fdc9515854aa815b8e6297a8b3478"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_OPERA_HOLD_BLASTER.AT3",
+        "ja_size": 28876,
+        "ko_size": 18508,
+        "ja_sha256": "17b5c314a23a31046753eb910775acb1ff68e460920520f9aab534f3aac0d600",
+        "ko_sha256": "4f284fd28089467e3591260571c46a5021ee6469ccdf2f509970ac4fc2014755"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_OUTTA_SIGHT.AT3",
+        "ja_size": 40012,
+        "ko_size": 44428,
+        "ja_sha256": "4fcfe3f767b8e378f9773952f3d961e924c430af0aa1d44b045dcdd96745e205",
+        "ko_sha256": "13ae0c4211c276dbca8568a411bdccce7ed35454f683078b97405bb0575ca46d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_PEN_AGENT_CLANK.AT3",
+        "ja_size": 16588,
+        "ko_size": 18700,
+        "ja_sha256": "545dbf3a0bbd759219d2043ca7dcc34e714f12df468e6dfde802ec41ff7906cf",
+        "ko_sha256": "41968fac1570be767339d73b5cf421020cd7ca850c958408051ce25baa5f25df"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_PEN_LIGHTS_OUT.AT3",
+        "ja_size": 11020,
+        "ko_size": 7564,
+        "ja_sha256": "1811a3941af497ef4d65b0e30e7064bcf26a777f9dc7bded58bdc9c03cdf97ce",
+        "ko_sha256": "c437b112f0e529f80940e48682b5d47d649a2c1dd852e2f4fd9fd1a48a7d9251"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_PLATFORM_MINES.AT3",
+        "ja_size": 34252,
+        "ko_size": 24844,
+        "ja_sha256": "1a4192d0fa830d6986996c4f7e48c7cfad5891531a160e92c8e14b0d030e5d45",
+        "ko_sha256": "fd9fbbbf3cc702482d5d99f27528d603d7d570379fa6bb7b3bb3a32c678597fc"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_PORK_BOMB.AT3",
+        "ja_size": 58060,
+        "ko_size": 61132,
+        "ja_sha256": "8a6f40b1b3eb6acd9296348d7bcd654b18a0d07f89a630117325e8b60c1a78db",
+        "ko_sha256": "321a7c4c3f7ef8f1cf8b055a569f43f5c1634cd8eef1b3e5f0d00b6ab5953409"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_PORK_BOMB_MOD_TASTY.AT3",
+        "ja_size": 69580,
+        "ko_size": 72844,
+        "ja_sha256": "c9a7ffcd3e605b4359e4db4305dc1c2c3f1aa8fe2f63ec37ce4743484f0ca8b3",
+        "ko_sha256": "77ac90dece4dabad8fb41c97b0040dc9afc1f87118758e3fd10b3aea3f8b7673"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_PORK_BOMB_MOD_WAR.AT3",
+        "ja_size": 59980,
+        "ko_size": 70924,
+        "ja_sha256": "a9d6c6c782a5f0df8cadf5dd33a70ae294d22a2bb6bc3d4524566162521560d1",
+        "ko_sha256": "667a2f52853a539e59844b0096465be1297c5302738b80b8d8da337ae24efbc1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_PRISON_HUNTER_INVINCIBLE.AT3",
+        "ja_size": 34444,
+        "ko_size": 35788,
+        "ja_sha256": "18cae4cb798138228c8f7c2861fbf738e0283122e3498fd377f30178cfe4dabe",
+        "ko_sha256": "a7f0436bebd9cdd8fae7676cda199c510d5d496fd53f546432d88e0d51cdcdee"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_QUICKSELECT_USE.AT3",
+        "ja_size": 62860,
+        "ko_size": 54220,
+        "ja_sha256": "847890d9ce754e33a7d1261db42c9077a3b4ba8149aaf8b5a1959be34d2116a1",
+        "ko_sha256": "230ba61c4732085e52fbc4489ce0f1a5123bc816a2a66b20e8b46bb8fe6581da"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RATCHET_USAGE.AT3",
+        "ja_size": 15628,
+        "ko_size": 10636,
+        "ja_sha256": "5cebebe1027e6f9e8dc87e78ec94b033f3c12cfce13ca94483ad26a6b96a6cf0",
+        "ko_sha256": "14f8e8cdb4f2b5f39ea1dc72a924190104e959164aabf2cbb24668e342d7e733"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RATCHET_WOOHOO.AT3",
+        "ja_size": 7948,
+        "ko_size": 8140,
+        "ja_sha256": "b311d2612a143f365b5a0584d5daefa63dd502700f5ee99a114b658e4ebc1cb6",
+        "ko_sha256": "56cb346468c4b302c7f6cfd3b9a63d3b362b896d4818965442222882ae768619"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RATCHET_YEAH.AT3",
+        "ja_size": 6796,
+        "ko_size": 5644,
+        "ja_sha256": "71d2c01a3002333ea81e1671338b6868c3c0a7f9f3ce0acfd8161bc27b21544e",
+        "ko_sha256": "ae1d54212b9e2197ebb6e426b40eacf31e65cccbd68038a0d3a69f8b05db3439"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RATCHET_YES.AT3",
+        "ja_size": 4108,
+        "ko_size": 5452,
+        "ja_sha256": "499ac1b1f7c58317786e2a59b12e3641addd442d44a356b402870bcb042c5618",
+        "ko_sha256": "3cb30059f1a9e7be89ec59abb3041f89f1d59cde4888ac800d180be21469db0f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RINGS.AT3",
+        "ja_size": 16396,
+        "ko_size": 13516,
+        "ja_sha256": "9b69a14047cc37c899d9f925d4264334e366d750193314bb4df37e714401b0d9",
+        "ko_sha256": "b54bba39d0d93636c3df5021945a413efb6227c6eab8db8e62414410b920b0cf"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RIO_FOLLOW_KINGPIN.AT3",
+        "ja_size": 29644,
+        "ko_size": 25804,
+        "ja_sha256": "f9ac653b4604b82f0701194bb03600781729d269bfdf14604eec3b2d748e5a44",
+        "ko_sha256": "35f08020c80e124b619e34664d7462f9be1f1bd387bed31ffc7897bc41e5c2d3"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RIO_GETTING_AWAY.AT3",
+        "ja_size": 25420,
+        "ko_size": 25420,
+        "ja_sha256": "53c86d6b2d34d2c260142b9d3011e75543781bb42418f536c390764c18aab3fe",
+        "ko_sha256": "55f773ed04e62a2b7b65b4e401466bdf3ae8a6942b56fdf6012ef098b933344d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RIO_GONDOLA_EXIT.AT3",
+        "ja_size": 39244,
+        "ko_size": 38860,
+        "ja_sha256": "04388356740a61a309e3c8b55a0208dc938ddfdb56bcaa41083fe73bac7efeac",
+        "ko_sha256": "ab89311627bd4d5c45ef43814fea755b59ee12f5e95c150dfe1c1dc4b89be067"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RIO_HELLACOPTER_EXIT.AT3",
+        "ja_size": 27340,
+        "ko_size": 35404,
+        "ja_sha256": "f2fdb1a3f06024111964302827f05acc196c403f1593328582dc7e4bd19f5a1a",
+        "ko_sha256": "db349c203085766e40589868065eb2eeb5b8c031017942db221a2709afbd6f90"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RIO_HELLACOPTER_INSTRUCT.AT3",
+        "ja_size": 43660,
+        "ko_size": 43276,
+        "ja_sha256": "0d801bab01bf134e49b25bed64e16bc2043b374713833427065a52992fbbff90",
+        "ko_sha256": "b77d2588f1325712781f6ef602754d1616b47786a74f284ec9b75367cbc0533a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RIO_HELLACOPTER_INTRO.AT3",
+        "ja_size": 49612,
+        "ko_size": 47692,
+        "ja_sha256": "1182ed7a6e8a4ed252eea0800b52353f182888eb7193ef6a87816001cbea4e4c",
+        "ko_sha256": "f8d7a351e1f157a672ab5e823afd355267dfbd2719d7f289db66005098ef471d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RIO_HENCHMEN.AT3",
+        "ja_size": 40012,
+        "ko_size": 42700,
+        "ja_sha256": "bf34f2523661d0afd4becdecf1e8051ec2aaba62bebde584be1eae61b10a83a0",
+        "ko_sha256": "666a072f039815192a96b40452a5b9ddf84265302598f034ce9129a04272cd08"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RIO_JUMPOFF.AT3",
+        "ja_size": 26764,
+        "ko_size": 29452,
+        "ja_sha256": "fffb50c3d1aa60c04dcd1fdb47b121edfe4c69f7dc9c7a9236e106f1b4100007",
+        "ko_sha256": "134374ca629d1f90c5ec3e422966eb2deba2f9c1663f7690dd9bd5e78bd7e2c1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RIO_NO_NOISE.AT3",
+        "ja_size": 54028,
+        "ko_size": 50380,
+        "ja_sha256": "1ffce2d21182a2ffb02759707314694f0f305c1102354390b0209d0ec7eafe11",
+        "ko_sha256": "e434b02514d79f4a2e493c544873d92b7d1f6a6612c41903f2ce32597251ca81"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RIO_POST_DISGUISE.AT3",
+        "ja_size": 27532,
+        "ko_size": 30028,
+        "ja_sha256": "b00cbf5837a097ffe833f1fda374cd4b523fc0cde7a58d05e8a0cf42092fdd55",
+        "ko_sha256": "31370acd318c679ef8eec143b939e0f4daabbb5dc0a651b627f2b8fcfcccafe3"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RIO_SNEAK_TAKEDOWN.AT3",
+        "ja_size": 26572,
+        "ko_size": 29260,
+        "ja_sha256": "c5b0da60d31ba0b834abec8f0f1877d83d8e7c1a3207c809915f55731ebc2d20",
+        "ko_sha256": "ad8e4eb160aaeac27778c253242aba0bfff214280cfda48793fcfaf9dfbea1f7"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RIO_USED_WEAPONS.AT3",
+        "ja_size": 41548,
+        "ko_size": 37324,
+        "ja_sha256": "efbee57f7f9705db5ef2311a33a31417047f9a40c5f2664e5f6babd8fe37bf53",
+        "ko_sha256": "00425eba9a5c0ac55525294de061d709ef4d52766352b5cf0f88dac4e2297fba"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_RIO_VENDOR.AT3",
+        "ja_size": 35788,
+        "ko_size": 35596,
+        "ja_sha256": "adfcbf038bfce6d2501f80b4f81be42c0dcccb054cbf2486aca2fd432ff1d4de",
+        "ko_sha256": "a646f5db4b944564ed6eef75ccbcbd8ea65cddd47b787796a3dc494eaaed8643"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_ROBOT_FINDS_KITTEN.AT3",
+        "ja_size": 17356,
+        "ko_size": 15244,
+        "ja_sha256": "d3d8f1433a0487d6c7651e0e6dda39777ec8fc69acd803e777ab087a81cd679c",
+        "ko_sha256": "bf4c8e445c26eaef52928daf9f2534f1ec9523720495f36407501fd3f5d4a1df"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_ROUNDHOUSE.AT3",
+        "ja_size": 23308,
+        "ko_size": 24076,
+        "ja_sha256": "14202d3924b9e2eaf4ce6171febda63bcc5202b3b3c460071872bb28fa00f49f",
+        "ko_sha256": "532dbdfb6bdcffc15c0a3c5c61a22e80939ecedeca2fbcfa9fd84c4faf45c9da"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_SHARD_GUN_INTRO.AT3",
+        "ja_size": 36556,
+        "ko_size": 43276,
+        "ja_sha256": "4b91b81b92e5b9cb9f27dce5b3e893d98cc31eb43f1feedf5d67fdfcf3608885",
+        "ko_sha256": "66cac5fe947baf2b317fc5416497cabfccb970925749d24403dd97e9bc8003a1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_SHARD_GUN_MOD_CHARGE.AT3",
+        "ja_size": 57676,
+        "ko_size": 60556,
+        "ja_sha256": "ea0cd24aa9644549d6dba30e1b8f6d73291e211b45218666f4e21a9b236f4cd1",
+        "ko_sha256": "c7fb1cb7c0a441db6c14895a66195a025174107fb9a9305e544019a8530bd604"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_SHARD_GUN_MOD_FREEZE.AT3",
+        "ja_size": 59212,
+        "ko_size": 59596,
+        "ja_sha256": "7517159babf3fa6c7ae43e75bb7ab267bd67742a7cf14a82939ad51acc08510a",
+        "ko_sha256": "ae98869b2dfe5a552348d122e1d72b0000e411f68323ca656fc6c2aea0283889"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_SHOCK_ROCKET_INTRO.AT3",
+        "ja_size": 37132,
+        "ko_size": 36556,
+        "ja_sha256": "b90e731d644f1db22318bd6bc6a41381ab5c8c0987d2fa36548983deadcf052a",
+        "ko_sha256": "add4b19ee9a2f03f39c9bb2f227f7ea9b200f3515e6bbccade5cd44af9b56e3a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_SHOCK_ROCKET_MOD_LOCK.AT3",
+        "ja_size": 37708,
+        "ko_size": 31948,
+        "ja_sha256": "31afbadff61c69ea7176c8ba4424fc25be9704f0a58a64d2cfe54dc045ef2976",
+        "ko_sha256": "25ce3e6f60cfc2c293cfb4350d491deb7ec39b0f28f9fa4932ef4eecc2a5203d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_SHOCK_ROCKET_MOD_LOCKON.AT3",
+        "ja_size": 39628,
+        "ko_size": 42508,
+        "ja_sha256": "bd2ba3f02557d827338c4c30edde9f1b0ec92c7e7db7a3df6bc00bd92eff5de1",
+        "ko_sha256": "2b571ec88208e254c7990f9a96fc9f8256c0c4ffd23888f89e4fe1ff819e47ff"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_SLEEP_JOB.AT3",
+        "ja_size": 19852,
+        "ko_size": 16204,
+        "ja_sha256": "0d23ec40dc8badf08f971bf1f8b87b29335bb0318be51a5d13b703eacfef7442",
+        "ko_sha256": "12719b9f3a7140a07a6c6a8f427e9967e63ddc5e6cefa94b507a3b5dcee1ba3f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_SLEEP_TIGHT.AT3",
+        "ja_size": 11596,
+        "ko_size": 8524,
+        "ja_sha256": "36f59b0bcc99d6322f399a91a4b90e1f7ed3673f5a1551a6035569e9c4543683",
+        "ko_sha256": "0197607179a4e1882664efc492590a1add9abb799702120aae0047a965bfb6d5"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_SNOWBOARD_CHECK.AT3",
+        "ja_size": 27148,
+        "ko_size": 21004,
+        "ja_sha256": "b3a07270c5d28cedd706068239d5659284a5b689d0b3839225ed476f1ff8f98e",
+        "ko_sha256": "2c0de84e67a24ce4bd83d89c89f665325f666296036cb518f36d64f70ad9232b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_SNOWBOARD_MINES.AT3",
+        "ja_size": 21004,
+        "ko_size": 31180,
+        "ja_sha256": "ae78587a339d943033373e1e460d5d106c4fe53531fb8312e54b5276a4eb1cac",
+        "ko_sha256": "4cff4053892911d6adb5c13fd65a69fa369b94e51cd1291e934c0938082f79df"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_STEALTH_EXPLAIN.AT3",
+        "ja_size": 65740,
+        "ko_size": 65548,
+        "ja_sha256": "aaa0edf064c39486e2a488e1a13767b6f78f2329fa3563143ab6c3e6bad59019",
+        "ko_sha256": "93d6f7193e4b04298e25c72cbaa0ec19682b9113a8cb97aac6a2c52f1ac00fab"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_STEALTH_FAILURE.AT3",
+        "ja_size": 74380,
+        "ko_size": 77836,
+        "ja_sha256": "8847c06c326c8d78b483dc32d8c28c98c9d27866dd980a15726517a44c703d5a",
+        "ko_sha256": "555f794bfabb8740bd899823e8b0db0550556d430a339368c52a0abd9a50682b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_STEALTH_TRAINING.AT3",
+        "ja_size": 66892,
+        "ko_size": 70540,
+        "ja_sha256": "ee7413db742a6739d6b66de535cc75e30efdd86047a766450651416267ba0096",
+        "ko_sha256": "d9ec0809f559fcc61354314c2ac1ce3f5d24f8f81599cd7462cc373dcf6eee04"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_STICKY_BOMBS.AT3",
+        "ja_size": 21004,
+        "ko_size": 20812,
+        "ja_sha256": "85f184ae69802602f0939af2c9683858f63dc2823fd3d591a29cbc587238fb10",
+        "ko_sha256": "8f818ede0702aabf80483defecc5358c9342134746e869da6ac59d7bf15da8f2"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_STRAFE.AT3",
+        "ja_size": 40972,
+        "ko_size": 40588,
+        "ja_sha256": "5cd926f6d7ad45550c0081b0165f62cb860392dcb87c095da28d63c2c319e1bf",
+        "ko_sha256": "e89b8c52e34ff6123bb5c7709d2f3e5039b8bf10d4c47d87ff66fec5a699bf4d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_SUSPENSION_FIELD.AT3",
+        "ja_size": 44812,
+        "ko_size": 44620,
+        "ja_sha256": "4fb7163906ce3c3b6dd40ed057483a4f971749619a65080477229c7aa4c556ab",
+        "ko_sha256": "d29582c0a10805d800be92495d412838c5df613d4b28460dc35fc0c05b8f906a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TANGLEVINE.AT3",
+        "ja_size": 53068,
+        "ko_size": 56332,
+        "ja_sha256": "41c1c40ef18554ee0e3bfb424587e1842145a92ab56514575894f96968e86e9e",
+        "ko_sha256": "cc71c3db08590059eef66cf5cf60af73fe8ca8ee63bb4b2fab3d83f81cd9e249"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TANGLEVINE_FLAVOR.AT3",
+        "ja_size": 25612,
+        "ko_size": 25996,
+        "ja_sha256": "750accd74a45dbcd6034b84ee77b307e919ea79789058279f80ea45b5a81271a",
+        "ko_sha256": "4dc2f8189f0951f66daed1bc8524b7fe4670b7c99ef6d603a7c92c9a21a3143c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TANGLEVINE_TANGLE.AT3",
+        "ja_size": 54796,
+        "ko_size": 74572,
+        "ja_sha256": "67c76ac74e4b0b53aecba3f4329909746a9eaeb282432da1bd45115905bb321b",
+        "ko_sha256": "0a5a10d8306dd18c98ae81d6be0eede7c3348c505b02c0a7572122127ee82758"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TANGLEVINE_TANGLE_REMIND.AT3",
+        "ja_size": 55564,
+        "ko_size": 51148,
+        "ja_sha256": "e47aee84df8fbf1aac61d0322c9f50c13ad2a2f56bdfe91aaa5bfe05b4c79056",
+        "ko_sha256": "30124c87b32a37083c7a1e01dd2382a7a81467a2c076c8d7335f510149600279"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TAP_SUCK_BUTTON.AT3",
+        "ja_size": 33676,
+        "ko_size": 24268,
+        "ja_sha256": "9ce4c8acd1a4cdc883548368990064c5c358ec6f146304f87c8ded8246be2d49",
+        "ko_sha256": "c46da84b144058e968b1e9b1e51a036833bd6ca05d988ddf5b58c895d89d3f05"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_THERMAL_GLASSES_READ.AT3",
+        "ja_size": 9292,
+        "ko_size": 9292,
+        "ja_sha256": "5d2723ea5155e1dd1bdf4923f5f65acf6f67e7940fda2d14395b569a87067f73",
+        "ko_sha256": "b6cbeee0e0fb15423045135ecebef8299ad783665c2921f0494fa59773cd91b7"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_THROWTIE_PULLOUT.AT3",
+        "ja_size": 28492,
+        "ko_size": 29452,
+        "ja_sha256": "9f5bfc780917531c715514df836fc229508c1e61cb9bebf19c2b4f4f6e3fac91",
+        "ko_sha256": "769b8e47186002eea09242b648579bc05a70eacb1b7281ccabed469931bf2e8f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_THROW_TIE_TRAINING.AT3",
+        "ja_size": 70732,
+        "ko_size": 63052,
+        "ja_sha256": "04b866a2c8c2bc5beed2f47a5c7c11b059abc4fe5029971d1bd144ac246cb4f4",
+        "ko_sha256": "3431d3aa40ddc741dd274ea9dd66a00438377996ef7840577fc4f4e2c042ffe4"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_THUNDERSTORM.AT3",
+        "ja_size": 70732,
+        "ko_size": 65740,
+        "ja_sha256": "a7209aafe78b0e8f47160d6a19a85e60afc4fdd4a8228b4fa8cbf441dc66a54e",
+        "ko_sha256": "111ed923cbb3db0970673a9defa7cee93d0d33cc952caf584854678beb824f1b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TIE_A_RANG.AT3",
+        "ja_size": 39244,
+        "ko_size": 41932,
+        "ja_sha256": "cc8875c9e6cfca4c29a63a37e8e2b738be18ee0571ca9981d1a7b0173646cab0",
+        "ko_sha256": "7b0d2fb8d7f38b17d7f0385ffee1dff3fd3b0859fe7623dcf3411be1be8683d1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TIE_A_RANG_TETHER.AT3",
+        "ja_size": 45004,
+        "ko_size": 50956,
+        "ja_sha256": "5638307447ff9debe25e59a7bdfcb408b4ab7bf9e5aa13a2980d33b18c467771",
+        "ko_sha256": "e8b042edfab628218599ef51dd59f7e005870720793cec6057bcafe17ab20811"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TIE_A_RANG_TETHER_REMIND.AT3",
+        "ja_size": 31948,
+        "ko_size": 33484,
+        "ja_sha256": "516499f7f85b780bd5a448dc081a655896372f0a9c12aeafe81fa6153bd7ea4b",
+        "ko_sha256": "d5e69de1be911add7b8538c8144b4f3708a34c8048264963e178fcecd4823dbf"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TIMING_PRESSNHOLD.AT3",
+        "ja_size": 23308,
+        "ko_size": 18124,
+        "ja_sha256": "54608349cdf684a0878392d680d672b35e735df430ecc805e0bfd0913f1c5dc0",
+        "ko_sha256": "b549d9274b36c069e0142694875e2d90fd8c7bbd32fe9bca6745606156073aef"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TITANIUM_BOLT.AT3",
+        "ja_size": 23500,
+        "ko_size": 15052,
+        "ja_sha256": "0ae25d0c18c0197e913b8052a4dce1a7d6d302f62437dc6f3cc47ff84519b39f",
+        "ko_sha256": "e57e376c04ad7a6902e732ab18fa762778a09c4ed19bb9836fbfc2f83b5f05dd"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TOKYOBOTS_ATTACK.AT3",
+        "ja_size": 39244,
+        "ko_size": 36364,
+        "ja_sha256": "ed4c05ca920f5f1b147709430280ba59fa2458b67411e293df8c9592ebfbffd4",
+        "ko_sha256": "6b2fe3b33f085e600722e4ce77b08ffa04aa272ba64ccb745ab6ce1df67ce6cb"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TOKYOBOTS_BITE.AT3",
+        "ja_size": 22924,
+        "ko_size": 19084,
+        "ja_sha256": "40d1e8a425786acac55b16ac1d0db8b49e1b9ac92679adce24db573194569faa",
+        "ko_sha256": "bcadc23e40ba77ccb268706a583acad19ec7c354b3b64ac881b4d04b3f283162"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TOKYOBOTS_BITE_SWITCH.AT3",
+        "ja_size": 19276,
+        "ko_size": 16588,
+        "ja_sha256": "983e377a4c7c195f04dd06c2edb1aa44b2f36babe2dbc73af49a2d9b6fbac69e",
+        "ko_sha256": "f0d82f006826718e2972c7f85657c1ef390b94b57373d3913109b423109c5e42"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TOKYOBOTS_CHARGE2.AT3",
+        "ja_size": 27916,
+        "ko_size": 25036,
+        "ja_sha256": "f975092add16b8d53614e843a74abfb81f8de98ef29ef0535fc2b276fcbf2caf",
+        "ko_sha256": "763020a4d1621b308b48cc108bf379c6b29732a083f254ab8c90827f50984fb9"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TOKYOBOTS_GBPRIME.AT3",
+        "ja_size": 55372,
+        "ko_size": 44044,
+        "ja_sha256": "93578cc7f54ab65d6f236be697bb193a7150ce105e3feda9eb5dbff0d2b755c6",
+        "ko_sha256": "40949e80944bed0cae8676e3f75ffcc6b420412440df20960c204ed184c52596"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TOKYOBOTS_REPAIR.AT3",
+        "ja_size": 45580,
+        "ko_size": 44620,
+        "ja_sha256": "db5579061d3c80609cd79c4ce9c7ebf17723fa33d3f6e455841a75cd442f93af",
+        "ko_sha256": "b5a459926a25352993cb22a76d8d4803e5000859f2f2473c60773ca494b0df20"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TOKYOBOTS_SMASH_PANEL.AT3",
+        "ja_size": 19660,
+        "ko_size": 17548,
+        "ja_sha256": "6eb23d9d95c56af260aaadd39d0a18f7d2ad1c642a70a1ab2bb03916213fb6c4",
+        "ko_sha256": "93293513ea356659d0b47b494d886a54b607b493a2062fe72b665f3deb7884ff"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TOKYOBOTS_STACKING3.AT3",
+        "ja_size": 24652,
+        "ko_size": 27148,
+        "ja_sha256": "49a692702ee5aeceda58174bcdbd82838134cb60337f203a9c934e9d3c88940c",
+        "ko_sha256": "7678a894dad1b4f6a744457cb51289996e4fd3e52d05362d6ab91a346081c538"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TOKYOBOTS_TIES.AT3",
+        "ja_size": 25228,
+        "ko_size": 23500,
+        "ja_sha256": "45cd2f8d72e9559943101c236d004c03504d7394db722c9fe0f4143e8f377bc3",
+        "ko_sha256": "14b90a924cba6cba7e95fcc687cf725f9878943ff0b90302e8206e662b50b120"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TOKYOBOTS_WIRES.AT3",
+        "ja_size": 26380,
+        "ko_size": 22924,
+        "ja_sha256": "382a6e80286eedd1e63a7087794cd2a2f1b688806f1f0708aeb9e3c42347495d",
+        "ko_sha256": "37bdfd15cd34aad3231596a00f712637070a9bffed93a32537773aa5e8194751"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TWO_WHEELS_ALLEY.AT3",
+        "ja_size": 32332,
+        "ko_size": 24652,
+        "ja_sha256": "e6a208d44e8f8de721fe05549a0a5f7b1ee14c17d9fd2de1f66001e3960655c9",
+        "ko_sha256": "0c8c0646c6f103a29c45cef11ecf1ee7ec17998244190afd6f35d8a7f2a60aec"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_TWO_WHEELS_AVOID_MISSILE.AT3",
+        "ja_size": 35020,
+        "ko_size": 26188,
+        "ja_sha256": "37a18916fe3ccb676ffb052aa28b3c34979a9017bc678a4517c3ab8ff8a689f7",
+        "ko_sha256": "a5ff276b45127a233b30b4bebef70a821c09d03b324fb5f05ac10e879f8b1bde"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_UMBRELLA_ELECTRIC_JUMP.AT3",
+        "ja_size": 62476,
+        "ko_size": 70156,
+        "ja_sha256": "09d35a514f78e3d9ba3c38c361b298d253b6a18c5d625d3aa63b90abd3fc8086",
+        "ko_sha256": "1133139c197987101e10aa310fcee4b7eaf289cb4c04845a8502c8e3a2519c39"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_UMBRELLA_ELECTRIFYING.AT3",
+        "ja_size": 8908,
+        "ko_size": 11020,
+        "ja_sha256": "4c601a2b9de8dc645856342c2309731b6e1c6bc2afd8c8364170e178592d78db",
+        "ko_sha256": "875f733e518705f0a6d5112bef91b6e73d5b3b2d5d4cda66296a8404b9a2ee32"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_UMBRELLA_FUSE.AT3",
+        "ja_size": 16396,
+        "ko_size": 10636,
+        "ja_sha256": "34d189073ea940af4826f1acba03178cc176aba46dbd90f65aa123917273145f",
+        "ko_sha256": "fc7d6b23a4307ab5238547d51252144a6cbc01fd55040ca32d3483e3139e1621"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_UMBRELLA_SHOCKING.AT3",
+        "ja_size": 26764,
+        "ko_size": 8716,
+        "ja_sha256": "6c691614e5ceda67ab0d32be347c092f71b7aee7f2544be1dbbccba062d91f6f",
+        "ko_sha256": "b0917395972f08d06c3a0fa31ff9ced4f1d8caccda5d2ea0eb0d9f5f25002e52"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_UMBRELLA_THUNDERCLOUD.AT3",
+        "ja_size": 66316,
+        "ko_size": 56716,
+        "ja_sha256": "aa47bbfed1dce64224a186a3a378351c93443b33255e0c4f1118567db14f5aae",
+        "ko_sha256": "4b56ec09c041487f9ed03a1a1e90ffe56a259dc682e8733c816cd9c213f3af7c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_UNLOCKED_ZONI.AT3",
+        "ja_size": 21196,
+        "ko_size": 16012,
+        "ja_sha256": "67f0bff19e6994b21b5bdc28582d2a9a029f25e590a97f9b306ce514fa07ef08",
+        "ko_sha256": "cc9ede25ac72cadec01036b3fdc04cc01a8d178fbe8c908fe8ac39e59be785e2"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_USE_MAP.AT3",
+        "ja_size": 54412,
+        "ko_size": 56332,
+        "ja_sha256": "013b69df85159936174c140edd8636feed990f0408aebe423538326c3108357d",
+        "ko_sha256": "c107215aa1a43d5c1452977c8a89418b3f229b2af10b363fec72a5b09bc5bc7d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_USE_RL_TO_RAM.AT3",
+        "ja_size": 33484,
+        "ko_size": 23884,
+        "ja_sha256": "ff69307d5bc3ca798fb372f4c18316521c7f5a4d5dce19ec48d6570cb763a4a9",
+        "ko_sha256": "9ad188ba6039e3c1542d7f11ea4a013095d39541b0680d99f078dec794a79cbc"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_USE_SQUARE_TO_BRAKE.AT3",
+        "ja_size": 13708,
+        "ko_size": 17356,
+        "ja_sha256": "fb0dafc8260292b0e62ce4417763b5795c98e507546174b30301772d113d13d4",
+        "ko_sha256": "183406a4f85dd71dabce11306ea0bd82985ce7af66bfc631bbcafb41cf777847"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_USE_TRIANGLE_TO_FIRE.AT3",
+        "ja_size": 17548,
+        "ko_size": 19084,
+        "ja_sha256": "caecc826fb0b19901fe6090fe8559a4d98b42e568293998bce233ba9a195f85a",
+        "ko_sha256": "607218f06bd847c8403ed03a3f77422b621356529b50cf71c44935ddba86be51"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_USE_X_TO_JUMP.AT3",
+        "ja_size": 18508,
+        "ko_size": 14860,
+        "ja_sha256": "772a841988f0f94b261e8e821c245a22c00edf8260895544780f1edb39ec0f4c",
+        "ko_sha256": "095b88229c7401fc25d68cd9ee424f9beb983c31733d6c53c2f82920fa17fa15"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_VAULT_CAMERAS.AT3",
+        "ja_size": 64012,
+        "ko_size": 59020,
+        "ja_sha256": "030b7d45c69dc0e234ae98f903ef138fd365234e3e3bc713a8e9c9ffee17625b",
+        "ko_sha256": "e80819e047d50e9208e2370b5a2349f06c63d0d48e856fb602e6f500a5d69b35"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_VAULT_DOPPELGANGER.AT3",
+        "ja_size": 59404,
+        "ko_size": 59788,
+        "ja_sha256": "0562162c5499e495e639648895c31b8c3a874650e8e808b2dd4fb2f117a3aa3b",
+        "ko_sha256": "a449476d03f23beca4410e6f16f91a9cedc334739bf27064d63ad2415c326d16"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_VAULT_ELEVATOR.AT3",
+        "ja_size": 14476,
+        "ko_size": 14476,
+        "ja_sha256": "2cc047a6d15f8e15b128a9ad4ebc12811b25f2a29ceed927e79cae327c8e212b",
+        "ko_sha256": "895c3eb9a99ec99619b56149bd144c80063c642b911da379b590e744547597e6"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_VAULT_STEALTH.AT3",
+        "ja_size": 74188,
+        "ko_size": 64588,
+        "ja_sha256": "5c0d67112540e6809aee2aad08b9848ede9c306ec00739c4eab97400a1a0958a",
+        "ko_sha256": "1ca416f3f5dc9b88f498cfff72a5c364afd46acf66490c985cdec34f0e2d8384"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_VEHICLE_CAR_EVASIVE.AT3",
+        "ja_size": 12940,
+        "ko_size": 14668,
+        "ja_sha256": "a224dba216c2d29e013e8ee7d4214343d7f9a80d3b37ba452075498dcbe284b8",
+        "ko_sha256": "3c193725af6065fe5222b45001ce9b2be87a61189ab40e6cfce85a9301a5d92e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_VEHICLE_GET_HIT.AT3",
+        "ja_size": 16972,
+        "ko_size": 18124,
+        "ja_sha256": "4415022e757dd00ad985d7c530bebad00428ca36bdf71d71bef20f35f6bd4f6d",
+        "ko_sha256": "9b2c8891cb734f99303372e5e69811736f1a01a1b9dff7c3c0821932ed833963"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_VEHICLE_KILL1.AT3",
+        "ja_size": 7372,
+        "ko_size": 6988,
+        "ja_sha256": "d59e2a309cd49c0e67f3da8262b8a287625646f1566719ac4cd35ca47a2d9576",
+        "ko_sha256": "af1c8a2d8d7e1c42d1b90e313d8f4fc3d05864d5ce9d60ff23310b67f27b8417"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_VEHICLE_KILL2.AT3",
+        "ja_size": 10636,
+        "ko_size": 10252,
+        "ja_sha256": "c223dcd331dc0ab976234e17b6ac5a460732066280b3e06329a7a9297b898df5",
+        "ko_sha256": "f5ba692122010e5b710f2733766145b2049ae161625f233f1dd2dcc9f8ef8689"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_VEHICLE_KILL3.AT3",
+        "ja_size": 14860,
+        "ko_size": 11788,
+        "ja_sha256": "4e8a555d99d76c31b93fbd9ce18a42317a2ad090b83db6c45f95a49de7ea6191",
+        "ko_sha256": "12928dde21ae00ca05521fd73106c1f3d577eec347b51eb3878c66b6512af1be"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_VEHICLE_MINE_DROP.AT3",
+        "ja_size": 12172,
+        "ko_size": 12172,
+        "ja_sha256": "d08c04a630d3ac74cc380a06e296de3f32523684289543deb71ac9dbf5c2baea",
+        "ko_sha256": "9340964530bd6de0c3663e542dd5cc5698e13910c127d6ac78d8175823a9b9bc"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_VILLA.AT3",
+        "ja_size": 27916,
+        "ko_size": 28876,
+        "ja_sha256": "ccbfeff4ceff80dca7a0dc5e1bb775cf985bb264edbc5cabd11a1d9d2bf354cc",
+        "ko_sha256": "528bdb3e561c622a19631b9016ae943e47b9859e5c98e96b9d49a6fd3fa4df5b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_WALLOPER_INTRO.AT3",
+        "ja_size": 62092,
+        "ko_size": 64588,
+        "ja_sha256": "c951fe35d5b40446abab389c6f06d654689ff16dd0cb6df4304253d78bf77cb9",
+        "ko_sha256": "3ff65f7b10a1248061dd081577a184b3c5f0db74002e2ccb05a1181cc02d4d1f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_WALLOPER_SPEED.AT3",
+        "ja_size": 75340,
+        "ko_size": 76108,
+        "ja_sha256": "cbe045fa81745529d282b8772f95bcdf9f91661785f6147cfdec381affb415e5",
+        "ko_sha256": "eedcbbc94076d008eb87928cc841c6017c71876ade6f2cdcec4d2a7988eeee58"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_WALLOPER_STATIC_WAVE.AT3",
+        "ja_size": 68236,
+        "ko_size": 66508,
+        "ja_sha256": "d36a31bff498d05a1689a8bbf8fc0055da19894f71069331b604234f53024e3d",
+        "ko_sha256": "c0194263162e504bd9fa0983248423647ed5be436ae98fc3c94c99c13738f8c1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_WEAPON_TELEPORT.AT3",
+        "ja_size": 87820,
+        "ko_size": 46924,
+        "ja_sha256": "3f6284259dff746a8a829d08218347f55c0d62d50e776c32d5146a2a922238cc",
+        "ko_sha256": "f1a8b163f47f069a73930fed6086f50932b0d82efec217b733bc66b380742398"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_WHIP_INTRO.AT3",
+        "ja_size": 28300,
+        "ko_size": 33868,
+        "ja_sha256": "025ee66a3b990a7ca95ec637ad6bfced4429c3d9d1c25f597ee0f77622887354",
+        "ko_sha256": "005a09a02df9d7fd1af8775fbc730791df3b992abaf28a8b9d65a273037e2f9c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_WHIP_MOD_PYRO.AT3",
+        "ja_size": 50380,
+        "ko_size": 52300,
+        "ja_sha256": "d2a9a72f2673894d4699cd6d0e69ec52d2a63f920d3f5d25a3961fc912662f7b",
+        "ko_sha256": "52575c3daffd311827ffca6811c3324726a549040c75e56df4cf30564a8a614a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/HT_WHIP_MOD_SIZE.AT3",
+        "ja_size": 64396,
+        "ko_size": 59980,
+        "ja_sha256": "aa4a5d910b5d1babced6b9c4272c5453adebaca12a45ec6cf325b473ec485ffa",
+        "ko_sha256": "c8529fe189ea06eca9aa0afc17c124a12dc8aa6f57e8b3f58002614868bf793e"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_CLANK_DIES.AT3",
+        "ja_size": 21580,
+        "ko_size": 20428,
+        "ja_sha256": "c7f44fc54dbd0a59489aec1e3dca074918f251080ad54359225745ca6ba53d1d",
+        "ko_sha256": "7f526f49b42da8158704b64c4429cab9c6849251f700823d062667b9089047c1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_DAMAGE_MINOR.AT3",
+        "ja_size": 41356,
+        "ko_size": 41740,
+        "ja_sha256": "fe5746cba12d63ec54d4fa9eda2075989b0146cd665fdcbcffa9441b4656a4e2",
+        "ko_sha256": "94ed2eafeffe64352325cb9ec1089ddcf39d406806aa93404f247fd75328f8d1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_DAMAGE_MORE.AT3",
+        "ja_size": 77260,
+        "ko_size": 75532,
+        "ja_sha256": "5dbeb2dd04acd15e5214b20c14fa79575fd8cff231230229dbd16262448c151c",
+        "ko_sha256": "d374fb517f0bd6f4fa3990bf84b355f2f1c775ee64ffc00774a0b1814f28bdf5"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_DEATH.AT3",
+        "ja_size": 22348,
+        "ko_size": 25036,
+        "ja_sha256": "62baddff42206472e002882a95da40fe664b81a11475fe452b98cffdc2590e75",
+        "ko_sha256": "13411ac0eb2910f15d4cf5475704508fcde406c4b627af50774b1fff9f42d311"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_FINAL_KINGPIN_INTRO.AT3",
+        "ja_size": 52108,
+        "ko_size": 58444,
+        "ja_sha256": "8b7c146cbae3b097eff9dbb57f8442dd7d31336c28ae45e61df74875e6eac0f3",
+        "ko_sha256": "8938bcb1033be46eb6c647f8a34a4c14b79c8dd6669b12544984a61f9e56054b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_FINAL_NEFARIOUS_INTRO.AT3",
+        "ja_size": 87436,
+        "ko_size": 96268,
+        "ja_sha256": "3a279dd61ed6a08e07b50b7bc84c64b52af879e25b2a0bbfdcf67d4b2fb757db",
+        "ko_sha256": "bc55bea716ed66a4f20d3e0437d98e68ddebc0d9d42761c5f9f4965d3740a5b5"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_FINAL_RATCHET_INTRO.AT3",
+        "ja_size": 71500,
+        "ko_size": 67468,
+        "ja_sha256": "30222390a5d8538015ad39c1d68446d3cc6e7f8fe7cb1ae25258c9f6bc74254f",
+        "ko_sha256": "279bbb347cd8872a2459f58fa7216d1ea204e28070627055ec4abf3afc09caaa"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_FINAL_TAUNT1.AT3",
+        "ja_size": 48844,
+        "ko_size": 42700,
+        "ja_sha256": "4c39e8b4a6fe5ad370c167caf145cf34bc129f21ec5295c4b7fe371a9f5fee64",
+        "ko_sha256": "e71e01031260e58f093f939697856a25abef87dd1c9855130122dcb1a0903fb1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_FINAL_TAUNT2.AT3",
+        "ja_size": 53644,
+        "ko_size": 55180,
+        "ja_sha256": "07e5f89dc0364563df501171db5cc5241ef5a453efbc45bc293c27037bd4ff64",
+        "ko_sha256": "8a88d8dc2802691243f6c0e4aa2c083d9dfc0752e9bf479a2319a6d6a699382f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_FINAL_TAUNT3.AT3",
+        "ja_size": 39244,
+        "ko_size": 35212,
+        "ja_sha256": "bfce4d1d42fdaa80d00fad8c8941c593625b4bfe64330f38efd08d80c3d76caf",
+        "ko_sha256": "898aa8243f1abe8b5b079818c69f0c40a199aa5b53d32a5d3a37bad4f4808630"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_FINAL_TAUNT4.AT3",
+        "ja_size": 61132,
+        "ko_size": 55564,
+        "ja_sha256": "99a513b8e14bba10dd594b963571ae665c0d72206308bc96b001fc9990d35f50",
+        "ko_sha256": "9069d4d83e418499aedff3ca1a4d80146b795b400ab75ebfe32705fa57e761e4"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_GRAPPLE_CLANK.AT3",
+        "ja_size": 32908,
+        "ko_size": 35980,
+        "ja_sha256": "e14a750b56a0cc689e042f12c84505c432424385f294826f05eff8ff7bf63892",
+        "ko_sha256": "b4e7f5d2792d0f5a5e275edd765e79c202a51bf2889ed6f0bd58d592124108dd"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_GRAPPLE_COMPLETE.AT3",
+        "ja_size": 11212,
+        "ko_size": 10444,
+        "ja_sha256": "cd4c0e835a23454b835b2ba3442710bd81d9e4cce7bcf49c1c887bea368311bf",
+        "ko_sha256": "e2b601ae3b2c47999a392b311136688a9c4ed5fafbab7bd69dd7a06018c4bca8"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_HIT_CLANK1.AT3",
+        "ja_size": 41740,
+        "ko_size": 45004,
+        "ja_sha256": "2fa610f62396b4d18780615dd190de69a3e2cd56429590158b2d56e89771c3ff",
+        "ko_sha256": "4069d307042540f4606db8023f04775f219f6d553756fef2fcd2e47e93c5d857"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_HIT_CLANK2.AT3",
+        "ja_size": 18316,
+        "ko_size": 21580,
+        "ja_sha256": "9dd9c0606ff027125289ae79d123aa7fe289465805f44c30475c466a3a791985",
+        "ko_sha256": "ca1608a18e1bf10d9e182f34e75a00b767aa3735f60d9ca80524bfb49fa9c45d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KL_NEAR_DEATH.AT3",
+        "ja_size": 70540,
+        "ko_size": 75148,
+        "ja_sha256": "f5f92a1f65825451e4421036f73a9fab5e57e3bfb2d9fcc4b4bfff8045eb3c17",
+        "ko_sha256": "5d3e88f53f7b946eb0d74ead1b9e701c5908ca3f4b53f8fe4a12b472ab3db255"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KP_RIO_EXPLORE.AT3",
+        "ja_size": 7756,
+        "ko_size": 9676,
+        "ja_sha256": "9fda9fadce99183396d1dc4bbeb3fe1d945083afee6434c9b8f9bfc02ce5ef22",
+        "ko_sha256": "2f2a33c41ec1f9008f2691548840ca11d550692dd15a4693964cbc25def82ad2"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KP_RIO_HEAR.AT3",
+        "ja_size": 6028,
+        "ko_size": 6988,
+        "ja_sha256": "ffa3a76a7c237578a2a5d9de1d9f5fc42b80db147ab824ec8b3bf17d16ad345c",
+        "ko_sha256": "b0aab2143d4497981fea9ff478623bf3d2f905742275b1e879c2b629b9c06d1a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/KP_RIO_TAKE_EM.AT3",
+        "ja_size": 8908,
+        "ko_size": 8716,
+        "ja_sha256": "0da806bf516f0ad89a7da530d506e5ea0e067042b3b86b2a10f31f7277aec36b",
+        "ko_sha256": "db4811f49e8b6f971c5af471b484301bad1bdae7bf66e0e9f491f8ae8253fefc"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OB_CORRECT.AT3",
+        "ja_size": 4876,
+        "ko_size": 3916,
+        "ja_sha256": "91aedca35d2ff432398d6b76a6a80c22dfda0958d84bad14b39507f9d5a2da71",
+        "ko_sha256": "fa971ca02669ddeaa25428e6438184c728e013e553cbf5068d3a07007e738940"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OB_INCORRECT.AT3",
+        "ja_size": 5452,
+        "ko_size": 5644,
+        "ja_sha256": "1d4f5f92cdd914c02f9c80a8819bb56692af663c49bba5763871daabcc04ceb1",
+        "ko_sha256": "e4944c0e5a170bed00ec4204d2e061e574e950824cf6ed5b7b4fcffe80fcf67b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OB_QUESTION1.AT3",
+        "ja_size": 35980,
+        "ko_size": 37516,
+        "ja_sha256": "177139928edbdab8269c20fc63c33ae52961fec2966135754085fb0b59cc0bfa",
+        "ko_sha256": "cd0cbc1c49db81b9b7059d785c773c6b225cfa6b328776d722b739ac0ade131a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OB_QUESTION10.AT3",
+        "ja_size": 23116,
+        "ko_size": 22348,
+        "ja_sha256": "e2d517c94a20049ab14ece130620e36a62428b27ea1674a7143c3f79c5d39940",
+        "ko_sha256": "c2253033908d7319c3396cfd8f50b104a0af60611e3717319f967b117c763fad"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OB_QUESTION2.AT3",
+        "ja_size": 40012,
+        "ko_size": 41548,
+        "ja_sha256": "2425072528e9ab72403a773c25c75e805e377961abb67aaf750ade95c0ec1f7b",
+        "ko_sha256": "eb57fce4c25769712645e3e0e29afe07851770f966b1551c9752a46b7ca182bf"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OB_QUESTION3.AT3",
+        "ja_size": 14284,
+        "ko_size": 14668,
+        "ja_sha256": "b76198835a96b39cb804781d79877d1755aafc5602090ae9bc641498f49229e0",
+        "ko_sha256": "b28f1cc23a3a04b1e46822f6eaee483b7f782700737c4bd89e4e68b392e92e3b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OB_QUESTION4.AT3",
+        "ja_size": 35788,
+        "ko_size": 40396,
+        "ja_sha256": "f5e7a187b3b7114a2f50f94c76771a634e2781a673473f7fa50da949b16f7235",
+        "ko_sha256": "2aa2dd49b07f2a6daac375b415dcc19f3a62b703c81996022168e48cbbeb4933"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OB_QUESTION5.AT3",
+        "ja_size": 35020,
+        "ko_size": 36748,
+        "ja_sha256": "1743c9e32723d31adf6f93fd187b27f64beeb52c6b1fd36e6a7cbf750887c3ae",
+        "ko_sha256": "5024b497244d88cbdb08b36bf6aefb644e197955b574878d1f6c69207b254f44"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OB_QUESTION6.AT3",
+        "ja_size": 39052,
+        "ko_size": 25996,
+        "ja_sha256": "6b9122216acfd295c93b75cdf9f0df9347ffba3be0943e6519fe47ae7d31b679",
+        "ko_sha256": "67602e6eff9c7cd4ed060bde6fd47422103ccac069755c74112e125a7fec0fc2"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OB_QUESTION7.AT3",
+        "ja_size": 62476,
+        "ko_size": 51340,
+        "ja_sha256": "2e51267de55b316d1a9eab4a4721eadaf7c5906a8aa60f5a0de529fd4399195e",
+        "ko_sha256": "e44890a5f72832ee718d4bd5c89a3af19868aee40916e5c3b4a07697686e7e71"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OB_QUESTION8.AT3",
+        "ja_size": 15052,
+        "ko_size": 14092,
+        "ja_sha256": "1142b3aba188054f02e932bc4acbd3a7c2efcd5ca3c5b21eccd5c059c2b1452d",
+        "ko_sha256": "3168254db6b4b2e1c27b872e64b583e37a4071bbe5043beb40541842df4e1ded"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OB_QUESTION9.AT3",
+        "ja_size": 37516,
+        "ko_size": 34060,
+        "ja_sha256": "b7735785f56a23c18c4e02f0451ab23861d5a8ae2392df0d9ce5f9b4c946f9fd",
+        "ko_sha256": "4f6b4361d1f51ca9a1ddc801317a2f56ba5a9784e569dd20e11ad421763faa0b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OPERA_VERSE_01_AND_INTRO.AT3",
+        "ja_size": 3018564,
+        "ko_size": 3018564,
+        "ja_sha256": "942b4145a52e1f348734494e22d73950d6d6f393d1ca0d588ea5890854e533cb",
+        "ko_sha256": "acbad9d11075cf75e61706360e00bb6db65df56edd667f3d429b9b48f245d445"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OPERA_VERSE_02.AT3",
+        "ja_size": 2662404,
+        "ko_size": 2662404,
+        "ja_sha256": "6596522f4df771b747c9809d47e563a5871a115e5328d91eb2b10d3a64443e32",
+        "ko_sha256": "2a90b2c26efd0d66a95d0d32c3cf7281f4854d3cfa38e5eab6bb43e5ea9c7561"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OPERA_VERSE_03.AT3",
+        "ja_size": 2662404,
+        "ko_size": 2662404,
+        "ja_sha256": "9537c0c58a626015bdcf2e205692091533d9d3dc87544bb0814624a196c1ea3c",
+        "ko_sha256": "76498b6e040b71a00cdd774a82f8fe3bdfee3d585c976b106f19ddad9e268c1b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OPERA_VERSE_04.AT3",
+        "ja_size": 2662404,
+        "ko_size": 2662404,
+        "ja_sha256": "f98076e0f01fb84a149e29c5e1ecfda3e4bdad937c4e6be1d53ed5ce8207593f",
+        "ko_sha256": "3e93e7cf9f905ae4bda751c84b05cfa201e04788c5ff1ea9622e5f2d11e2530a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OPERA_VERSE_05.AT3",
+        "ja_size": 2662404,
+        "ko_size": 2662404,
+        "ja_sha256": "9f83e9c553220f1045c8999dbe32aaaaf815af6e06d2fdfbb50c3cae2ed1c807",
+        "ko_sha256": "47032c8725abdec625aaa5324dc3a02e215ed89765fb5aad6bf7239bfbf8ff67"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OPERA_VERSE_06.AT3",
+        "ja_size": 2662404,
+        "ko_size": 1265696,
+        "ja_sha256": "01e834179df79eebe6b318cb464e6e8181510c286295ff687982d73f822e275c",
+        "ko_sha256": "b2a9734a1e9b86f243664563021e515852a6dc4e0208b9fcb83b8fea32d9b768"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OPERA_VERSE_FINALE.AT3",
+        "ja_size": 476096,
+        "ko_size": 479456,
+        "ja_sha256": "6540d5fd594a3a6e43509720fb63849c455a2b680a1a588f6ed3cfbb3c4904d7",
+        "ko_sha256": "50d8b43d702d8d981925e37f518216f049b66337f6a9d031a5ce5637d7bd632c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/OPERA_VERSE_OUTRO.AT3",
+        "ja_size": 96416,
+        "ko_size": 96416,
+        "ja_sha256": "12886a0d71ad4c0570e6767c464541d095c59ed6128e47a3fcea5c0b9618892f",
+        "ko_sha256": "908a470053ef0f9d4d0bf9332b945a11c20e8d7d6c361090632839c1e597d861"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_JACK_ADJUSTMENT.AT3",
+        "ja_size": 19468,
+        "ko_size": 14668,
+        "ja_sha256": "3f1fdd3e5112a21c9cc2b6af5cc89d54a597178b12d7c193b3b05fb9307936d0",
+        "ko_sha256": "65fa58ccfd054146f835cff40f5ae6b15afae268ec608bc544e87b7da2d71660"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_JACK_ADJUSTMENT2.AT3",
+        "ja_size": 23884,
+        "ko_size": 23692,
+        "ja_sha256": "f3ec9a04585454198253e717edeb4d31e5e114c2fff585ae21280456f267a9dd",
+        "ko_sha256": "83297884288f919f2449146055b9c95889ea85e2dd2aa7a1d9de5b9c2ef74503"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_JACK_ADJUSTMENT3.AT3",
+        "ja_size": 54412,
+        "ko_size": 61900,
+        "ja_sha256": "ae1f5fa217033aecfad596de087d79814aae843f9ef9efe7ffd49dc29e459ded",
+        "ko_sha256": "af82cb8271e047f5078008ccd1c1b0e8f7b2d697f9283bfe6ef395c2f49aaf10"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_JACK_ALLOWED_HIT.AT3",
+        "ja_size": 54796,
+        "ko_size": 57868,
+        "ja_sha256": "ad574b5cbb3dfcd77e296d4b4afc1a102dc8e994d53d8946055a002526959bd7",
+        "ko_sha256": "066d4314f1d8cf5fb9ae6ce6510a83e4f92bc152113f9f57a64a532641736eff"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_JACK_HIT1.AT3",
+        "ja_size": 7948,
+        "ko_size": 6412,
+        "ja_sha256": "9dbe47426c9b24e1a62851637ac527b7343f0cf436be5bda2a573ecee059f44b",
+        "ko_sha256": "e7f4f78b73e712d2ab8e4813273d64f80525227f8895f5f83149a8dc0c92312a"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_JACK_HIT2.AT3",
+        "ja_size": 7180,
+        "ko_size": 7372,
+        "ja_sha256": "7e3d86a708bd60ee5ab4806801b00e4a19aed9468373e92c95b7916886780c62",
+        "ko_sha256": "fd3018c6eaed8d5baa3058ac6bee70f4eda4e827a4c597406763edd657d100c2"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_JACK_HIT3.AT3",
+        "ja_size": 8524,
+        "ko_size": 7564,
+        "ja_sha256": "4ce671aa7132790f7c1fd80d986a7cfd2791dc01788a6806fc28ed00d6e38d8a",
+        "ko_sha256": "8b4250c98e01542f2643135ebf51844024b4440737c1f939a848885a81ae64cf"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_JACK_HIT4.AT3",
+        "ja_size": 10060,
+        "ko_size": 8332,
+        "ja_sha256": "f8871ea0116a075dae9e3e218065056bdb7a789e414d5fb3f44fad89850ebdaa",
+        "ko_sha256": "2b097c84022e5e5068ba049856c84b2b359aa48c2ec53bf5e2552caf5ce77b83"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_JACK_INTRO.AT3",
+        "ja_size": 69964,
+        "ko_size": 73036,
+        "ja_sha256": "f9c5f5c7c0f48592e93cc1fa94dbe97899aafd5ed46023cae4f091f5a9ced5bb",
+        "ko_sha256": "7e744fbc7b471a947c0cbb437972b5bf2938ac654d1c2870e454891955a1d59b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_JACK_SUCK.AT3",
+        "ja_size": 77260,
+        "ko_size": 78988,
+        "ja_sha256": "edbb043b683a5a02d053318783b37469957ba435d913c26c073232ace69dba28",
+        "ko_sha256": "6d7f6520cd3e7f6f83b560d7742890e9c88124ecb3cf5f898d598600f31bae3d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_JACK_VACUUM.AT3",
+        "ja_size": 60748,
+        "ko_size": 67468,
+        "ja_sha256": "af3c71f81f8e05e015563bb2f549a77cb41afcf2851ac917e0b6c6cb3328b1ca",
+        "ko_sha256": "098f93b212112bd3180dbfc545cdedd1c5485c4bd809e09d45417d0e1c402683"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_JACK_WIN.AT3",
+        "ja_size": 21388,
+        "ko_size": 19276,
+        "ja_sha256": "e871f2319938110fe5f2680486f4c00531c39e4f1d55ead2f737ca0d6e9cc211",
+        "ko_sha256": "6dbcfcc444e7949aaa53050b71afe8c292e8fb2b4982005cc4a92e8eec217873"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_QWARKZILLA_BEAM1.AT3",
+        "ja_size": 29068,
+        "ko_size": 32140,
+        "ja_sha256": "e49a390e3e7e8e57a61d4d7e533bb95aece643967ddffe9182bd6aed04894da7",
+        "ko_sha256": "3bbdc9ff2fa339102b54ab2704ca072503c557d02f431c996d23245472eb0574"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_QWARKZILLA_BEAM2.AT3",
+        "ja_size": 28108,
+        "ko_size": 34252,
+        "ja_sha256": "7345b8cfd9a960a6d69dec35cea675e83f02432666e0ea52835e48ae63e0f876",
+        "ko_sha256": "6742003fcfb02ad80c58cae476bec9b3ae34e26745a8f632ae02e5d9dcd7d833"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_QWARKZILLA_BEAM3.AT3",
+        "ja_size": 69388,
+        "ko_size": 67468,
+        "ja_sha256": "41a32229b1be80dc449f3487b8c29b60012aaf0c3588883f316edad13047d9ff",
+        "ko_sha256": "d04baa3697c950e726c56804b6619a21277883a997d3afa51ae608f23a6cd542"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_QWARKZILLA_HURT.AT3",
+        "ja_size": 14860,
+        "ko_size": 14860,
+        "ja_sha256": "5408d011d75cc1c2418b933ba2fdfd8ad11af1ff7e54af28fef4d44d11d9d499",
+        "ko_sha256": "750c8e18992d3dc0475b64a3cafd192f0d20463834c51ba775021016aafa1112"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_QWARKZILLA_ROBOT_NINJAS1.AT3",
+        "ja_size": 39244,
+        "ko_size": 38860,
+        "ja_sha256": "98b8fa01025ade76b817c88fe465fdea607186b85543d8184a441a8d4a805b81",
+        "ko_sha256": "d2e91582b9098677a57a6fb198537151b5cf8f46d5a56a5bd52086a40abb516f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_QWARKZILLA_ROBOT_NINJAS2.AT3",
+        "ja_size": 50188,
+        "ko_size": 49228,
+        "ja_sha256": "de7b313c2703530a692cfb2e573bc0928d7966b21c1c65e4f83d375b9b2c7745",
+        "ko_sha256": "89e0dd6c6241412825c20251f4687b2acc427969344fce3238a35af5fd474a0d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_QWARKZILLA_ROBOT_NINJAS3.AT3",
+        "ja_size": 51724,
+        "ko_size": 45580,
+        "ja_sha256": "18d6d9a5c915b0ac440991a5439dbd8a165e5c0a602e50bde0d59015727d7326",
+        "ko_sha256": "81f1e1dc216a7da57497e5a3695a313585654f108bd87b2fd0b2017f46fd150b"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_QWARKZILLA_ROBOT_NINJAS4.AT3",
+        "ja_size": 55180,
+        "ko_size": 49420,
+        "ja_sha256": "7de0f41285b404a76ff4a7b9f787673818ee8888fd8b582453ab49b94705526c",
+        "ko_sha256": "a9477b814fe0c565991a9f06e0406a8c9e4ab9080aceefd0327f6fd5624ff6ff"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_QWARKZILLA_SAVE_CITY.AT3",
+        "ja_size": 48652,
+        "ko_size": 48076,
+        "ja_sha256": "82d6480cd6121fbba78a0b241cba0d0c491a8787850b4f786d63f71d380dbeb6",
+        "ko_sha256": "087cbd5d1d4a3fd42ba12983bc03854bf957ff344d2acf4b6ca384e0008fdde8"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_QWARKZILLA_ZILLA_HIDE.AT3",
+        "ja_size": 75532,
+        "ko_size": 71116,
+        "ja_sha256": "68c6e35e043cc815a88834417bf8750d49e4c202690190ad8f9fb20141f5d034",
+        "ko_sha256": "978aab23c2bf0114c5dc820699e06842547ec9ee0c7be2eafe7cf8646aabed59"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_BLASTER.AT3",
+        "ja_size": 26380,
+        "ko_size": 28876,
+        "ja_sha256": "5c494e27b6e5d615e3ce7515088998959bd5c5d925f0dfa32a47289a6392c0d6",
+        "ko_sha256": "32e476fb96b532269ec9a2e6b00d370298ca48b436d6334d8fd7c58a3eb0deff"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_BOSS_DAMAGE.AT3",
+        "ja_size": 9676,
+        "ko_size": 10828,
+        "ja_sha256": "e635ba7730a0808e26f02d398d7f22815438d6ddb912c61859d49fa90ef689e2",
+        "ko_sha256": "2f5109a7d49e06a869e5e2f9e3cf3f2ac1c25ddf98b062d62c3305161c20885d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_DEATH2.AT3",
+        "ja_size": 27532,
+        "ko_size": 26188,
+        "ja_sha256": "13384c4327dd6324a927f1486d2e558b9731bd4764dd6f4ef3c94a9300323dc5",
+        "ko_sha256": "8ba8d8be50b8fb5bafa4de6520a3b533ae8f289c40ffb62387f19e80239876e6"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_DEATH3.AT3",
+        "ja_size": 29836,
+        "ko_size": 34060,
+        "ja_sha256": "40cea15f8dbdecbd9678e86bcc062e1e121958de870f67e88897f69c59fd3096",
+        "ko_sha256": "1df07a7320f442969a8ac294b39713be72acc61982e4b31a1ea1c51d05f5fd8f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_FIND_CANNON.AT3",
+        "ja_size": 18508,
+        "ko_size": 16780,
+        "ja_sha256": "4acad9d2279d26b53611c894574a397d4d5464d47cc7ad94d199da97e4dc9f5e",
+        "ko_sha256": "bac0bbe21448d49b25b2525dd680a12e798a5c432c84c913b3dd8aee5d9ca6ef"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_GOOD.AT3",
+        "ja_size": 13900,
+        "ko_size": 11980,
+        "ja_sha256": "70f2fdea45d2b1e02ec046fbd434af15964418cad809e954a7e3207d139dd87d",
+        "ko_sha256": "b2b3f0dd1b6d77a229be5c697429600a2c3f45689e94373351dbd01462cd9ed4"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_JUMP.AT3",
+        "ja_size": 14092,
+        "ko_size": 15436,
+        "ja_sha256": "ab9a93f047fb802b44933a1b3aa24ca3322d72e1b431c04b17c2315aa96f6d1e",
+        "ko_sha256": "80a410514e05fd3711155481801ee6852274c9447fd7aec80ae8a29a40be5af8"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_KUDZU_IMMUNE.AT3",
+        "ja_size": 44812,
+        "ko_size": 40012,
+        "ja_sha256": "183d6c38eac62d9d61f36919dc28d51bd4e1aa6bcf01a55fa1ae40d7bf401e8f",
+        "ko_sha256": "5527e1151abbffa6125931535275814fbd51fab19b1ec5b6e4afc185885cb5d4"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_LEMONADE.AT3",
+        "ja_size": 28300,
+        "ko_size": 26380,
+        "ja_sha256": "e2b858ce63916d96c0a503f98bc27beaf142c14a24bb3a4c0dffb170cc24a5ca",
+        "ko_sha256": "658ff9c1ca76302e97b61908b2c6bae81758494856af15af51a45635d7f59f0d"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_LEMONADE_PROMPT.AT3",
+        "ja_size": 24268,
+        "ko_size": 24268,
+        "ja_sha256": "539493dfbb8e4c82aa3d3c558825fd72f0cb403247bbcd80942961c4aca9d795",
+        "ko_sha256": "4e2c6fb1d5808cb4bf49afdf8999b49c887410a1911ecc7aeff74e5e87f132a5"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_NOSE_CONE.AT3",
+        "ja_size": 43852,
+        "ko_size": 36940,
+        "ja_sha256": "a535b172d5662ada8ac80b571270488955412b197ed410a9f3985ada86cef3f6",
+        "ko_sha256": "d8e0f3f233ad5606009cf88eb2947922590a433eb2b80d66fbc2f5ce4f216229"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_NUNS_NEAR.AT3",
+        "ja_size": 38476,
+        "ko_size": 33868,
+        "ja_sha256": "4384317bf481a27e9602224e417cb8a7d766c039d91917c451cc80a9f4b10b93",
+        "ko_sha256": "7135482a9d85cdd3e292f073ab40e73c02b2431e9e0c3d9c58337468ad95d2d1"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_NUN_SAVE.AT3",
+        "ja_size": 17548,
+        "ko_size": 16780,
+        "ja_sha256": "f2878702390d70876a7733404583f6e2f83efac02e9048676531bfe6211ff52e",
+        "ko_sha256": "f1845ee50d2e7501a3b669c61dfd8b4677b615f0e9605d0ae709772e5d684121"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_PROMPT_CANNON.AT3",
+        "ja_size": 28108,
+        "ko_size": 25228,
+        "ja_sha256": "e4d48e884e7c8a74b20e3a7cc8cc4f30ddee94b46a56509e8c6c626ed8321427",
+        "ko_sha256": "8e4f3c14302443f44aa30be6a211cd36cb054bd171000881a7907d375b1ed655"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_PUNCH.AT3",
+        "ja_size": 26380,
+        "ko_size": 27916,
+        "ja_sha256": "8d27c9ecf3a94ec4e203bfc7c1681d867e8c6f030b0894e092fbeeb2eec89213",
+        "ko_sha256": "81885023c6257176a011905a4be3fd6e7463372e9f699e0a96be8758e1b21849"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_SAVE_NUNS_PROMPT1.AT3",
+        "ja_size": 18700,
+        "ko_size": 18892,
+        "ja_sha256": "e1c19baa7ff413023f1771890ecc856c67801feb05d62cec53b607d62937a1b1",
+        "ko_sha256": "b432f1862a8f357458b4c482f2c68767800b1e840a6590af786ad734a6b989a3"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_SAVE_NUNS_PROMPT2.AT3",
+        "ja_size": 33868,
+        "ko_size": 27724,
+        "ja_sha256": "66bc97bb8b5a4cdf07f69c0db5ff71e4159d5055ab0d8ef70e0bf8c7eec1952a",
+        "ko_sha256": "966d29069dde8727e435de78db4a1772a1db6d76bfbbc6c9086165255b75d4f7"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_TEACH_LESSON.AT3",
+        "ja_size": 35980,
+        "ko_size": 35980,
+        "ja_sha256": "970e5ee371f6dadb2b7c3a2e520f8e5c8d2cb6ef20605879e1a7d64e5fa89c28",
+        "ko_sha256": "23ed744f27e31be366ca9cf6346f92ebf154a7625c2d4c2a27002b70c4d5af77"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/QW_SPACE_WRONG_WAY.AT3",
+        "ja_size": 18700,
+        "ko_size": 16204,
+        "ja_sha256": "086f5c59cedf87f6d2a706305ed6012cd673b0c573404046cca05ab8112ea7de",
+        "ko_sha256": "a664522b8db94d6c136409cf8969f5620d2e1fc4d418b0591481d8714081e17c"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/RS_ANSWER6.AT3",
+        "ja_size": 8524,
+        "ko_size": 8908,
+        "ja_sha256": "3eef96a0857af1d149863073fc7d8c197ca6a99d7466227106c7dcd49e9d7ab6",
+        "ko_sha256": "a4f52f212b90826baace763ce0f83e21b16453b30b74c64ff9cb5191feebfec9"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/RS_ANSWER7.AT3",
+        "ja_size": 5836,
+        "ko_size": 5836,
+        "ja_sha256": "4c4c04249554528a7b73e9a67d15e0940e6926f5ba33cc5ee1ee7a15c049edda",
+        "ko_sha256": "d3b416f0a08f4e0fd778393cadd7d1abe8ec65678c62ed64acc09a3352443a63"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/RS_CARDS_REVEAL.AT3",
+        "ja_size": 9484,
+        "ko_size": 7948,
+        "ja_sha256": "a823c08fa8b5927fc92b57afec21d7afef250b295ef2e9e57ec449f36eed8289",
+        "ko_sha256": "240a8d01c31c38135fd1ac10e44c2820a1a550123e9861274a66accc1845b65f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/RS_CARDS_START.AT3",
+        "ja_size": 72076,
+        "ko_size": 71500,
+        "ja_sha256": "ea70ab3e980aa20de05e382c41eecb4519dd3cd5091e57428e0ec059e7ebdbd4",
+        "ko_sha256": "4a4beca2f67d571c49e754e2506a1b709b7c2f5f09efbd08f9459a4fdc6d8c19"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/RS_TRIVIA_AGAIN.AT3",
+        "ja_size": 22348,
+        "ko_size": 23692,
+        "ja_sha256": "53566802da1ef624a3cf5205559e5d08e81aba37f12e82886e0e1e0a5c640557",
+        "ko_sha256": "004dfcb18b7eb3bc8d3fafc45cf8e94e814498c00aa315429fad7b1291f23848"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/RS_TRIVIA_INTRODUCE.AT3",
+        "ja_size": 16588,
+        "ko_size": 16780,
+        "ja_sha256": "159a7e8daef0aa6e267c2882ea7d0d988ff70cbd18698db251825da6cedc8a34",
+        "ko_sha256": "56428d0389f09ef857b24804aef29f29f97d80ecd2824ce8d4c5e213fef6ccc8"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/RS_ZAP.AT3",
+        "ja_size": 7372,
+        "ko_size": 9868,
+        "ja_sha256": "41a16db06bc6b282792b585a4dc8b6dddbb22c71d850ea928c05cc981a320a95",
+        "ko_sha256": "d122876f0953f0b129ade3b8a8f19c6bdaf340337bed1b90311c71c187bf1add"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/SG_CASINO_SEAL_DOOR.AT3",
+        "ja_size": 54604,
+        "ko_size": 54220,
+        "ja_sha256": "f42a1e2c3f2fa67f7550137f0a8a3f947e25fcb2b4e4d489b4a16a426ec1e760",
+        "ko_sha256": "c065bb0f7b0d9bd20f9d4107a6076eabd3e4208b811f094a7b2884a8b16f7f66"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/SK_ANSWER1.AT3",
+        "ja_size": 15436,
+        "ko_size": 16012,
+        "ja_sha256": "c294258cb90b42ff753ec50dbf40f5915b5715ef2ae64b0366cce025ebc64231",
+        "ko_sha256": "a2c40754be4dded243afbec4e2b9a0ff048ff62b50cff751c28dce2c3409df7f"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/SK_ANSWER4.AT3",
+        "ja_size": 11788,
+        "ko_size": 13132,
+        "ja_sha256": "c467dcb5cc060cc0b7470700ed662b7f3a18ff6bc842dec0beaf77266ed5bcdb",
+        "ko_sha256": "4e22e8c78d8f038ef268f8130202bd4e6a72543208d5a50386bdb44c68191eb4"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/SK_ANSWER6.AT3",
+        "ja_size": 12556,
+        "ko_size": 14284,
+        "ja_sha256": "86a1987548979b0f3c88eeeb75a803c07805227412ae5fb950b10919a0db0e0c",
+        "ko_sha256": "dcf0d5ead08c57921ed797e075e9a7450cc7e69acd763c239bd1d5b8b5787b99"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/SK_TRIVIA_HATE.AT3",
+        "ja_size": 45580,
+        "ko_size": 47500,
+        "ja_sha256": "d102178aa9d2a22c53958f1ef4e4b59dfc4e308d30d344f4b7a05d5d60fa5f44",
+        "ko_sha256": "51f8dbe0973167906eb62acfad4442f64d799ea147f94d8ee709e732f8e82601"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/SK_ZAP.AT3",
+        "ja_size": 6028,
+        "ko_size": 6028,
+        "ja_sha256": "fa9575dd67b5bd40f758204448650a4919421db16cd0010a8b66c2344e40f8b7",
+        "ko_sha256": "38b0bb20c87565ffc174a779214e905ff17f8b8721c6a804086e069045de27f4"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/SN_SPACE_SAVED1.AT3",
+        "ja_size": 15436,
+        "ko_size": 15052,
+        "ja_sha256": "3ead674752ad5bbc2df3264dfaffe638838709c651261ea3410a8052834acc0d",
+        "ko_sha256": "c4a0b3c0bcc1194d085489d9332db86761d13b1af83ae1aaf84ddd7fb3ff0827"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/SN_SPACE_SAVED2.AT3",
+        "ja_size": 15244,
+        "ko_size": 17932,
+        "ja_sha256": "0057022c537d515df921918227b2ef5f89a9ae027e45fb6ff3617284c4bcef3c",
+        "ko_sha256": "ae7d8addb09686977f9440e3b4a9f92f097f9fed05e2417d040ec0f5588f7773"
+      },
+      {
+        "path": "PSP_GAME/USRDIR/STREAMING/LANG00/SN_SPACE_SAVED3.AT3",
+        "ja_size": 17356,
+        "ko_size": 19852,
+        "ja_sha256": "718f284f5213dc753ea0332f127602550414e8f9d2e63188053035fa7fa787f3",
+        "ko_sha256": "ce9e67a3bc94ea8a8904bd2f64e5f8b140b28e601d88e682f1ba0c7ee03dd06f"
+      },
+      {
+        "path": "UMD_DATA.BIN",
+        "ja_size": 48,
+        "ko_size": 48,
+        "ja_sha256": "20173b03877e9269ef394ef5394cbfd67e8699be9c5de368a37404e415b6a4c9",
+        "ko_sha256": "e8dc1765f29ac15027de8c1972a30c2de38b4dd7abff351ac7bff77a85f2cbb0"
+      }
+    ]
+  }
+}

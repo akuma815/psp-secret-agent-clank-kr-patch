@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-10-17T00:31:57+09:00",
+  "status": "ok",
+  "patches_applied_count": 135,
+  "files": {
+    "LOCALDAT": {
+      "output_path": "build/PSP_GAME/USRDIR/DATA/HUD/LOCALDAT_K.BIN",
+      "original_size": 157320,
+      "patched_size": 157232,
+      "size_difference": -88,
+      "iso_slot_limit": 163840,
+      "fits_in_iso_slot": true,
+      "original_sha256": "4d6ef0ca53978a32766da826d2f6283ddc96bc171124d3533d8d50c66c8ec0ae",
+      "patched_sha256": "c989ba67b94614113ede5d4003806162372ec4b4f9ce7e95eba23959fc8733c2",
+      "entries_total": 2603,
+      "entries_patched": 115,
+      "reparse_verification_passed": true
+    },
+    "HELPLOCALDAT": {
+      "output_path": "build/PSP_GAME/USRDIR/DATA/HUD/HELPLOCALDAT_K.BIN",
+      "original_size": 34992,
+      "patched_size": 34908,
+      "size_difference": -84,
+      "iso_slot_limit": 65536,
+      "fits_in_iso_slot": true,
+      "original_sha256": "6831569ab44b42c0b051ea2fd5ab0b4763d1447a464bd90bb8e14fcffa4598e7",
+      "patched_sha256": "4ae9bdb7c6c24436a1dd6a56e3edc44a1a66464263c2b22aa210b18bd2bccd22",
+      "entries_total": 480,
+      "entries_patched": 20,
+      "reparse_verification_passed": true
+    }
+  }
+}

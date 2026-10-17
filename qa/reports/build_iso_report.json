@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-10-17T00:32:09+09:00",
+  "status": "ok",
+  "output_iso": "dist/Secret Agent Clank [K] (Updated).iso",
+  "size_bytes": 1222705152,
+  "sha256": "ccad6a0f2c7baaf90548736c64b498f585570733ca7708fa815e4b3cca2cbb7e",
+  "injections": [
+    {
+      "file": "PSP_GAME/USRDIR/DATA/HUD/LOCALDAT_K.BIN",
+      "iso_offset": 47710208,
+      "lba": 23296,
+      "original_size": 157320,
+      "patched_size": 157232,
+      "patched_sha256": "c989ba67b94614113ede5d4003806162372ec4b4f9ce7e95eba23959fc8733c2"
+    },
+    {
+      "file": "PSP_GAME/USRDIR/DATA/HUD/HELPLOCALDAT_K.BIN",
+      "iso_offset": 47874048,
+      "lba": 23376,
+      "original_size": 34992,
+      "patched_size": 34908,
+      "patched_sha256": "4ae9bdb7c6c24436a1dd6a56e3edc44a1a66464263c2b22aa210b18bd2bccd22"
+    }
+  ]
+}

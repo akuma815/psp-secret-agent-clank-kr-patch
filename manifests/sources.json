@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "ja": {
+      "role": "japanese_reference_source",
+      "path": "original/iso/Clank & Ratchet - Maruhi Mission Ignition! (Japan).iso",
+      "received_filename": "Clank & Ratchet - Maruhi Mission Ignition! (Japan).iso",
+      "size": 1115258880,
+      "sha256": "6ebeaa0021e40b9b150725deb18caeedca7d42b9c0330287ff18e9981c7ea647",
+      "disc_id": "UCJS10084",
+      "disc_version": "1.00",
+      "title": "クランク＆ラチェット　マル秘ミッション☆イグニッション",
+      "root_copy_retained": true,
+      "identity_scope": "user supplied image; verified between root and original/iso"
+    },
+    "ko": {
+      "role": "korean_base_target",
+      "path": "original/iso/Secret Agent Clank [K].iso",
+      "received_filename": "Secret Agent Clank [K].iso",
+      "size": 1222705152,
+      "sha256": "f0d5a191bdbf2fc05b403b065cbbb867a8974dd89686b3deb8a0d69601391007",
+      "disc_id": "UCKS45096",
+      "disc_version": "1.00",
+      "title": "Secret Agent Clank™",
+      "root_copy_retained": true,
+      "identity_scope": "user supplied image; verified between root and original/iso"
+    }
+  }
+}

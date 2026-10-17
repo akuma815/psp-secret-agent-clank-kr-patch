@@ -1,0 +1,738 @@
+{
+  "generated_at": "2026-10-17T00:32:13+09:00",
+  "status": "ok",
+  "glossary_path": "config/glossary.json",
+  "counts": {
+    "glossary_colored_keywords": 240,
+    "tier1_critical_count": 8,
+    "tier2_midword_col_collision_count": 35,
+    "tier3_typo_and_josa_count": 11,
+    "total_categories": 15
+  },
+  "tier1_critical": [
+    {
+      "source": "LOCALDAT",
+      "ko_id": 508,
+      "ja_id": 508,
+      "issue_type": "raw_ja_bytes_in_ko",
+      "ja_text": "「〜これはサンプルです〜」",
+      "ko_text": "<JA93:8C><JA93:0C><JA93:27><JA93:53><JA93:8C><JA93:6F><JA93:B5><JA93:F3><JA93:D7><JA93:EB><JA93:67><JA93:59><JA93:27><JA93:0D>~"
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 587,
+      "ja_id": 587,
+      "issue_type": "untranslated_english_in_ko",
+      "ja_text": "クレジット",
+      "ko_text": "CREDITS"
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 742,
+      "ja_id": 739,
+      "issue_type": "untranslated_english_in_ko",
+      "ja_text": "セーブちゅう です。 メモリースティック<SYM_TM> アクセスランプが てんとう して いる ときは、 メモリースティック<SYM_TM> を ぬいたり、 ほんたいの でんげんを きったりは しないで ください。",
+      "ko_text": "Progress is saving. Do not remove your Memory Stick<SYM_TM> or turn off your PSP<SYM_TM> when the Memory Stick<SYM_TM> access indicator is flashing."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 743,
+      "ja_id": 740,
+      "issue_type": "untranslated_english_in_ko",
+      "ja_text": "データを セーブちゅう です。 この アイコンが がめんに あらわれて いるときは、 メモリースティック<SYM_TM> を ぬいたり、 ほんたいの でんげんを きったりは しないで ください。 ",
+      "ko_text": "Changes and data are saving. When you see this icon on the screen, do not remove your Memory Stick<SYM_TM>, or turn off your PSP<SYM_TM>."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 762,
+      "ja_id": 759,
+      "issue_type": "broken_icon_or_tm_macro",
+      "ja_text": "メモリースティック_[tm] を けんさちゅう。 しばらく おまちください…",
+      "ko_text": "Memory Stick Duo_[tm]를 점검 중입니다. 잠시만 기다리세요…"
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 763,
+      "ja_id": 760,
+      "issue_type": "broken_icon_or_tm_macro",
+      "ja_text": "メモリースティック_[tm] に アクセスちゅう。 しばらく おまちください…",
+      "ko_text": "Memory Stick Duo_[tm]에 접근 중입니다. 잠시만 기다리세요…"
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -102,
+      "ja_id": -102,
+      "issue_type": "broken_icon_or_tm_macro",
+      "ja_text": "<COL:02>サンダーブレラ<COL:01>は でんきを ためますの。 <BTN_CIRCLE> を おせば 1 たいの てきを こうげき<ELLIPSIS> ためうち すれば マルチアタックに なりますわよ！",
+      "ko_text": "이 우산은 <COL:02>전기<COL:01>를 비축하고 있어요! _[circlebutton]을 눌러 하나의 대상을 공격하거나 _[circlebutton]을 누른 상태로 에너지를 모아 다수를 공격하세요."
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -103,
+      "ja_id": -103,
+      "issue_type": "broken_icon_or_tm_macro",
+      "ja_text": "あの セキュリティボットを <COL:02>タイブーメラン<COL:01>で やっつけ ましょう！ <BTN_CIRCLE> で なげますわ。",
+      "ko_text": "\"<COL:02>타이어랑<COL:01>\"을 사용해 보안 로봇들을 처치하세요! (던지려면 _[crclesymbol])"
+    }
+  ],
+  "tier2_midword_col_collisions": [
+    {
+      "source": "LOCALDAT",
+      "ko_id": 645,
+      "ja_id": 642,
+      "matched_fragment": "축<COL:02>전기<COL:01>를",
+      "keyword": "전기",
+      "prefix": "축",
+      "suffix": "를",
+      "reason": "prefix_attached:축+<전기>",
+      "ja_text": "<COL:02>ショックバラージ<COL:01>は だいようりょう コンデンサーを ないぞう したため ふくすうの てきに でんげき ひばなを とばすことが できます。 もちろん ダメージも ぞうか しています。",
+      "ko_text": "<COL:02>전자 로켓<COL:01>은 훨씬 큰 내부 축<COL:02>전기<COL:01>를 사용해 다수의 대상들 사이에 전호가 형성되게끔 만들어 모두에게 복합식 <COL:02>전기<COL:01> 피해를 줍니다."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 663,
+      "ja_id": 660,
+      "matched_fragment": "<COL:02>화염<COL:01>방사기는",
+      "keyword": "화염",
+      "prefix": "",
+      "suffix": "방사기는",
+      "reason": "non_particle_suffix:<화염>+방사기는",
+      "ja_text": "つうじょうの かえんほうしゃ ユニットに くらべて、 きゅうきバルブと フュエル インジェクション ユニットが さいてきか されている ために、 <COL:02>ヘルファイヤーケース<COL:01>は よりながく よりあつい ひのたまを ほうしゅつ します。",
+      "ko_text": "이 실험적인 <COL:02>화염<COL:01>방사기는 개선된 흡기 밸브와 개조한 에어로졸 장치를 달아서, 분출된 <COL:02>화염<COL:01>이 더 오래 그리고 더 뜨겁게 타게 만듭니다."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 671,
+      "ja_id": 668,
+      "matched_fragment": "축<COL:02>전기<COL:01>로",
+      "keyword": "전기",
+      "prefix": "축",
+      "suffix": "로",
+      "reason": "prefix_attached:축+<전기>",
+      "ja_text": "<COL:02>ライトニングブレラ<COL:01>は、 それを つかう エージェントの からだも コンデンサー として つかうことに よって、 <COL:02>サンダーブレラ<COL:01>と くらべて よりおおくの エネルギーを ためることが かのうに なりました。 つかっている エージェント いがいの ほごされて いない ターゲットを でんげきが ようしゃなく おそいます。",
+      "ko_text": "<COL:02>번개 우산<COL:01>은 <COL:02>천둥 우산<COL:01>의 한 가지 주요 기능을 개선시켰습니다. 즉, 로봇 자신의 몸을 거대한 축<COL:02>전기<COL:01>로 사용해 금속 몸체에 <COL:02>전기<COL:01> 에너지를 저장합니다. 우산의 사용자와 접촉하여 회로를 건드리는 대상은 회로를 통해 <COL:02>번개<COL:01> 공격을 맞게 됩니다."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 696,
+      "ja_id": 693,
+      "matched_fragment": "<COL:02>냉동<COL:01>탄을",
+      "keyword": "냉동",
+      "prefix": "",
+      "suffix": "탄을",
+      "reason": "non_particle_suffix:<냉동>+탄을",
+      "ja_text": "<COL:02>チャージアップ<COL:01> チューンは <COL:02>シャアドガン<COL:01>に ためうち きのうを くわえます。 ためて ためて ギガブラストで ほうしゅつ することが できます。",
+      "ko_text": "<COL:02>충전<COL:01> 모듈을 사용하면 <COL:02>샤드 건<COL:01>의 발사 버튼을 누르고 있는 동안 여러 발을 한 발로 집적시켜 거대한 <COL:02>냉동<COL:01>탄을 발사할 수 있게 해줍니다."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 705,
+      "ja_id": 702,
+      "matched_fragment": "<COL:02>번개<COL:01>구름을",
+      "keyword": "번개",
+      "prefix": "",
+      "suffix": "구름을",
+      "reason": "non_particle_suffix:<번개>+구름을",
+      "ja_text": "サンダー<COL:02>クラウド<COL:01> チューンで イナズマを ペットのように あつかえます。 やりかたは <COL:02>サンダーブレラ<COL:01>に めいっぱい チャージして てきに むかって いくのを みまもる だけです！",
+      "ko_text": "휴대용 <COL:02>번개<COL:01>구름을 만듭니다! <COL:02>천둥 우산<COL:01>을 최대로 <COL:02>충전<COL:01>하면 <COL:02>번개<COL:01>구름이 적들을 공격합니다."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 705,
+      "ja_id": 702,
+      "matched_fragment": "<COL:02>번개<COL:01>구름이",
+      "keyword": "번개",
+      "prefix": "",
+      "suffix": "구름이",
+      "reason": "non_particle_suffix:<번개>+구름이",
+      "ja_text": "サンダー<COL:02>クラウド<COL:01> チューンで イナズマを ペットのように あつかえます。 やりかたは <COL:02>サンダーブレラ<COL:01>に めいっぱい チャージして てきに むかって いくのを みまもる だけです！",
+      "ko_text": "휴대용 <COL:02>번개<COL:01>구름을 만듭니다! <COL:02>천둥 우산<COL:01>을 최대로 <COL:02>충전<COL:01>하면 <COL:02>번개<COL:01>구름이 적들을 공격합니다."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 707,
+      "ja_id": 704,
+      "matched_fragment": "<COL:02>화염<COL:01>방사기를",
+      "keyword": "화염",
+      "prefix": "",
+      "suffix": "방사기를",
+      "reason": "non_particle_suffix:<화염>+방사기를",
+      "ja_text": "<COL:02>メルト<COL:01>ボルト チューンによって こうげきボタンを はなしたあとに こうねつで とけた ボルトを まきちらします。 さいしゅうボス クラスの てき いがいには こうかてき です。",
+      "ko_text": "<COL:02>화염<COL:01>방사기를 사용한 후 발사 버튼에서 손을 떼면 빨갛게 달궈진 거대한 볼트를 발사해 아주 강력한 적이 아닌 이상 모든 것을 즉시 구워버립니다."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 712,
+      "ja_id": 709,
+      "matched_fragment": "<COL:02>프로토<COL:01>타입을",
+      "keyword": "프로토",
+      "prefix": "",
+      "suffix": "타입을",
+      "reason": "non_particle_suffix:<프로토>+타입을",
+      "ja_text": "エレクトロショック アーマーは、 ガラクトロンせい エレクトリック リアクティブ アーマー (しさくひん) を もとに つくられました。 ハイパワー コンデンサーに おおわれた ひょうめんは こうでんあつを たくわえ、 せっしょくした ものを しゅんかんてきに プラズマへと へんかんして しまいます。 また、 オムレンチで オーバーヘッド ストライクを くりだせば、 たくわえた でんかを じめんに ほうしゅつし、 ショックウェーブを ひきおこします。",
+      "ko_text": "가제트론의 <COL:02>전기<COL:01> 반응 아머(ERA)의 <COL:02>프로토<COL:01>타입을 기반으로 만들어진 일렉트로쇼크 아머는 <COL:02>초강력<COL:01> 축<COL:02>전기<COL:01>를 사용해 방어구의 표면을 구성하는 2개의 플레이트에 전력을 공급합니다. 방어구에 공격이 가해지면 플레이트 사이의 회로가 완성되어 사출물에 높은 전류를 흘려보내 증발시켜 버리거나 즉시 플라즈마 상태로 만들어 버립니다. 일렉트로쇼크 아머의 풀 세트는 높은 전압을 가지고 있어 말 그대로 방어구 전체와 <COL:02>라쳇<COL:01>의 렌치까지 전호를 생성합니다. 하이퍼 스트라이크 중에 렌치로 땅을 치면 축<COL:02>전기<COL:01>가 방전되어 넓은 범위로 <COL:02>전기<COL:01>를 방류하여 적에게 피해를 줍니다."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 712,
+      "ja_id": 709,
+      "matched_fragment": "축<COL:02>전기<COL:01>를",
+      "keyword": "전기",
+      "prefix": "축",
+      "suffix": "를",
+      "reason": "prefix_attached:축+<전기>",
+      "ja_text": "エレクトロショック アーマーは、 ガラクトロンせい エレクトリック リアクティブ アーマー (しさくひん) を もとに つくられました。 ハイパワー コンデンサーに おおわれた ひょうめんは こうでんあつを たくわえ、 せっしょくした ものを しゅんかんてきに プラズマへと へんかんして しまいます。 また、 オムレンチで オーバーヘッド ストライクを くりだせば、 たくわえた でんかを じめんに ほうしゅつし、 ショックウェーブを ひきおこします。",
+      "ko_text": "가제트론의 <COL:02>전기<COL:01> 반응 아머(ERA)의 <COL:02>프로토<COL:01>타입을 기반으로 만들어진 일렉트로쇼크 아머는 <COL:02>초강력<COL:01> 축<COL:02>전기<COL:01>를 사용해 방어구의 표면을 구성하는 2개의 플레이트에 전력을 공급합니다. 방어구에 공격이 가해지면 플레이트 사이의 회로가 완성되어 사출물에 높은 전류를 흘려보내 증발시켜 버리거나 즉시 플라즈마 상태로 만들어 버립니다. 일렉트로쇼크 아머의 풀 세트는 높은 전압을 가지고 있어 말 그대로 방어구 전체와 <COL:02>라쳇<COL:01>의 렌치까지 전호를 생성합니다. 하이퍼 스트라이크 중에 렌치로 땅을 치면 축<COL:02>전기<COL:01>가 방전되어 넓은 범위로 <COL:02>전기<COL:01>를 방류하여 적에게 피해를 줍니다."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 712,
+      "ja_id": 709,
+      "matched_fragment": "축<COL:02>전기<COL:01>가",
+      "keyword": "전기",
+      "prefix": "축",
+      "suffix": "가",
+      "reason": "prefix_attached:축+<전기>",
+      "ja_text": "エレクトロショック アーマーは、 ガラクトロンせい エレクトリック リアクティブ アーマー (しさくひん) を もとに つくられました。 ハイパワー コンデンサーに おおわれた ひょうめんは こうでんあつを たくわえ、 せっしょくした ものを しゅんかんてきに プラズマへと へんかんして しまいます。 また、 オムレンチで オーバーヘッド ストライクを くりだせば、 たくわえた でんかを じめんに ほうしゅつし、 ショックウェーブを ひきおこします。",
+      "ko_text": "가제트론의 <COL:02>전기<COL:01> 반응 아머(ERA)의 <COL:02>프로토<COL:01>타입을 기반으로 만들어진 일렉트로쇼크 아머는 <COL:02>초강력<COL:01> 축<COL:02>전기<COL:01>를 사용해 방어구의 표면을 구성하는 2개의 플레이트에 전력을 공급합니다. 방어구에 공격이 가해지면 플레이트 사이의 회로가 완성되어 사출물에 높은 전류를 흘려보내 증발시켜 버리거나 즉시 플라즈마 상태로 만들어 버립니다. 일렉트로쇼크 아머의 풀 세트는 높은 전압을 가지고 있어 말 그대로 방어구 전체와 <COL:02>라쳇<COL:01>의 렌치까지 전호를 생성합니다. 하이퍼 스트라이크 중에 렌치로 땅을 치면 축<COL:02>전기<COL:01>가 방전되어 넓은 범위로 <COL:02>전기<COL:01>를 방류하여 적에게 피해를 줍니다."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 718,
+      "ja_id": 715,
+      "matched_fragment": "축<COL:02>전기<COL:01>",
+      "keyword": "전기",
+      "prefix": "축",
+      "suffix": "",
+      "reason": "prefix_attached:축+<전기>",
+      "ja_text": "エレクトロショック、 ワイルドファイヤー、 スラッジ<ELLIPSIS> これらの パーツを くみあわせた 「トリプル・ウェイブ」 アーマー セットは、 ハイパワー コンデンサーに たくわえた でんかを、 ワイルドファイヤーと スラッジの パーツに ながしこみ、 さいきてき フィードバック ループで いそうを そろえます。 その けっか、 しゅんかん さいだい しゅつりょくは ペタギガワット クラスと なりました。 オムレンチで くりだす オーバーヘッド ストライクと シンクロさせて、 ドクの ちからを もつ ショックウェイブを しゅういに ほうしゅつ します。",
+      "ko_text": "놀랍게도, 일렉트로쇼크 축<COL:02>전기<COL:01> 에너지를 정확한 주파<COL:02>수로<COL:01> 와일드파이어와 슬러지 Mk.9 아머 파트로 보내면 순환 피드백 루프가 생성되면서 극적으로 잠재력을 증가시켜 거의 페타기가와트 수준이 됩니다. 한 가제트론 연구소의 과학자가 \"9천이 넘어!!!!\"라고 했다는 이야기는 유명합니다. 사용자가 하이퍼 스트라이크를 구사하면 피드백 루프가 붕괴되고 축<COL:02>전기<COL:01> 에너지가 방출되면서 <COL:02>전기<COL:01>, 불, 산성의 속성이 함께 나타나는 파괴적인 파장으로 변합니다."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 718,
+      "ja_id": 715,
+      "matched_fragment": "주파<COL:02>수로<COL:01>",
+      "keyword": "수로",
+      "prefix": "주파",
+      "suffix": "",
+      "reason": "prefix_attached:주파+<수로>",
+      "ja_text": "エレクトロショック、 ワイルドファイヤー、 スラッジ<ELLIPSIS> これらの パーツを くみあわせた 「トリプル・ウェイブ」 アーマー セットは、 ハイパワー コンデンサーに たくわえた でんかを、 ワイルドファイヤーと スラッジの パーツに ながしこみ、 さいきてき フィードバック ループで いそうを そろえます。 その けっか、 しゅんかん さいだい しゅつりょくは ペタギガワット クラスと なりました。 オムレンチで くりだす オーバーヘッド ストライクと シンクロさせて、 ドクの ちからを もつ ショックウェイブを しゅういに ほうしゅつ します。",
+      "ko_text": "놀랍게도, 일렉트로쇼크 축<COL:02>전기<COL:01> 에너지를 정확한 주파<COL:02>수로<COL:01> 와일드파이어와 슬러지 Mk.9 아머 파트로 보내면 순환 피드백 루프가 생성되면서 극적으로 잠재력을 증가시켜 거의 페타기가와트 수준이 됩니다. 한 가제트론 연구소의 과학자가 \"9천이 넘어!!!!\"라고 했다는 이야기는 유명합니다. 사용자가 하이퍼 스트라이크를 구사하면 피드백 루프가 붕괴되고 축<COL:02>전기<COL:01> 에너지가 방출되면서 <COL:02>전기<COL:01>, 불, 산성의 속성이 함께 나타나는 파괴적인 파장으로 변합니다."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 718,
+      "ja_id": 715,
+      "matched_fragment": "축<COL:02>전기<COL:01>",
+      "keyword": "전기",
+      "prefix": "축",
+      "suffix": "",
+      "reason": "prefix_attached:축+<전기>",
+      "ja_text": "エレクトロショック、 ワイルドファイヤー、 スラッジ<ELLIPSIS> これらの パーツを くみあわせた 「トリプル・ウェイブ」 アーマー セットは、 ハイパワー コンデンサーに たくわえた でんかを、 ワイルドファイヤーと スラッジの パーツに ながしこみ、 さいきてき フィードバック ループで いそうを そろえます。 その けっか、 しゅんかん さいだい しゅつりょくは ペタギガワット クラスと なりました。 オムレンチで くりだす オーバーヘッド ストライクと シンクロさせて、 ドクの ちからを もつ ショックウェイブを しゅういに ほうしゅつ します。",
+      "ko_text": "놀랍게도, 일렉트로쇼크 축<COL:02>전기<COL:01> 에너지를 정확한 주파<COL:02>수로<COL:01> 와일드파이어와 슬러지 Mk.9 아머 파트로 보내면 순환 피드백 루프가 생성되면서 극적으로 잠재력을 증가시켜 거의 페타기가와트 수준이 됩니다. 한 가제트론 연구소의 과학자가 \"9천이 넘어!!!!\"라고 했다는 이야기는 유명합니다. 사용자가 하이퍼 스트라이크를 구사하면 피드백 루프가 붕괴되고 축<COL:02>전기<COL:01> 에너지가 방출되면서 <COL:02>전기<COL:01>, 불, 산성의 속성이 함께 나타나는 파괴적인 파장으로 변합니다."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 720,
+      "ja_id": 717,
+      "matched_fragment": "<COL:02>충전<COL:01>될",
+      "keyword": "충전",
+      "prefix": "",
+      "suffix": "될",
+      "reason": "non_particle_suffix:<충전>+될",
+      "ja_text": "メガボム、 クリスタリックス<ELLIPSIS> これらの パーツを くみあわせた 「シャアド・ブラスト」 アーマー セットは、 ダメージ ちくせき きのうと、 せいちょうする けっしょうとを あわせ もちます。 チャージ された ダメージ エネルギーを ほうしゅつ するトキに、 ばくはつ ではなく、 するどい けっしょうが あらゆる ほうこうに ほうしゅつされ、 てきに おおきな ダメージを あたえます。",
+      "ko_text": "샤드블래스트 세트는 메가 폭탄 플레이트로 모은 에너지와 클리스탈릭스의 수정결정체를 해머스페이스로 함께 보냅니다. 그곳에서 수정체가 자라다가 메가 폭탄 아머가 <COL:02>충전<COL:01>될 때 방출됩니다. 폭발 대신 날카로운 정방형의 수정 조각이 모든 방향으로 빗발치듯 날아가 막대한 피해를 일으킵니다."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 5580,
+      "ja_id": 5580,
+      "matched_fragment": "<COL:02>하이드라노<COL:01>스로부터",
+      "keyword": "하이드라노",
+      "prefix": "",
+      "suffix": "스로부터",
+      "reason": "non_particle_suffix:<하이드라노>+스로부터",
+      "ja_text": "<COL:02>ハイドラーノ<COL:01> からの シップ・シグナル！ クロンクは そこで なにを して いるのか？",
+      "ko_text": "우주선의 신호가 <COL:02>하이드라노<COL:01>스로부터 오고 있습니다. 클렁크가 거기서 뭘 하는 거지?"
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 2047,
+      "ja_id": 2047,
+      "matched_fragment": "재<COL:02>충전<COL:01>",
+      "keyword": "충전",
+      "prefix": "재",
+      "suffix": "",
+      "reason": "prefix_attached:재+<충전>",
+      "ja_text": "メガ<COL:02>ブラスター<COL:01>のエネルギー",
+      "ko_text": "메가 <COL:02>블래스터<COL:01> 재<COL:02>충전<COL:01>"
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 2075,
+      "ja_id": 2075,
+      "matched_fragment": "<COL:02>화염<COL:01>방사기로",
+      "keyword": "화염",
+      "prefix": "",
+      "suffix": "방사기로",
+      "reason": "non_particle_suffix:<화염>+방사기로",
+      "ja_text": "ちょうこうねつの<COL:02>フレイムスーツケース<COL:01>",
+      "ko_text": "<COL:02>화염<COL:01>방사기로 녹이기"
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 2206,
+      "ja_id": 2206,
+      "matched_fragment": "<COL:02>천둥<COL:01>구름",
+      "keyword": "천둥",
+      "prefix": "",
+      "suffix": "구름",
+      "reason": "non_particle_suffix:<천둥>+구름",
+      "ja_text": "サンダー<COL:02>クラウド<COL:01>・チューン",
+      "ko_text": "<COL:02>천둥<COL:01>구름 모듈"
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 4113,
+      "ja_id": 4113,
+      "matched_fragment": "<COL:02>화염<COL:01>병으로",
+      "keyword": "화염",
+      "prefix": "",
+      "suffix": "병으로",
+      "reason": "non_particle_suffix:<화염>+병으로",
+      "ja_text": "てきを 5 たい、 リザード サッグ モロトフ カクテルに ながしこむ",
+      "ko_text": "<COL:02>화염<COL:01>병으로 5명의 적을 죽이세요."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 4138,
+      "ja_id": 4138,
+      "matched_fragment": "<COL:02>화염<COL:01>방사기만을",
+      "keyword": "화염",
+      "prefix": "",
+      "suffix": "방사기만을",
+      "reason": "non_particle_suffix:<화염>+방사기만을",
+      "ja_text": "アメーバーを パンチと キックと <COL:02>フレイムスーツケース<COL:01> だけで たおして ステージを クリア する",
+      "ko_text": "근접 공격과 <COL:02>화염<COL:01>방사기만을 사용해서 아메보이드 처치 스테이지를 클리어하세요."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 7355,
+      "ja_id": 7355,
+      "matched_fragment": "<COL:02>클립<COL:01>온이에요",
+      "keyword": "클립",
+      "prefix": "",
+      "suffix": "온이에요",
+      "reason": "non_particle_suffix:<클립>+온이에요",
+      "ja_text": "クリップドメ",
+      "ko_text": "<COL:02>클립<COL:01>온이에요."
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -48,
+      "ja_id": -48,
+      "matched_fragment": "메가<COL:02>블래스터<COL:01>의",
+      "keyword": "블래스터",
+      "prefix": "메가",
+      "suffix": "의",
+      "reason": "prefix_attached:메가+<블래스터>",
+      "ja_text": "チャージパッドに のって メガ<COL:02>ブラスター<COL:01>の エネルギーを ためるよお！",
+      "ko_text": "<COL:02>충전<COL:01> 패드에 올라가면 메가<COL:02>블래스터<COL:01>의 <COL:02>탄약<COL:01>을 채울 수 있어!"
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -95,
+      "ja_id": -95,
+      "matched_fragment": "<COL:02>냉동<COL:01>탄을",
+      "keyword": "냉동",
+      "prefix": "",
+      "suffix": "탄을",
+      "reason": "non_particle_suffix:<냉동>+탄을",
+      "ja_text": "<COL:02>チャージアップ<COL:01> チューンは、 <COL:02>シャアドガン<COL:01>に ためうち きのうを くわえますのよ。 ためて ためて ギガブラストで ほうしゅつ！ ですわ。",
+      "ko_text": "<COL:02>충전<COL:01> 모듈을 추가하면 <COL:02>샤드 건<COL:01>의 발사 버튼을 누르고 있는 동안 여러 탄환을 한 발로 집적시켜 거대한 <COL:02>냉동<COL:01>탄을 발사할 수 있게 해줍니다."
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -110,
+      "ja_id": -110,
+      "matched_fragment": "<COL:02>전자<COL:01>기",
+      "keyword": "전자",
+      "prefix": "",
+      "suffix": "기",
+      "reason": "non_particle_suffix:<전자>+기",
+      "ja_text": "きんこには みっつの でんじきロックが かかって いますわ。 かんけいしゃが くるまえに みっつとも ときましょう。",
+      "ko_text": "금고에는 3개의 <COL:02>전자<COL:01>기 자물쇠가 달려 있어요. 경찰들이 도착하기 전에 3개를 모두 풀어야 해요."
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -117,
+      "ja_id": -117,
+      "matched_fragment": "<COL:02>충전<COL:01>기를",
+      "keyword": "충전",
+      "prefix": "",
+      "suffix": "기를",
+      "reason": "non_particle_suffix:<충전>+기를",
+      "ja_text": "ちかくの パワーステーションから <COL:02>チャージパック<COL:01>を ゲット しましょう。",
+      "ko_text": "발전소 주변에서 <COL:02>충전<COL:01>기를 주우세요."
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -118,
+      "ja_id": -118,
+      "matched_fragment": "<COL:02>충전<COL:01>기를",
+      "keyword": "충전",
+      "prefix": "",
+      "suffix": "기를",
+      "reason": "non_particle_suffix:<충전>+기를",
+      "ja_text": "ワイヤーと ワイヤーの あいだで <COL:02>チャージパック<COL:01>を はこびましょう。",
+      "ko_text": "전선 사이에 <COL:02>충전<COL:01>기를 가져다 좋으세요."
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -189,
+      "ja_id": -189,
+      "matched_fragment": "재<COL:02>충전<COL:01>해야",
+      "keyword": "충전",
+      "prefix": "재",
+      "suffix": "해야",
+      "reason": "prefix_attached:재+<충전>",
+      "ja_text": "レーザーは パワフル ですが チャージが ひつようです。",
+      "ko_text": "레이저는 강력하지만, 재<COL:02>충전<COL:01>해야 하지."
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -207,
+      "ja_id": -207,
+      "matched_fragment": "<COL:02>번개<COL:01>구름을",
+      "keyword": "번개",
+      "prefix": "",
+      "suffix": "구름을",
+      "reason": "non_particle_suffix:<번개>+구름을",
+      "ja_text": "サンダー<COL:02>クラウド<COL:01>を たのしんで みませんか？ やりかたは <COL:02>サンダーブレラ<COL:01>に めいっぱい チャージして、 てきに むかって いくのを みまもる だけですわ！",
+      "ko_text": "휴대용 <COL:02>번개<COL:01>구름을 만듭니다! <COL:02>천둥 우산<COL:01>을 최대로 <COL:02>충전<COL:01>하면 우산이 적들을 공격합니다."
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -224,
+      "ja_id": -224,
+      "matched_fragment": "<COL:02>전화<COL:01>박스는",
+      "keyword": "전화",
+      "prefix": "",
+      "suffix": "박스는",
+      "reason": "non_particle_suffix:<전화>+박스는",
+      "ja_text": "この でんわボックス じつは、 ぎそうした そしきの ショップですの。",
+      "ko_text": "이 <COL:02>전화<COL:01>박스는 정말 잘 위장된 요원 상점이에요."
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -305,
+      "ja_id": -305,
+      "matched_fragment": "<COL:02>전화<COL:01>박스가",
+      "keyword": "전화",
+      "prefix": "",
+      "suffix": "박스가",
+      "reason": "non_particle_suffix:<전화>+박스가",
+      "ja_text": "ゼロっす。 ボックスは たいようの ひょうめんでは じょうはつ するっす。",
+      "ko_text": "0. 백만도에서는 <COL:02>전화<COL:01>박스가 증발해버릴 테니까."
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -307,
+      "ja_id": -307,
+      "matched_fragment": "<COL:02>화염<COL:01>마스터",
+      "keyword": "화염",
+      "prefix": "",
+      "suffix": "마스터",
+      "reason": "non_particle_suffix:<화염>+마스터",
+      "ja_text": "キルボット フレイムマスター 9000 が、 マシュマロ わくせい せんきょ かんり いいんかいを うったえた さいばんっす。",
+      "ko_text": "킬봇 <COL:02>화염<COL:01>마스터 9000 대 머시멜로우 행성 교육부 사건."
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -319,
+      "ja_id": -319,
+      "matched_fragment": "<COL:02>전화<COL:01>박스가",
+      "keyword": "전화",
+      "prefix": "",
+      "suffix": "박스가",
+      "reason": "non_particle_suffix:<전화>+박스가",
+      "ja_text": "ガラクトロンショップの てんいんを でんわボックスに なんにん つめこめるかを こたえなさい。 ただし てんいんは りっぽうたいに かんざんし、 ボックスは たいようの ひょうめんに たっていると します。",
+      "ko_text": "가제트론 상점을 육면체로 압축할 수 있고 <COL:02>전화<COL:01>박스가 태양 위에 있다고 가정할 때, <COL:02>전화<COL:01>박스 안에 얼마나 많은 상점을 넣을 수 있을까?"
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -319,
+      "ja_id": -319,
+      "matched_fragment": "<COL:02>전화<COL:01>박스",
+      "keyword": "전화",
+      "prefix": "",
+      "suffix": "박스",
+      "reason": "non_particle_suffix:<전화>+박스",
+      "ja_text": "ガラクトロンショップの てんいんを でんわボックスに なんにん つめこめるかを こたえなさい。 ただし てんいんは りっぽうたいに かんざんし、 ボックスは たいようの ひょうめんに たっていると します。",
+      "ko_text": "가제트론 상점을 육면체로 압축할 수 있고 <COL:02>전화<COL:01>박스가 태양 위에 있다고 가정할 때, <COL:02>전화<COL:01>박스 안에 얼마나 많은 상점을 넣을 수 있을까?"
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -391,
+      "ja_id": -391,
+      "matched_fragment": "<COL:02>빛나는<COL:01>군",
+      "keyword": "빛나는",
+      "prefix": "",
+      "suffix": "군",
+      "reason": "non_particle_suffix:<빛나는>+군",
+      "ja_text": "ピカピカっすよ！",
+      "ko_text": "반짝반짝 <COL:02>빛나는<COL:01>군!"
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -428,
+      "ja_id": -428,
+      "matched_fragment": "<COL:02>화염<COL:01>방사기",
+      "keyword": "화염",
+      "prefix": "",
+      "suffix": "방사기",
+      "reason": "non_particle_suffix:<화염>+방사기",
+      "ja_text": "じっけん #24: かえんほうしゃスーツケース",
+      "ko_text": "24번 실험품: 가방형 <COL:02>화염<COL:01>방사기"
+    }
+  ],
+  "tier3_typos_and_josa": [
+    {
+      "source": "LOCALDAT",
+      "ko_id": 618,
+      "ja_id": 618,
+      "issue_type": "stray_ascii_typo",
+      "detail": "킬l! -> 킬!",
+      "ja_text": "グレート！",
+      "ko_text": "그레이트 킬l!"
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 624,
+      "ja_id": 624,
+      "issue_type": "stray_ascii_typo",
+      "detail": "킬l! -> 킬!",
+      "ja_text": "グレート！",
+      "ko_text": "그레이트 킬l!"
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 1000,
+      "ja_id": 1000,
+      "issue_type": "unmatched_single_quote_excel_strip",
+      "detail": "Missing opening single quote stripped by spreadsheet export",
+      "ja_text": "_<BTN_TRIANGLE> <COL:02>クランク<COL:01>チャレンジを はじめる",
+      "ko_text": "<COL:02>클랭크<COL:01> 챌린지'를 플레이하려면 <BTN_TRIANGLE>을 누르세요."
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 6848,
+      "ja_id": 6848,
+      "issue_type": "unmatched_single_quote_excel_strip",
+      "detail": "Missing opening single quote stripped by spreadsheet export",
+      "ja_text": "「E - V - I - L」 は？",
+      "ko_text": "악당'을 입력해 봐요."
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -118,
+      "ja_id": -118,
+      "issue_type": "hangul_typo",
+      "detail": "가져다 좋으세요 -> 가져다 놓으세요",
+      "ja_text": "ワイヤーと ワイヤーの あいだで <COL:02>チャージパック<COL:01>を はこびましょう。",
+      "ko_text": "전선 사이에 <COL:02>충전<COL:01>기를 가져다 좋으세요."
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -316,
+      "ja_id": -316,
+      "issue_type": "unmatched_single_quote_excel_strip",
+      "detail": "Missing opening single quote stripped by spreadsheet export",
+      "ja_text": "ゆうげんがいしゃ サッグしょうかいの かいしゃの さだめる きゅうじつを ふたつ あげなさい。",
+      "ko_text": "대책없는 악당 유한책임회사'의 회사공휴일은? "
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -432,
+      "ja_id": -432,
+      "issue_type": "mistranslated_floor_and_tag",
+      "detail": "JA 'フロア -1 ... [エラー]' -> KO '<COL:02>1층<COL:01> ... #오류'",
+      "ja_text": "エレベーターコントロール: こちらは フロア -1、 リアクターコア<ELLIPSIS> [エラー] [エラー] [エラー]",
+      "ko_text": "엘리베이터 제어기. <COL:02>1층<COL:01>, 리액터 코어 및 #오류 #오류 #오류"
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 244,
+      "ja_id": 244,
+      "issue_type": "josa_batchim_mismatch",
+      "detail": "흡입와 -> 흡입과",
+      "ja_text": "<COL:02>だい 4 しょう: 「キセキのおきたばしょさぁ！」 / リオノーシス<COL:01>",
+      "ko_text": "<COL:02>챕터 4: 리오노시스, 흡입와 거짓<COL:01>"
+    },
+    {
+      "source": "LOCALDAT",
+      "ko_id": 6567,
+      "ja_id": 6567,
+      "issue_type": "josa_batchim_mismatch",
+      "detail": "도마뱀와 -> 도마뱀과",
+      "ja_text": "シティが メカニカル モンスターに おそわれてる って コト だったんだ！ つばさの てきは ちょう きょだい！ ボク こっち",
+      "ko_text": "그들은 도시를 점령한 거대한 도마뱀와 싸워 줄 영웅이 필요했어. 봇질라라고 하는 그 날개달린 괴물은 키가 15미터가 넘었지."
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -13,
+      "ja_id": -13,
+      "issue_type": "josa_batchim_mismatch",
+      "detail": "패드을 -> 패드를",
+      "ja_text": "<BTN_CROSS> と アナログパッドを いっしょに つかえば すばやく よけられるのさ！",
+      "ko_text": "<BTN_CROSS>과 아날로그 패드을 함께 사용해 \"빠른 회피\"를 할 수 있어!"
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "ko_id": -152,
+      "ja_id": -152,
+      "issue_type": "josa_batchim_mismatch",
+      "detail": "엉덩이을 -> 엉덩이를",
+      "ja_text": "ボクの ボディを まもらなきゃ！",
+      "ko_text": "쿼크의 왼쪽 엉덩이을 보호하세요!"
+    }
+  ],
+  "category_summary": [
+    {
+      "source": "LOCALDAT",
+      "category": "keyword_glossary_colored",
+      "total_entries": 241,
+      "active_translatable_entries": 240,
+      "dummy_or_dnt_entries": 1,
+      "button_icon_diffs": 0,
+      "id_range": "34..274"
+    },
+    {
+      "source": "LOCALDAT",
+      "category": "ui_hud_menu_prompt",
+      "total_entries": 365,
+      "active_translatable_entries": 364,
+      "dummy_or_dnt_entries": 1,
+      "button_icon_diffs": 27,
+      "id_range": "275..639"
+    },
+    {
+      "source": "LOCALDAT",
+      "category": "ui_camera_option",
+      "total_entries": 1,
+      "active_translatable_entries": 1,
+      "dummy_or_dnt_entries": 0,
+      "button_icon_diffs": 0,
+      "id_range": "1..1"
+    },
+    {
+      "source": "LOCALDAT",
+      "category": "weapon_armor_wrench_desc",
+      "total_entries": 87,
+      "active_translatable_entries": 87,
+      "dummy_or_dnt_entries": 0,
+      "button_icon_diffs": 0,
+      "id_range": "640..726"
+    },
+    {
+      "source": "LOCALDAT",
+      "category": "challenge_arena_title",
+      "total_entries": 85,
+      "active_translatable_entries": 85,
+      "dummy_or_dnt_entries": 0,
+      "button_icon_diffs": 0,
+      "id_range": "1000..1084"
+    },
+    {
+      "source": "LOCALDAT",
+      "category": "mission_objective_title",
+      "total_entries": 175,
+      "active_translatable_entries": 175,
+      "dummy_or_dnt_entries": 0,
+      "button_icon_diffs": 0,
+      "id_range": "5501..5675"
+    },
+    {
+      "source": "LOCALDAT",
+      "category": "character_boss_name",
+      "total_entries": 5,
+      "active_translatable_entries": 5,
+      "dummy_or_dnt_entries": 0,
+      "button_icon_diffs": 0,
+      "id_range": "6001..6005"
+    },
+    {
+      "source": "LOCALDAT",
+      "category": "skill_point_title",
+      "total_entries": 64,
+      "active_translatable_entries": 48,
+      "dummy_or_dnt_entries": 16,
+      "button_icon_diffs": 6,
+      "id_range": "3000..3063"
+    },
+    {
+      "source": "LOCALDAT",
+      "category": "rhythm_minigame_subtitle",
+      "total_entries": 454,
+      "active_translatable_entries": 445,
+      "dummy_or_dnt_entries": 9,
+      "button_icon_diffs": 0,
+      "id_range": "2000..4226"
+    },
+    {
+      "source": "LOCALDAT",
+      "category": "cutscene_movie_subtitle",
+      "total_entries": 442,
+      "active_translatable_entries": 442,
+      "dummy_or_dnt_entries": 0,
+      "button_icon_diffs": 0,
+      "id_range": "6501..6942"
+    },
+    {
+      "source": "LOCALDAT",
+      "category": "memstick_savedata_system",
+      "total_entries": 117,
+      "active_translatable_entries": 117,
+      "dummy_or_dnt_entries": 0,
+      "button_icon_diffs": 3,
+      "id_range": "727..2505"
+    },
+    {
+      "source": "LOCALDAT",
+      "category": "gadgebot_challenge_ui",
+      "total_entries": 52,
+      "active_translatable_entries": 52,
+      "dummy_or_dnt_entries": 0,
+      "button_icon_diffs": 0,
+      "id_range": "4600..4651"
+    },
+    {
+      "source": "LOCALDAT",
+      "category": "in_game_dialogue_cinematic",
+      "total_entries": 451,
+      "active_translatable_entries": 451,
+      "dummy_or_dnt_entries": 0,
+      "button_icon_diffs": 0,
+      "id_range": "7000..7450"
+    },
+    {
+      "source": "LOCALDAT",
+      "category": "treehouse_developer_secret",
+      "total_entries": 64,
+      "active_translatable_entries": 64,
+      "dummy_or_dnt_entries": 0,
+      "button_icon_diffs": 0,
+      "id_range": "8000..8063"
+    },
+    {
+      "source": "HELPLOCALDAT",
+      "category": "help_popup_voice",
+      "total_entries": 480,
+      "active_translatable_entries": 475,
+      "dummy_or_dnt_entries": 5,
+      "button_icon_diffs": 5,
+      "id_range": "-480..-1"
+    }
+  ]
+}

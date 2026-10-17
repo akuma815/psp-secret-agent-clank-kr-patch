@@ -1,0 +1,2219 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-17T00:32:13+09:00",
+  "description": "JA (UCJS10084) <-> KO (UCKS45096) aligned terminology glossary extracted from LOC_DATA",
+  "counts": {
+    "colored_keywords": 240,
+    "character_boss_names": 5,
+    "savedata_stage_titles": 43
+  },
+  "character_boss_names": [
+    {
+      "id": 6001,
+      "ja_term": "オットーこうてい",
+      "ko_term": "오토"
+    },
+    {
+      "id": 6002,
+      "ja_term": "メガロック",
+      "ko_term": "메가 락"
+    },
+    {
+      "id": 6003,
+      "ja_term": "よろずやジャック",
+      "ko_term": "잭"
+    },
+    {
+      "id": 6004,
+      "ja_term": "クロンク",
+      "ko_term": "클렁크"
+    },
+    {
+      "id": 6005,
+      "ja_term": "マザー・バタフライ",
+      "ko_term": "자이언트 엄마 나비"
+    }
+  ],
+  "colored_keywords": [
+    {
+      "id": 34,
+      "subkind": "misc_keyword",
+      "ja_raw": "<SCALE:09><COL:02>%s %s<COL:01>",
+      "ko_raw": "<SCALE:09><COL:02>%s %s<COL:01>",
+      "ja_term": "%s %s",
+      "ko_term": "%s %s"
+    },
+    {
+      "id": 35,
+      "subkind": "misc_keyword",
+      "ja_raw": "<SCALE:09><COL:02>%s %s<COL:01>",
+      "ko_raw": "<SCALE:09><COL:02>%s %s<COL:01>",
+      "ja_term": "%s %s",
+      "ko_term": "%s %s"
+    },
+    {
+      "id": 36,
+      "subkind": "format_control_template",
+      "ja_raw": "<SCALE:09><COL:02>%s %s<COL:01>",
+      "ko_raw": "<SCALE:09><COL:02>%s %s<COL:01>",
+      "ja_term": "%s %s",
+      "ko_term": "%s %s"
+    },
+    {
+      "id": 37,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>タイタン<COL:01>",
+      "ko_raw": "<COL:02>타이탄<COL:01>",
+      "ja_term": "タイタン",
+      "ko_term": "타이탄"
+    },
+    {
+      "id": 38,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>プロト<COL:01>",
+      "ko_raw": "<COL:02>프로토<COL:01>",
+      "ja_term": "プロト",
+      "ko_term": "프로토"
+    },
+    {
+      "id": 39,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>V2<COL:01>",
+      "ko_raw": "<COL:02>V.2<COL:01>",
+      "ja_term": "V2",
+      "ko_term": "V.2"
+    },
+    {
+      "id": 40,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>V3<COL:01>",
+      "ko_raw": "<COL:02>V.3<COL:01>",
+      "ja_term": "V3",
+      "ko_term": "V.3"
+    },
+    {
+      "id": 41,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>V4<COL:01>",
+      "ko_raw": "<COL:02>V.4<COL:01>",
+      "ja_term": "V4",
+      "ko_term": "V.4"
+    },
+    {
+      "id": 42,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>パック<COL:01>",
+      "ko_raw": "<COL:02>탄약<COL:01>",
+      "ja_term": "パック",
+      "ko_term": "탄약"
+    },
+    {
+      "id": 43,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>パック<COL:01>",
+      "ko_raw": "<COL:02>탄약<COL:01>",
+      "ja_term": "パック",
+      "ko_term": "탄약"
+    },
+    {
+      "id": 44,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>チャージパック<COL:01>",
+      "ko_raw": "<COL:02>충전<COL:01>",
+      "ja_term": "チャージパック",
+      "ko_term": "충전"
+    },
+    {
+      "id": 45,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>チャージパック<COL:01>",
+      "ko_raw": "<COL:02>충전<COL:01>",
+      "ja_term": "チャージパック",
+      "ko_term": "충전"
+    },
+    {
+      "id": 46,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>カプセルパック<COL:01>",
+      "ko_raw": "<COL:02>캡슐<COL:01>",
+      "ja_term": "カプセルパック",
+      "ko_term": "캡슐"
+    },
+    {
+      "id": 47,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>カプセルパック<COL:01>",
+      "ko_raw": "<COL:02>캡슐<COL:01>",
+      "ja_term": "カプセルパック",
+      "ko_term": "캡슐"
+    },
+    {
+      "id": 48,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>シェルパック<COL:01>",
+      "ko_raw": "<COL:02>유탄<COL:01>",
+      "ja_term": "シェルパック",
+      "ko_term": "유탄"
+    },
+    {
+      "id": 49,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>シェルパック<COL:01>",
+      "ko_raw": "<COL:02>유탄<COL:01>",
+      "ja_term": "シェルパック",
+      "ko_term": "유탄"
+    },
+    {
+      "id": 50,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>%d ロケットパック<COL:01>",
+      "ko_raw": "<COL:02>%d 로켓<COL:01>",
+      "ja_term": "%d ロケットパック",
+      "ko_term": "%d 로켓"
+    },
+    {
+      "id": 51,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>%d ロケットパック<COL:01>",
+      "ko_raw": "<COL:02>%d 로켓<COL:01>",
+      "ja_term": "%d ロケットパック",
+      "ko_term": "%d 로켓"
+    },
+    {
+      "id": 52,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>ロケットパック<COL:01>",
+      "ko_raw": "<COL:02>로켓<COL:01>",
+      "ja_term": "ロケットパック",
+      "ko_term": "로켓"
+    },
+    {
+      "id": 53,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>ロケットパック<COL:01>",
+      "ko_raw": "<COL:02>로켓<COL:01>",
+      "ja_term": "ロケットパック",
+      "ko_term": "로켓"
+    },
+    {
+      "id": 54,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>バルブパック<COL:01>",
+      "ko_raw": "<COL:02>싹<COL:01>",
+      "ja_term": "バルブパック",
+      "ko_term": "싹"
+    },
+    {
+      "id": 55,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>バルブパック<COL:01>",
+      "ko_raw": "<COL:02>싹<COL:01>",
+      "ja_term": "バルブパック",
+      "ko_term": "싹"
+    },
+    {
+      "id": 56,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>ハイブパック<COL:01>",
+      "ko_raw": "<COL:02>하이브<COL:01>",
+      "ja_term": "ハイブパック",
+      "ko_term": "하이브"
+    },
+    {
+      "id": 57,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>クリップパック<COL:01>",
+      "ko_raw": "<COL:02>클립<COL:01>",
+      "ja_term": "クリップパック",
+      "ko_term": "클립"
+    },
+    {
+      "id": 58,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>クリップパック<COL:01>",
+      "ko_raw": "<COL:02>클립<COL:01>",
+      "ja_term": "クリップパック",
+      "ko_term": "클립"
+    },
+    {
+      "id": 59,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>ランスピストル<COL:01>",
+      "ko_raw": "<COL:02>듀얼 래서레이터<COL:01>",
+      "ja_term": "ランスピストル",
+      "ko_term": "듀얼 래서레이터"
+    },
+    {
+      "id": 60,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>ランスピストル<COL:01>",
+      "ko_raw": "<COL:02>듀얼 래서레이터<COL:01>",
+      "ja_term": "ランスピストル",
+      "ko_term": "듀얼 래서레이터"
+    },
+    {
+      "id": 61,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>ダブルランサー<COL:01>",
+      "ko_raw": "<COL:02>듀얼 빈디케이터<COL:01>",
+      "ja_term": "ダブルランサー",
+      "ko_term": "듀얼 빈디케이터"
+    },
+    {
+      "id": 62,
+      "subkind": "ammo_pickup_noun",
+      "ja_raw": "<COL:02>ダブルランサー<COL:01>",
+      "ko_raw": "<COL:02>듀얼 빈디케이터<COL:01>",
+      "ja_term": "ダブルランサー",
+      "ko_term": "듀얼 빈디케이터"
+    },
+    {
+      "id": 63,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ビーマイングラブ Mk.II<COL:01>",
+      "ko_raw": "<COL:02>꿀벌 지뢰<COL:01>",
+      "ja_term": "ビーマイングラブ Mk.II",
+      "ko_term": "꿀벌 지뢰"
+    },
+    {
+      "id": 64,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>キラービーマイン Mk.II<COL:01>",
+      "ko_raw": "<COL:02>킬러 꿀벌 지뢰<COL:01>",
+      "ja_term": "キラービーマイン Mk.II",
+      "ko_term": "킬러 꿀벌 지뢰"
+    },
+    {
+      "id": 65,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ショックロケット<COL:01>",
+      "ko_raw": "<COL:02>쇼크 로켓<COL:01>",
+      "ja_term": "ショックロケット",
+      "ko_term": "쇼크 로켓"
+    },
+    {
+      "id": 66,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ショックバラージ<COL:01>",
+      "ko_raw": "<COL:02>전자 로켓<COL:01>",
+      "ja_term": "ショックバラージ",
+      "ko_term": "전자 로켓"
+    },
+    {
+      "id": 67,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>シャアドガン<COL:01>",
+      "ko_raw": "<COL:02>샤드 건<COL:01>",
+      "ja_term": "シャアドガン",
+      "ko_term": "샤드 건"
+    },
+    {
+      "id": 68,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>シャアドキャノン<COL:01>",
+      "ko_raw": "<COL:02>샤드 캐논<COL:01>",
+      "ja_term": "シャアドキャノン",
+      "ko_term": "샤드 캐논"
+    },
+    {
+      "id": 69,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>パンチングラブ<COL:01>",
+      "ko_raw": "<COL:02>왈로퍼<COL:01>",
+      "ja_term": "パンチングラブ",
+      "ko_term": "왈로퍼"
+    },
+    {
+      "id": 70,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ガチコングラブ<COL:01>",
+      "ko_raw": "<COL:02>머로더<COL:01>",
+      "ja_term": "ガチコングラブ",
+      "ko_term": "머로더"
+    },
+    {
+      "id": 71,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>プラズマロープ<COL:01>",
+      "ko_raw": "<COL:02>플라즈마 로프<COL:01>",
+      "ja_term": "プラズマロープ",
+      "ko_term": "플라즈마 로프"
+    },
+    {
+      "id": 72,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>プラズマコード<COL:01>",
+      "ko_raw": "<COL:02>플라즈마 채찍<COL:01>",
+      "ja_term": "プラズマコード",
+      "ko_term": "플라즈마 채찍"
+    },
+    {
+      "id": 73,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>マインランチャー<COL:01>",
+      "ko_raw": "<COL:02>지뢰 발사기<COL:01>",
+      "ja_term": "マインランチャー",
+      "ko_term": "지뢰 발사기"
+    },
+    {
+      "id": 74,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ORD ランチャー<COL:01>",
+      "ko_raw": "<COL:02>폭탄 발사기<COL:01>",
+      "ja_term": "ORD ランチャー",
+      "ko_term": "폭탄 발사기"
+    },
+    {
+      "id": 75,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ポークボムガン<COL:01>",
+      "ko_raw": "<COL:02>고기 폭탄<COL:01>",
+      "ja_term": "ポークボムガン",
+      "ko_term": "고기 폭탄"
+    },
+    {
+      "id": 76,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ミートボマー<COL:01>",
+      "ko_raw": "<COL:02>고기 박격포<COL:01>",
+      "ja_term": "ミートボマー",
+      "ko_term": "고기 박격포"
+    },
+    {
+      "id": 77,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>RYNO ナンバード<COL:01>",
+      "ko_raw": "<COL:02>라이노<COL:01>",
+      "ja_term": "RYNO ナンバード",
+      "ko_term": "라이노"
+    },
+    {
+      "id": 78,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>RYNO アンナンバード<COL:01>",
+      "ko_raw": "<COL:02>라이노세라토<COL:01>",
+      "ja_term": "RYNO アンナンバード",
+      "ko_term": "라이노세라토"
+    },
+    {
+      "id": 79,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>オムレンチ OW10K<COL:01>",
+      "ko_raw": "<COL:02>옴니 렌치 10K<COL:01>",
+      "ja_term": "オムレンチ OW10K",
+      "ko_term": "옴니 렌치 10K"
+    },
+    {
+      "id": 80,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ファイヤーボムレンチ チューン<COL:01>",
+      "ko_raw": "<COL:02>와일드 파이어 렌치 모듈<COL:01>",
+      "ja_term": "ファイヤーボムレンチ チューン",
+      "ko_term": "와일드 파이어 렌치 모듈"
+    },
+    {
+      "id": 81,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>トリプルウェイブレンチ チューン<COL:01>",
+      "ko_raw": "<COL:02>3파장 렌치 모듈<COL:01>",
+      "ja_term": "トリプルウェイブレンチ チューン",
+      "ko_term": "3파장 렌치 모듈"
+    },
+    {
+      "id": 82,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ショックリスタルレンチ チューン<COL:01>",
+      "ko_raw": "<COL:02>전격 크리스탈 렌치 모듈<COL:01>",
+      "ja_term": "ショックリスタルレンチ チューン",
+      "ko_term": "전격 크리스탈 렌치 모듈"
+    },
+    {
+      "id": 83,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ワイルドバーストレンチ チューン<COL:01>",
+      "ko_raw": "<COL:02>폭발 렌치 모듈<COL:01>",
+      "ja_term": "ワイルドバーストレンチ チューン",
+      "ko_term": "폭발 렌치 모듈"
+    },
+    {
+      "id": 84,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>タイブーメラン<COL:01>",
+      "ko_raw": "<COL:02>타이어랑<COL:01>",
+      "ja_term": "タイブーメラン",
+      "ko_term": "타이어랑"
+    },
+    {
+      "id": 85,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>タイブーメラン<COL:01>",
+      "ko_raw": "<COL:02>타이어랑<COL:01>",
+      "ja_term": "タイブーメラン",
+      "ko_term": "타이어랑"
+    },
+    {
+      "id": 86,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>タイトルネイダー<COL:01>",
+      "ko_raw": "<COL:02>회오리 타이<COL:01>",
+      "ja_term": "タイトルネイダー",
+      "ko_term": "회오리 타이"
+    },
+    {
+      "id": 87,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>タイトルネイダー<COL:01>",
+      "ko_raw": "<COL:02>회오리 타이<COL:01>",
+      "ja_term": "タイトルネイダー",
+      "ko_term": "회오리 타이"
+    },
+    {
+      "id": 88,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>カフリンクボム<COL:01>",
+      "ko_raw": "<COL:02>손목 폭탄<COL:01>",
+      "ja_term": "カフリンクボム",
+      "ko_term": "손목 폭탄"
+    },
+    {
+      "id": 89,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>リストグレネイド<COL:01>",
+      "ko_raw": "<COL:02>손목 박격포<COL:01>",
+      "ja_term": "リストグレネイド",
+      "ko_term": "손목 박격포"
+    },
+    {
+      "id": 90,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>バクリンフラワー<COL:01>",
+      "ko_raw": "<COL:02>덩굴줄기 카네이션<COL:01>",
+      "ja_term": "バクリンフラワー",
+      "ko_term": "덩굴줄기 카네이션"
+    },
+    {
+      "id": 91,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>バクリンフラワー<COL:01>",
+      "ko_raw": "<COL:02>덩굴줄기 카네이션<COL:01>",
+      "ja_term": "バクリンフラワー",
+      "ko_term": "덩굴줄기 카네이션"
+    },
+    {
+      "id": 92,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>カラマリプランター<COL:01>",
+      "ko_raw": "<COL:02>칡 덩굴<COL:01>",
+      "ja_term": "カラマリプランター",
+      "ko_term": "칡 덩굴"
+    },
+    {
+      "id": 93,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>フレイムスーツケース<COL:01>",
+      "ko_raw": "<COL:02>화염 가방<COL:01>",
+      "ja_term": "フレイムスーツケース",
+      "ko_term": "화염 가방"
+    },
+    {
+      "id": 94,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ヘルファイヤーケース<COL:01>",
+      "ko_raw": "<COL:02>화염 배낭<COL:01>",
+      "ja_term": "ヘルファイヤーケース",
+      "ko_term": "화염 배낭"
+    },
+    {
+      "id": 95,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>サンダーブレラ<COL:01>",
+      "ko_raw": "<COL:02>천둥 우산<COL:01>",
+      "ja_term": "サンダーブレラ",
+      "ko_term": "천둥 우산"
+    },
+    {
+      "id": 96,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ライトニングブレラ<COL:01>",
+      "ko_raw": "<COL:02>번개 우산<COL:01>",
+      "ja_term": "ライトニングブレラ",
+      "ko_term": "번개 우산"
+    },
+    {
+      "id": 97,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ホロナックル<COL:01>",
+      "ko_raw": "<COL:02>홀로너클<COL:01>",
+      "ja_term": "ホロナックル",
+      "ko_term": "홀로너클"
+    },
+    {
+      "id": 98,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>オーロラナックル<COL:01>",
+      "ko_raw": "<COL:02>눈부신 주먹<COL:01>",
+      "ja_term": "オーロラナックル",
+      "ko_term": "눈부신 주먹"
+    },
+    {
+      "id": 99,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ビーマイングラブ<COL:01>",
+      "ko_raw": "<COL:02>꿀벌 지뢰<COL:01>",
+      "ja_term": "ビーマイングラブ",
+      "ko_term": "꿀벌 지뢰"
+    },
+    {
+      "id": 100,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>サックバック 3000<COL:01>",
+      "ko_raw": "<COL:02>진공흡입기 3000<COL:01>",
+      "ja_term": "サックバック 3000",
+      "ko_term": "진공흡입기 3000"
+    },
+    {
+      "id": 101,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ブラスター<COL:01>",
+      "ko_raw": "<COL:02>블래스터<COL:01>",
+      "ja_term": "ブラスター",
+      "ko_term": "블래스터"
+    },
+    {
+      "id": 102,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ハイパーショット<COL:01>",
+      "ko_raw": "<COL:02>하이퍼 샷<COL:01>",
+      "ja_term": "ハイパーショット",
+      "ko_term": "하이퍼 샷"
+    },
+    {
+      "id": 103,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>PDmA<COL:01>",
+      "ko_raw": "<COL:02>PDA<COL:01>",
+      "ja_term": "PDmA",
+      "ko_term": "PDA"
+    },
+    {
+      "id": 104,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>エージェント PDmA<COL:01>",
+      "ko_raw": "<COL:02>요원 PDA<COL:01>",
+      "ja_term": "エージェント PDmA",
+      "ko_term": "요원 PDA"
+    },
+    {
+      "id": 105,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ホロモノクル<COL:01>",
+      "ko_raw": "<COL:02>홀로모노클<COL:01>",
+      "ja_term": "ホロモノクル",
+      "ko_term": "홀로모노클"
+    },
+    {
+      "id": 106,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ヒプノウォッチ<COL:01>",
+      "ko_raw": "<COL:02>최면시계<COL:01>",
+      "ja_term": "ヒプノウォッチ",
+      "ko_term": "최면시계"
+    },
+    {
+      "id": 107,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ヒプノウォッチ<COL:01>",
+      "ko_raw": "<COL:02>최면시계<COL:01>",
+      "ja_term": "ヒプノウォッチ",
+      "ko_term": "최면시계"
+    },
+    {
+      "id": 108,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>オムニキー<COL:01>",
+      "ko_raw": "<COL:02>만능열쇠<COL:01>",
+      "ja_term": "オムニキー",
+      "ko_term": "만능열쇠"
+    },
+    {
+      "id": 109,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ブラックアウト・ペン<COL:01>",
+      "ko_raw": "<COL:02>만년필<COL:01>",
+      "ja_term": "ブラックアウト・ペン",
+      "ko_term": "만년필"
+    },
+    {
+      "id": 110,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ヘリパック<COL:01>",
+      "ko_raw": "<COL:02>헬리팩<COL:01>",
+      "ja_term": "ヘリパック",
+      "ko_term": "헬리팩"
+    },
+    {
+      "id": 111,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>グラビティブーツ<COL:01>",
+      "ko_raw": "<COL:02>중력 부츠<COL:01>",
+      "ja_term": "グラビティブーツ",
+      "ko_term": "중력 부츠"
+    },
+    {
+      "id": 112,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>マップオートマチック<COL:01>",
+      "ko_raw": "<COL:02>맵오매틱<COL:01>",
+      "ja_term": "マップオートマチック",
+      "ko_term": "맵오매틱"
+    },
+    {
+      "id": 113,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ボルトグラバー<COL:01>",
+      "ko_raw": "<COL:02>볼트 그래버<COL:01>",
+      "ja_term": "ボルトグラバー",
+      "ko_term": "볼트 그래버"
+    },
+    {
+      "id": 114,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ボックスブレイカー<COL:01>",
+      "ko_raw": "<COL:02>상자 분쇄기<COL:01>",
+      "ja_term": "ボックスブレイカー",
+      "ko_term": "상자 분쇄기"
+    },
+    {
+      "id": 115,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>サーモグラス<COL:01>",
+      "ko_raw": "<COL:02>열감지 선글래스<COL:01>",
+      "ja_term": "サーモグラス",
+      "ko_term": "열감지 선글래스"
+    },
+    {
+      "id": 116,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>ジェットブーツ<COL:01>",
+      "ko_raw": "<COL:02>제트 부츠<COL:01>",
+      "ja_term": "ジェットブーツ",
+      "ko_term": "제트 부츠"
+    },
+    {
+      "id": 118,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ダウンロード: クラン・フー キック<COL:01>",
+      "ko_raw": "<COL:02>클랭크 쿵푸 발차기<COL:01>",
+      "ja_term": "ダウンロード: クラン・フー キック",
+      "ko_term": "클랭크 쿵푸 발차기"
+    },
+    {
+      "id": 119,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ダウンロード: クラン・フー ホットフット<COL:01>",
+      "ko_raw": "<COL:02>클랭크 쿵푸 핫풋<COL:01>",
+      "ja_term": "ダウンロード: クラン・フー ホットフット",
+      "ko_term": "클랭크 쿵푸 핫풋"
+    },
+    {
+      "id": 120,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ダウンロード: ホットフット v2.1 ベータ<COL:01>",
+      "ko_raw": "<COL:02>핫풋 2.1 베타<COL:01>",
+      "ja_term": "ダウンロード: ホットフット v2.1 ベータ",
+      "ko_term": "핫풋 2.1 베타"
+    },
+    {
+      "id": 121,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>チューンこうぼう ボルトランスファー<COL:01>",
+      "ko_raw": "<COL:02>슬라임 코그니토의 볼트 추출기<COL:01>",
+      "ja_term": "チューンこうぼう ボルトランスファー",
+      "ko_term": "슬라임 코그니토의 볼트 추출기"
+    },
+    {
+      "id": 122,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ブラックアウト・ペン <COL:01>",
+      "ko_raw": "<COL:02>깜깜이 펜<COL:01>",
+      "ja_term": "ブラックアウト・ペン ",
+      "ko_term": "깜깜이 펜"
+    },
+    {
+      "id": 123,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ライトニング・チューン (パンチングラブ)<COL:01>",
+      "ko_raw": "<COL:02>번개 속도 모듈(왈로퍼)<COL:01>",
+      "ja_term": "ライトニング・チューン (パンチングラブ)",
+      "ko_term": "번개 속도 모듈(왈로퍼)"
+    },
+    {
+      "id": 124,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>クウェイク・チューン (パンチングラブ)<COL:01>",
+      "ko_raw": "<COL:02>지진 충격 모듈(왈로퍼)<COL:01>",
+      "ja_term": "クウェイク・チューン (パンチングラブ)",
+      "ko_term": "지진 충격 모듈(왈로퍼)"
+    },
+    {
+      "id": 125,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ライトニング<COL:01>",
+      "ko_raw": "<COL:02>전기<COL:01>",
+      "ja_term": "ライトニング",
+      "ko_term": "전기"
+    },
+    {
+      "id": 126,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>クウェイク<COL:01>",
+      "ko_raw": "<COL:02>고밀도<COL:01>",
+      "ja_term": "クウェイク",
+      "ko_term": "고밀도"
+    },
+    {
+      "id": 127,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ガルバナイズド<COL:01>",
+      "ko_raw": "<COL:02>고압전류<COL:01>",
+      "ja_term": "ガルバナイズド",
+      "ko_term": "고압전류"
+    },
+    {
+      "id": 128,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>フリーズリング・チューン (シャアドガン)<COL:01>",
+      "ko_raw": "<COL:02>냉기 모듈(샤드 건)<COL:01>",
+      "ja_term": "フリーズリング・チューン (シャアドガン)",
+      "ko_term": "냉기 모듈(샤드 건)"
+    },
+    {
+      "id": 129,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>チャージアップ・チューン (シャアドガン)<COL:01>",
+      "ko_raw": "<COL:02>충전 모듈(샤드 건)<COL:01>",
+      "ja_term": "チャージアップ・チューン (シャアドガン)",
+      "ko_term": "충전 모듈(샤드 건)"
+    },
+    {
+      "id": 130,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>フリーズリング<COL:01>",
+      "ko_raw": "<COL:02>냉동<COL:01>",
+      "ja_term": "フリーズリング",
+      "ko_term": "냉동"
+    },
+    {
+      "id": 131,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>チャージアップ<COL:01>",
+      "ko_raw": "<COL:02>축적<COL:01>",
+      "ja_term": "チャージアップ",
+      "ko_term": "축적"
+    },
+    {
+      "id": 132,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>アークティック<COL:01>",
+      "ko_raw": "<COL:02>극한<COL:01>",
+      "ja_term": "アークティック",
+      "ko_term": "극한"
+    },
+    {
+      "id": 133,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>シーカー・チューン (ランスピストル)<COL:01>",
+      "ko_raw": "<COL:02>수색꾼 모듈(래서레이터)<COL:01>",
+      "ja_term": "シーカー・チューン (ランスピストル)",
+      "ko_term": "수색꾼 모듈(래서레이터)"
+    },
+    {
+      "id": 134,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ハンター・チューン (ランスピストル)<COL:01>",
+      "ko_raw": "<COL:02>헌터 모듈(래서레이터)<COL:01>",
+      "ja_term": "ハンター・チューン (ランスピストル)",
+      "ko_term": "헌터 모듈(래서레이터)"
+    },
+    {
+      "id": 135,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>シーカー<COL:01>",
+      "ko_raw": "<COL:02>탐색<COL:01>",
+      "ja_term": "シーカー",
+      "ko_term": "탐색"
+    },
+    {
+      "id": 136,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ハンター<COL:01>",
+      "ko_raw": "<COL:02>추적<COL:01>",
+      "ja_term": "ハンター",
+      "ko_term": "추적"
+    },
+    {
+      "id": 137,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>イグザクト<COL:01>",
+      "ko_raw": "<COL:02>백발백중<COL:01>",
+      "ja_term": "イグザクト",
+      "ko_term": "백발백중"
+    },
+    {
+      "id": 138,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>バウンド・チューン (マインランチャー)<COL:01>",
+      "ko_raw": "<COL:02>고정 모듈(지뢰 발사기)<COL:01>",
+      "ja_term": "バウンド・チューン (マインランチャー)",
+      "ko_term": "고정 모듈(지뢰 발사기)"
+    },
+    {
+      "id": 139,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ナパーム・チューン (マインランチャー)<COL:01>",
+      "ko_raw": "<COL:02>지속 모듈(지뢰 발사기)<COL:01>",
+      "ja_term": "ナパーム・チューン (マインランチャー)",
+      "ko_term": "지속 모듈(지뢰 발사기)"
+    },
+    {
+      "id": 140,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>バウンド<COL:01>",
+      "ko_raw": "<COL:02>탄성<COL:01>",
+      "ja_term": "バウンド",
+      "ko_term": "탄성"
+    },
+    {
+      "id": 141,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ナパーム<COL:01>",
+      "ko_raw": "<COL:02>화염<COL:01>",
+      "ja_term": "ナパーム",
+      "ko_term": "화염"
+    },
+    {
+      "id": 142,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>カタストロフ<COL:01>",
+      "ko_raw": "<COL:02>지진<COL:01>",
+      "ja_term": "カタストロフ",
+      "ko_term": "지진"
+    },
+    {
+      "id": 143,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ブレイズトレイル・チューン (プラズマロープ)<COL:01>",
+      "ko_raw": "<COL:02>프레임 트레일 모듈(플라즈마 로프)<COL:01>",
+      "ja_term": "ブレイズトレイル・チューン (プラズマロープ)",
+      "ko_term": "프레임 트레일 모듈(플라즈마 로프)"
+    },
+    {
+      "id": 144,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ファイヤースネイク・チューン (プラズマロープ)<COL:01>",
+      "ko_raw": "<COL:02>파이어 스네이크 모듈(플라즈마 로프)<COL:01>",
+      "ja_term": "ファイヤースネイク・チューン (プラズマロープ)",
+      "ko_term": "파이어 스네이크 모듈(플라즈마 로프)"
+    },
+    {
+      "id": 145,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ブレイズ<COL:01>",
+      "ko_raw": "<COL:02>빛나는<COL:01>",
+      "ja_term": "ブレイズ",
+      "ko_term": "빛나는"
+    },
+    {
+      "id": 146,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>スネイク<COL:01>",
+      "ko_raw": "<COL:02>꿈틀대는<COL:01>",
+      "ja_term": "スネイク",
+      "ko_term": "꿈틀대는"
+    },
+    {
+      "id": 147,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ボンデージ<COL:01>",
+      "ko_raw": "<COL:02>초강력<COL:01>",
+      "ja_term": "ボンデージ",
+      "ko_term": "초강력"
+    },
+    {
+      "id": 148,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>エクスプロード・チューン (ビーマイングラブ)<COL:01>",
+      "ko_raw": "<COL:02>폭발성 모듈(꿀벌 지뢰)<COL:01>",
+      "ja_term": "エクスプロード・チューン (ビーマイングラブ)",
+      "ko_term": "폭발성 모듈(꿀벌 지뢰)"
+    },
+    {
+      "id": 149,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>キラーハニー・チューン (ビーマイングラブ)<COL:01>",
+      "ko_raw": "<COL:02>킬러 벌꿀 모듈(꿀벌 지뢰)<COL:01>",
+      "ja_term": "キラーハニー・チューン (ビーマイングラブ)",
+      "ko_term": "킬러 벌꿀 모듈(꿀벌 지뢰)"
+    },
+    {
+      "id": 150,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>エクスプロード<COL:01>",
+      "ko_raw": "<COL:02>폭발성<COL:01>",
+      "ja_term": "エクスプロード",
+      "ko_term": "폭발성"
+    },
+    {
+      "id": 151,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ドック<COL:01>",
+      "ko_raw": "<COL:02>독성<COL:01>",
+      "ja_term": "ドック",
+      "ko_term": "독성"
+    },
+    {
+      "id": 152,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>インフェクト<COL:01>",
+      "ko_raw": "<COL:02>전염성<COL:01>",
+      "ja_term": "インフェクト",
+      "ko_term": "전염성"
+    },
+    {
+      "id": 153,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>バトルピッグ (ポークボム)<COL:01>",
+      "ko_raw": "<COL:02>난폭한 돼지 모듈(고기 폭탄)<COL:01>",
+      "ja_term": "バトルピッグ (ポークボム)",
+      "ko_term": "난폭한 돼지 모듈(고기 폭탄)"
+    },
+    {
+      "id": 154,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>デリシャスピッグ (ポークボム)<COL:01>",
+      "ko_raw": "<COL:02>맛있는 돼지 모듈(고기 폭탄)<COL:01>",
+      "ja_term": "デリシャスピッグ (ポークボム)",
+      "ko_term": "맛있는 돼지 모듈(고기 폭탄)"
+    },
+    {
+      "id": 155,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>バトル<COL:01>",
+      "ko_raw": "<COL:02>난폭한<COL:01>",
+      "ja_term": "バトル",
+      "ko_term": "난폭한"
+    },
+    {
+      "id": 156,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>デリシャス<COL:01>",
+      "ko_raw": "<COL:02>맛있는<COL:01>",
+      "ja_term": "デリシャス",
+      "ko_term": "맛있는"
+    },
+    {
+      "id": 157,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>トレビアン<COL:01>",
+      "ko_raw": "<COL:02>짭잘한<COL:01>",
+      "ja_term": "トレビアン",
+      "ko_term": "짭잘한"
+    },
+    {
+      "id": 158,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ダイナモ・チューン (ショックロケット)<COL:01>",
+      "ko_raw": "<COL:02>정전기 모듈(쇼크 로켓)<COL:01>",
+      "ja_term": "ダイナモ・チューン (ショックロケット)",
+      "ko_term": "정전기 모듈(쇼크 로켓)"
+    },
+    {
+      "id": 159,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>スタン・チューン (ショックロケット)<COL:01>",
+      "ko_raw": "<COL:02>테이저 모듈(쇼크 로켓)<COL:01>",
+      "ja_term": "スタン・チューン (ショックロケット)",
+      "ko_term": "테이저 모듈(쇼크 로켓)"
+    },
+    {
+      "id": 160,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>ダイナモ<COL:01>",
+      "ko_raw": "<COL:02>정전기<COL:01>",
+      "ja_term": "ダイナモ",
+      "ko_term": "정전기"
+    },
+    {
+      "id": 161,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>スタン<COL:01>",
+      "ko_raw": "<COL:02>동전기<COL:01>",
+      "ja_term": "スタン",
+      "ko_term": "동전기"
+    },
+    {
+      "id": 162,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>エグゼキュート<COL:01>",
+      "ko_raw": "<COL:02>번개<COL:01>",
+      "ja_term": "エグゼキュート",
+      "ko_term": "번개"
+    },
+    {
+      "id": 163,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>サンダークラウド・チューン (サンダーブレラ)<COL:01>",
+      "ko_raw": "<COL:02>번개구름 모듈(우산)<COL:01>",
+      "ja_term": "サンダークラウド・チューン (サンダーブレラ)",
+      "ko_term": "번개구름 모듈(우산)"
+    },
+    {
+      "id": 164,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>キャパシター・チューン (サンダーブレラ)<COL:01>",
+      "ko_raw": "<COL:02>축전기 모듈(우산)<COL:01>",
+      "ja_term": "キャパシター・チューン (サンダーブレラ)",
+      "ko_term": "축전기 모듈(우산)"
+    },
+    {
+      "id": 165,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>クラウド<COL:01>",
+      "ko_raw": "<COL:02>천둥<COL:01>",
+      "ja_term": "クラウド",
+      "ko_term": "천둥"
+    },
+    {
+      "id": 166,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>キャパシター<COL:01>",
+      "ko_raw": "<COL:02>전자<COL:01>",
+      "ja_term": "キャパシター",
+      "ko_term": "전자"
+    },
+    {
+      "id": 167,
+      "subkind": "weapon_mod_element_prefix",
+      "ja_raw": "<COL:02>エレクトリファイ<COL:01>",
+      "ko_raw": "<COL:02>전화<COL:01>",
+      "ja_term": "エレクトリファイ",
+      "ko_term": "전화"
+    },
+    {
+      "id": 168,
+      "subkind": "collectible_bolt",
+      "ja_raw": "<COL:02>メルトボルト・チューン (フレイムスーツケース)<COL:01>",
+      "ko_raw": "<COL:02>뜨거운 볼트<COL:01>",
+      "ja_term": "メルトボルト・チューン (フレイムスーツケース)",
+      "ko_term": "뜨거운 볼트"
+    },
+    {
+      "id": 169,
+      "subkind": "collectible_bolt",
+      "ja_raw": "<COL:02>メルト<COL:01>",
+      "ko_raw": "<COL:02>뜨거운<COL:01>",
+      "ja_term": "メルト",
+      "ko_term": "뜨거운"
+    },
+    {
+      "id": 170,
+      "subkind": "collectible_bolt",
+      "ja_raw": "<COL:02>チタニウムボルト<COL:01>",
+      "ko_raw": "<COL:02>티타늄 볼트<COL:01>",
+      "ja_term": "チタニウムボルト",
+      "ko_term": "티타늄 볼트"
+    },
+    {
+      "id": 171,
+      "subkind": "collectible_bolt",
+      "ja_raw": "<COL:02>チタニウムボルト<COL:01>",
+      "ko_raw": "<COL:02>티타늄 볼트<COL:01>",
+      "ja_term": "チタニウムボルト",
+      "ko_term": "티타늄 볼트"
+    },
+    {
+      "id": 172,
+      "subkind": "format_control_template",
+      "ja_raw": "<COL:02>\n<COL:01>",
+      "ko_raw": "<COL:02>\n<COL:01>",
+      "ja_term": "\n",
+      "ko_term": "\n"
+    },
+    {
+      "id": 173,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>しゅうへんぶ<COL:01>",
+      "ko_raw": "<COL:02>외부<COL:01>",
+      "ja_term": "しゅうへんぶ",
+      "ko_term": "외부"
+    },
+    {
+      "id": 174,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>メインホール<COL:01>",
+      "ko_raw": "<COL:02>메인 홀<COL:01>",
+      "ja_term": "メインホール",
+      "ko_term": "메인 홀"
+    },
+    {
+      "id": 175,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>カメラ #12: セルブロック<COL:01>",
+      "ko_raw": "<COL:02>12번 카메라: 최고 보안 구역<COL:01>",
+      "ja_term": "カメラ #12: セルブロック",
+      "ko_term": "12번 카메라: 최고 보안 구역"
+    },
+    {
+      "id": 176,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>おくじょうデストラップ<COL:01>",
+      "ko_raw": "<COL:02>지붕 함정<COL:01>",
+      "ja_term": "おくじょうデストラップ",
+      "ko_term": "지붕 함정"
+    },
+    {
+      "id": 177,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>おくじょうスカイライン<COL:01>",
+      "ko_raw": "<COL:02>스카이라인<COL:01>",
+      "ja_term": "おくじょうスカイライン",
+      "ko_term": "스카이라인"
+    },
+    {
+      "id": 178,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>だい 2 しょう: 「きょだいかしたのさぁ！」<COL:01>",
+      "ko_raw": "<COL:02>챕터 2: 훨씬 큰 과장<COL:01>",
+      "ja_term": "だい 2 しょう: 「きょだいかしたのさぁ！」",
+      "ko_term": "챕터 2: 훨씬 큰 과장"
+    },
+    {
+      "id": 179,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>はくしゃくふじん やしき<COL:01>",
+      "ko_raw": "<COL:02>백작부인의 저택<COL:01>",
+      "ja_term": "はくしゃくふじん やしき",
+      "ko_term": "백작부인의 저택"
+    },
+    {
+      "id": 180,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>スキースロープ<COL:01>",
+      "ko_raw": "<COL:02>스키장<COL:01>",
+      "ja_term": "スキースロープ",
+      "ko_term": "스키장"
+    },
+    {
+      "id": 181,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>カメラ #23: カフェテリア<COL:01>",
+      "ko_raw": "<COL:02>23번 카메라: 식당<COL:01>",
+      "ja_term": "カメラ #23: カフェテリア",
+      "ko_term": "23번 카메라: 식당"
+    },
+    {
+      "id": 182,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>アズコタルストリート<COL:01>",
+      "ko_raw": "<COL:02>아즈코탈 샛길<COL:01>",
+      "ja_term": "アズコタルストリート",
+      "ko_term": "아즈코탈 샛길"
+    },
+    {
+      "id": 183,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>マウンテンサイドおね<COL:01>",
+      "ko_raw": "<COL:02>산비탈<COL:01>",
+      "ja_term": "マウンテンサイドおね",
+      "ko_term": "산비탈"
+    },
+    {
+      "id": 184,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>だい 4 しょう: 「キセキのおきたばしょさぁ！」<COL:01>",
+      "ko_raw": "<COL:02>챕터 4: 흡입과 거짓<COL:01>",
+      "ja_term": "だい 4 しょう: 「キセキのおきたばしょさぁ！」",
+      "ko_term": "챕터 4: 흡입과 거짓"
+    },
+    {
+      "id": 185,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>メインフロア<COL:01>",
+      "ko_raw": "<COL:02>1층<COL:01>",
+      "ja_term": "メインフロア",
+      "ko_term": "1층"
+    },
+    {
+      "id": 186,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>カメラ #6: うんどうグラウンド<COL:01>",
+      "ko_raw": "<COL:02>6번 카메라: 운동장<COL:01>",
+      "ja_term": "カメラ #6: うんどうグラウンド",
+      "ko_term": "6번 카메라: 운동장"
+    },
+    {
+      "id": 187,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ハイローラールーム<COL:01>",
+      "ko_raw": "<COL:02>큰 내기 방<COL:01>",
+      "ja_term": "ハイローラールーム",
+      "ko_term": "큰 내기 방"
+    },
+    {
+      "id": 188,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>きみつサイエンスラボ<COL:01>",
+      "ko_raw": "<COL:02>비밀 연구소<COL:01>",
+      "ja_term": "きみつサイエンスラボ",
+      "ko_term": "비밀 연구소"
+    },
+    {
+      "id": 189,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>キャナルすいろ<COL:01>",
+      "ko_raw": "<COL:02>수로<COL:01>",
+      "ja_term": "キャナルすいろ",
+      "ko_term": "수로"
+    },
+    {
+      "id": 190,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>だい 6 しょう: 「やっぱり、とみと めいよ！」<COL:01>",
+      "ko_raw": "<COL:02>챕터 6: 마담 버터쿼크<COL:01>",
+      "ja_term": "だい 6 しょう: 「やっぱり、とみと めいよ！」",
+      "ko_term": "챕터 6: 마담 버터쿼크"
+    },
+    {
+      "id": 191,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>さいくつじょう<COL:01>",
+      "ko_raw": "<COL:02>광산 갱도<COL:01>",
+      "ja_term": "さいくつじょう",
+      "ko_term": "광산 갱도"
+    },
+    {
+      "id": 192,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ぎんがせいふボルトきんこ<COL:01>",
+      "ko_raw": "<COL:02>은하계 볼트 저장소<COL:01>",
+      "ja_term": "ぎんがせいふボルトきんこ",
+      "ko_term": "은하계 볼트 저장소"
+    },
+    {
+      "id": 193,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>カメラ #4: シャワールーム<COL:01>",
+      "ko_raw": "<COL:02>4번 비밀 카메라: 샤워실<COL:01>",
+      "ja_term": "カメラ #4: シャワールーム",
+      "ko_term": "4번 비밀 카메라: 샤워실"
+    },
+    {
+      "id": 194,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ランチャーパッド<COL:01>",
+      "ko_raw": "<COL:02>발사대<COL:01>",
+      "ja_term": "ランチャーパッド",
+      "ko_term": "발사대"
+    },
+    {
+      "id": 195,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>だい 8 しょう: 「モテモテのときにも きかれたよ」<COL:01>",
+      "ko_raw": "<COL:02>챕터 8: 성자 쿼크<COL:01>",
+      "ja_term": "だい 8 しょう: 「モテモテのときにも きかれたよ」",
+      "ko_term": "챕터 8: 성자 쿼크"
+    },
+    {
+      "id": 196,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>クエイサーフィールド<COL:01>",
+      "ko_raw": "<COL:02>퀘이사 지대<COL:01>",
+      "ja_term": "クエイサーフィールド",
+      "ko_term": "퀘이사 지대"
+    },
+    {
+      "id": 197,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>りんじカメラ #9: だつごく！<COL:01>",
+      "ko_raw": "<COL:02>9번 카메라: 탈옥!<COL:01>",
+      "ja_term": "りんじカメラ #9: だつごく！",
+      "ko_term": "9번 카메라: 탈옥!"
+    },
+    {
+      "id": 198,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ダム・エッジ<COL:01>",
+      "ko_raw": "<COL:02>댐 가장자리<COL:01>",
+      "ja_term": "ダム・エッジ",
+      "ko_term": "댐 가장자리"
+    },
+    {
+      "id": 199,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>だい 9 しょう: 「ダムからみずを ぬすんでたのさ！」<COL:01>",
+      "ko_raw": "<COL:02>챕터 9: 돈을 움켜쥔 허구!<COL:01>",
+      "ja_term": "だい 9 しょう: 「ダムからみずを ぬすんでたのさ！」",
+      "ko_term": "챕터 9: 돈을 움켜쥔 허구!"
+    },
+    {
+      "id": 200,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>バルクヘッドかくへき<COL:01>",
+      "ko_raw": "<COL:02>메인 도어<COL:01>",
+      "ja_term": "バルクヘッドかくへき",
+      "ko_term": "메인 도어"
+    },
+    {
+      "id": 201,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>シークレットベース<COL:01>",
+      "ko_raw": "<COL:02>비밀 기지<COL:01>",
+      "ja_term": "シークレットベース",
+      "ko_term": "비밀 기지"
+    },
+    {
+      "id": 202,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>クロンクごくあくアジト<COL:01>",
+      "ko_raw": "<COL:02>클렁크의 아지트<COL:01>",
+      "ja_term": "クロンクごくあくアジト",
+      "ko_term": "클렁크의 아지트"
+    },
+    {
+      "id": 203,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ボルテアびじゅつかん<COL:01>",
+      "ko_raw": "<COL:02>볼테어 박물관<COL:01>",
+      "ja_term": "ボルテアびじゅつかん",
+      "ko_term": "볼테어 박물관"
+    },
+    {
+      "id": 204,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ボルテアびじゅつかん<COL:01>",
+      "ko_raw": "<COL:02>볼테어 박물관<COL:01>",
+      "ja_term": "ボルテアびじゅつかん",
+      "ko_term": "볼테어 박물관"
+    },
+    {
+      "id": 205,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>わくせいグラッチカ<COL:01>",
+      "ko_raw": "<COL:02>감옥 행성<COL:01>",
+      "ja_term": "わくせいグラッチカ",
+      "ko_term": "감옥 행성"
+    },
+    {
+      "id": 206,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>アジャアナカ<COL:01>",
+      "ko_raw": "<COL:02>아시아니카<COL:01>",
+      "ja_term": "アジャアナカ",
+      "ko_term": "아시아니카"
+    },
+    {
+      "id": 207,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>アジャアナカ<COL:01>",
+      "ko_raw": "<COL:02>아시아니카<COL:01>",
+      "ja_term": "アジャアナカ",
+      "ko_term": "아시아니카"
+    },
+    {
+      "id": 208,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>アジャアナカ<COL:01>",
+      "ko_raw": "<COL:02>아시아니카<COL:01>",
+      "ja_term": "アジャアナカ",
+      "ko_term": "아시아니카"
+    },
+    {
+      "id": 209,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>グラシアラ<COL:01>",
+      "ko_raw": "<COL:02>글래시아라<COL:01>",
+      "ja_term": "グラシアラ",
+      "ko_term": "글래시아라"
+    },
+    {
+      "id": 210,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>グラシアラ<COL:01>",
+      "ko_raw": "<COL:02>글래시아라<COL:01>",
+      "ja_term": "グラシアラ",
+      "ko_term": "글래시아라"
+    },
+    {
+      "id": 211,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>けいむしょプラネット<COL:01>",
+      "ko_raw": "<COL:02>감옥 행성<COL:01>",
+      "ja_term": "けいむしょプラネット",
+      "ko_term": "감옥 행성"
+    },
+    {
+      "id": 212,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>リオノーシス<COL:01>",
+      "ko_raw": "<COL:02>리오노시스<COL:01>",
+      "ja_term": "リオノーシス",
+      "ko_term": "리오노시스"
+    },
+    {
+      "id": 213,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>リオノーシス<COL:01>",
+      "ko_raw": "<COL:02>리오노시스<COL:01>",
+      "ja_term": "リオノーシス",
+      "ko_term": "리오노시스"
+    },
+    {
+      "id": 214,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>リオノーシス<COL:01>",
+      "ko_raw": "<COL:02>리오노시스<COL:01>",
+      "ja_term": "リオノーシス",
+      "ko_term": "리오노시스"
+    },
+    {
+      "id": 215,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>カジノ 「ペテンしパラダイス」<COL:01>",
+      "ko_raw": "<COL:02>속임수의 낙원 카지노<COL:01>",
+      "ja_term": "カジノ 「ペテンしパラダイス」",
+      "ko_term": "속임수의 낙원 카지노"
+    },
+    {
+      "id": 216,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>けいむしょプラネット<COL:01>",
+      "ko_raw": "<COL:02>감옥 행성<COL:01>",
+      "ja_term": "けいむしょプラネット",
+      "ko_term": "감옥 행성"
+    },
+    {
+      "id": 217,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>カジノ 「ペテンしパラダイス」<COL:01>",
+      "ko_raw": "<COL:02>속임수의 낙원 카지노<COL:01>",
+      "ja_term": "カジノ 「ペテンしパラダイス」",
+      "ko_term": "속임수의 낙원 카지노"
+    },
+    {
+      "id": 218,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ベナントニオ<COL:01>",
+      "ko_raw": "<COL:02>벤안토니오<COL:01>",
+      "ja_term": "ベナントニオ",
+      "ko_term": "벤안토니오"
+    },
+    {
+      "id": 219,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ベナントニオ<COL:01>",
+      "ko_raw": "<COL:02>벤안토니오<COL:01>",
+      "ja_term": "ベナントニオ",
+      "ko_term": "벤안토니오"
+    },
+    {
+      "id": 220,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ベナントニオ<COL:01>",
+      "ko_raw": "<COL:02>벤안토니오<COL:01>",
+      "ja_term": "ベナントニオ",
+      "ko_term": "벤안토니오"
+    },
+    {
+      "id": 221,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>バンク・スプロケット<COL:01>",
+      "ko_raw": "<COL:02>스프라킷 요새<COL:01>",
+      "ja_term": "バンク・スプロケット",
+      "ko_term": "스프라킷 요새"
+    },
+    {
+      "id": 222,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>バンク・スプロケット<COL:01>",
+      "ko_raw": "<COL:02>스프라킷 요새<COL:01>",
+      "ja_term": "バンク・スプロケット",
+      "ko_term": "스프라킷 요새"
+    },
+    {
+      "id": 223,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>けいむしょプラネット<COL:01>",
+      "ko_raw": "<COL:02>감옥 행성<COL:01>",
+      "ja_term": "けいむしょプラネット",
+      "ko_term": "감옥 행성"
+    },
+    {
+      "id": 224,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>うちゅうせんスクラップヤード<COL:01>",
+      "ko_raw": "<COL:02>우주선의 무덤<COL:01>",
+      "ja_term": "うちゅうせんスクラップヤード",
+      "ko_term": "우주선의 무덤"
+    },
+    {
+      "id": 225,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>うちゅうせんスクラップヤード<COL:01>",
+      "ko_raw": "<COL:02>우주선의 무덤<COL:01>",
+      "ja_term": "うちゅうせんスクラップヤード",
+      "ko_term": "우주선의 무덤"
+    },
+    {
+      "id": 226,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ジャイアント・クランク<COL:01>",
+      "ko_raw": "<COL:02>자이언트 클랭크<COL:01>",
+      "ja_term": "ジャイアント・クランク",
+      "ko_term": "자이언트 클랭크"
+    },
+    {
+      "id": 227,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ハイドラーノ<COL:01>",
+      "ko_raw": "<COL:02>감옥 행성<COL:01>",
+      "ja_term": "ハイドラーノ",
+      "ko_term": "감옥 행성"
+    },
+    {
+      "id": 228,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ハイドラーノ<COL:01>",
+      "ko_raw": "<COL:02>하이드라노<COL:01>",
+      "ja_term": "ハイドラーノ",
+      "ko_term": "하이드라노"
+    },
+    {
+      "id": 229,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ハイドラーノ<COL:01>",
+      "ko_raw": "<COL:02>하이드라노<COL:01>",
+      "ja_term": "ハイドラーノ",
+      "ko_term": "하이드라노"
+    },
+    {
+      "id": 230,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>すいちゅうドーム<COL:01>",
+      "ko_raw": "<COL:02>수중 기지<COL:01>",
+      "ja_term": "すいちゅうドーム",
+      "ko_term": "수중 기지"
+    },
+    {
+      "id": 231,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>すいちゅうドーム<COL:01>",
+      "ko_raw": "<COL:02>수중 기지<COL:01>",
+      "ja_term": "すいちゅうドーム",
+      "ko_term": "수중 기지"
+    },
+    {
+      "id": 232,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>すいちゅうドーム<COL:01>",
+      "ko_raw": "<COL:02>수중 기지<COL:01>",
+      "ja_term": "すいちゅうドーム",
+      "ko_term": "수중 기지"
+    },
+    {
+      "id": 233,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>しゅうへんぶ / ボルテアびじゅつかん<COL:01>",
+      "ko_raw": "<COL:02>볼테어, 외부<COL:01>",
+      "ja_term": "しゅうへんぶ / ボルテアびじゅつかん",
+      "ko_term": "볼테어, 외부"
+    },
+    {
+      "id": 234,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>メインホール / ボルテアびじゅつかん<COL:01>",
+      "ko_raw": "<COL:02>볼테어, 메인 홀<COL:01>",
+      "ja_term": "メインホール / ボルテアびじゅつかん",
+      "ko_term": "볼테어, 메인 홀"
+    },
+    {
+      "id": 235,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>カメラ #12: セルブロック / けいむしょプラネット<COL:01>",
+      "ko_raw": "<COL:02>12번 카메라: 감옥 행성, 최고 보안 구역<COL:01>",
+      "ja_term": "カメラ #12: セルブロック / けいむしょプラネット",
+      "ko_term": "12번 카메라: 감옥 행성, 최고 보안 구역"
+    },
+    {
+      "id": 236,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>おくじょうデストラップ / アジャアナカ<COL:01>",
+      "ko_raw": "<COL:02>아시아니카, 지붕 함정<COL:01>",
+      "ja_term": "おくじょうデストラップ / アジャアナカ",
+      "ko_term": "아시아니카, 지붕 함정"
+    },
+    {
+      "id": 237,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>おくじょうスカイライン / アジャアナカ<COL:01>",
+      "ko_raw": "<COL:02>아시아니카, 스카이라인 지붕<COL:01>",
+      "ja_term": "おくじょうスカイライン / アジャアナカ",
+      "ko_term": "아시아니카, 스카이라인 지붕"
+    },
+    {
+      "id": 238,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>だい 2 しょう: 「きょだいかしたのさぁ！」 / アジャアナカ<COL:01>",
+      "ko_raw": "<COL:02>챕터 2: 아시아니카, 훨씬 큰 과장<COL:01>",
+      "ja_term": "だい 2 しょう: 「きょだいかしたのさぁ！」 / アジャアナカ",
+      "ko_term": "챕터 2: 아시아니카, 훨씬 큰 과장"
+    },
+    {
+      "id": 239,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>はくしゃくふじん やしき / グラシアラ<COL:01>",
+      "ko_raw": "<COL:02>글래시아라, 백작부인 저택<COL:01>",
+      "ja_term": "はくしゃくふじん やしき / グラシアラ",
+      "ko_term": "글래시아라, 백작부인 저택"
+    },
+    {
+      "id": 240,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>スキースロープ / グラシアラ<COL:01>",
+      "ko_raw": "<COL:02>글래시아라, 스키장 <COL:01>",
+      "ja_term": "スキースロープ / グラシアラ",
+      "ko_term": "글래시아라, 스키장 "
+    },
+    {
+      "id": 241,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>カメラ #23: カフェテリア / けいむしょプラネット<COL:01>",
+      "ko_raw": "<COL:02>23번 카메라: 감옥 행성, 식당<COL:01>",
+      "ja_term": "カメラ #23: カフェテリア / けいむしょプラネット",
+      "ko_term": "23번 카메라: 감옥 행성, 식당"
+    },
+    {
+      "id": 242,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>アズコタルストリート / リオノーシス<COL:01>",
+      "ko_raw": "<COL:02>리오노시스, 아즈코탈 샛길<COL:01>",
+      "ja_term": "アズコタルストリート / リオノーシス",
+      "ko_term": "리오노시스, 아즈코탈 샛길"
+    },
+    {
+      "id": 243,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>マウンテンサイドおね / リオノーシス<COL:01>",
+      "ko_raw": "<COL:02>리오노시스, 산비탈 <COL:01>",
+      "ja_term": "マウンテンサイドおね / リオノーシス",
+      "ko_term": "리오노시스, 산비탈 "
+    },
+    {
+      "id": 244,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>だい 4 しょう: 「キセキのおきたばしょさぁ！」 / リオノーシス<COL:01>",
+      "ko_raw": "<COL:02>챕터 4: 리오노시스, 흡입와 거짓<COL:01>",
+      "ja_term": "だい 4 しょう: 「キセキのおきたばしょさぁ！」 / リオノーシス",
+      "ko_term": "챕터 4: 리오노시스, 흡입와 거짓"
+    },
+    {
+      "id": 245,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>メインフロア / カジノ 「ペテンしパラダイス」<COL:01>",
+      "ko_raw": "<COL:02>속임수의 낙원 카지노, 1층<COL:01>",
+      "ja_term": "メインフロア / カジノ 「ペテンしパラダイス」",
+      "ko_term": "속임수의 낙원 카지노, 1층"
+    },
+    {
+      "id": 246,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>カメラ #6: うんどうグラウンド / けいむしょプラネット<COL:01>",
+      "ko_raw": "<COL:02>6번 카메라: 감옥 행성, 운동장<COL:01>",
+      "ja_term": "カメラ #6: うんどうグラウンド / けいむしょプラネット",
+      "ko_term": "6번 카메라: 감옥 행성, 운동장"
+    },
+    {
+      "id": 247,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ハイローラールーム / カジノ 「ペテンしパラダイス」<COL:01>",
+      "ko_raw": "<COL:02>속임수의 낙원 카지노, 큰 내기 방 <COL:01>",
+      "ja_term": "ハイローラールーム / カジノ 「ペテンしパラダイス」",
+      "ko_term": "속임수의 낙원 카지노, 큰 내기 방 "
+    },
+    {
+      "id": 248,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>きみつサイエンスラボ / ベナントニオ<COL:01>",
+      "ko_raw": "<COL:02>벤안토니오, 비밀 연구소<COL:01>",
+      "ja_term": "きみつサイエンスラボ / ベナントニオ",
+      "ko_term": "벤안토니오, 비밀 연구소"
+    },
+    {
+      "id": 249,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>キャナルすいろ / ベナントニオ<COL:01>",
+      "ko_raw": "<COL:02>벤안토니오, 수로 <COL:01>",
+      "ja_term": "キャナルすいろ / ベナントニオ",
+      "ko_term": "벤안토니오, 수로 "
+    },
+    {
+      "id": 250,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>だい 6 しょう: 「やっぱり、とみと めいよ！」 / ベナントニオ<COL:01>",
+      "ko_raw": "<COL:02>챕터 6: 벤안토니오, 마담 버터쿼크<COL:01>",
+      "ja_term": "だい 6 しょう: 「やっぱり、とみと めいよ！」 / ベナントニオ",
+      "ko_term": "챕터 6: 벤안토니오, 마담 버터쿼크"
+    },
+    {
+      "id": 251,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>さいくつじょう / バンク・スプロケット<COL:01>",
+      "ko_raw": "<COL:02>스프라킷 요새, 광산 갱도<COL:01>",
+      "ja_term": "さいくつじょう / バンク・スプロケット",
+      "ko_term": "스프라킷 요새, 광산 갱도"
+    },
+    {
+      "id": 252,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ぎんがせいふボルトきんこ / バンク・スプロケット<COL:01>",
+      "ko_raw": "<COL:02>스프라킷 요새, 은하계 볼트 저장소<COL:01>",
+      "ja_term": "ぎんがせいふボルトきんこ / バンク・スプロケット",
+      "ko_term": "스프라킷 요새, 은하계 볼트 저장소"
+    },
+    {
+      "id": 253,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>カメラ #4: シャワールーム / けいむしょプラネット<COL:01>",
+      "ko_raw": "<COL:02>4번 비밀 카메라: 감옥 행성, 샤워실<COL:01>",
+      "ja_term": "カメラ #4: シャワールーム / けいむしょプラネット",
+      "ko_term": "4번 비밀 카메라: 감옥 행성, 샤워실"
+    },
+    {
+      "id": 254,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ランチャーパッド / うちゅうせんスクラップヤード<COL:01>",
+      "ko_raw": "<COL:02>우주선의 무덤, 발사대 <COL:01>",
+      "ja_term": "ランチャーパッド / うちゅうせんスクラップヤード",
+      "ko_term": "우주선의 무덤, 발사대 "
+    },
+    {
+      "id": 255,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>だい 8 しょう: 「モテモテのときにも きかれたよ」 / うちゅうせんスクラップヤード<COL:01>",
+      "ko_raw": "<COL:02>챕터 8: 우주선의 무덤, 성자 쿼크<COL:01>",
+      "ja_term": "だい 8 しょう: 「モテモテのときにも きかれたよ」 / うちゅうせんスクラップヤード",
+      "ko_term": "챕터 8: 우주선의 무덤, 성자 쿼크"
+    },
+    {
+      "id": 256,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>クエイサーフィールド / ジャイアント・クランク<COL:01>",
+      "ko_raw": "<COL:02>자이언트 클랭크, 퀘이사 지대<COL:01>",
+      "ja_term": "クエイサーフィールド / ジャイアント・クランク",
+      "ko_term": "자이언트 클랭크, 퀘이사 지대"
+    },
+    {
+      "id": 257,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>りんじカメラ #9: だつごく！ / ハイドラーノ<COL:01>",
+      "ko_raw": "<COL:02>9번 카메라: 감옥 행성, 탈옥!<COL:01>",
+      "ja_term": "りんじカメラ #9: だつごく！ / ハイドラーノ",
+      "ko_term": "9번 카메라: 감옥 행성, 탈옥!"
+    },
+    {
+      "id": 258,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ダム・エッジ / ハイドラーノ<COL:01>",
+      "ko_raw": "<COL:02>하이드라노, 댐 가장자리 <COL:01>",
+      "ja_term": "ダム・エッジ / ハイドラーノ",
+      "ko_term": "하이드라노, 댐 가장자리 "
+    },
+    {
+      "id": 259,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>だい 9 しょう: 「ダムからみずを ぬすんでたのさ！」 / ハイドラーノ<COL:01>",
+      "ko_raw": "<COL:02>챕터 9: 하이드라노, 돈을 움켜쥔 허구!<COL:01>",
+      "ja_term": "だい 9 しょう: 「ダムからみずを ぬすんでたのさ！」 / ハイドラーノ",
+      "ko_term": "챕터 9: 하이드라노, 돈을 움켜쥔 허구!"
+    },
+    {
+      "id": 260,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>バルクヘッドかくへき / すいちゅうドーム<COL:01>",
+      "ko_raw": "<COL:02>수중 기지, 메인 도어<COL:01>",
+      "ja_term": "バルクヘッドかくへき / すいちゅうドーム",
+      "ko_term": "수중 기지, 메인 도어"
+    },
+    {
+      "id": 261,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>シークレットベース / すいちゅうドーム<COL:01>",
+      "ko_raw": "<COL:02>수중 기지, 비밀 기지<COL:01>",
+      "ja_term": "シークレットベース / すいちゅうドーム",
+      "ko_term": "수중 기지, 비밀 기지"
+    },
+    {
+      "id": 262,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>クロンクごくあくアジト / すいちゅうドーム<COL:01>",
+      "ko_raw": "<COL:02>수중 기지, 클렁크의 아지트<COL:01>",
+      "ja_term": "クロンクごくあくアジト / すいちゅうドーム",
+      "ko_term": "수중 기지, 클렁크의 아지트"
+    },
+    {
+      "id": 263,
+      "subkind": "planet_location_chapter",
+      "ja_raw": "<COL:02>ハイインパクトの ツリーハウス<COL:01>",
+      "ko_raw": "<COL:02>하이임팩트 트리하우스<COL:01>",
+      "ja_term": "ハイインパクトの ツリーハウス",
+      "ko_term": "하이임팩트 트리하우스"
+    },
+    {
+      "id": 264,
+      "subkind": "playable_character",
+      "ja_raw": "<COL:02>ラチェット<COL:01>",
+      "ko_raw": "<COL:02>라쳇<COL:01>",
+      "ja_term": "ラチェット",
+      "ko_term": "라쳇"
+    },
+    {
+      "id": 265,
+      "subkind": "playable_character",
+      "ja_raw": "<COL:02>ラチェットの<COL:01>",
+      "ko_raw": "<COL:02>라쳇<COL:01>",
+      "ja_term": "ラチェットの",
+      "ko_term": "라쳇"
+    },
+    {
+      "id": 266,
+      "subkind": "playable_character",
+      "ja_raw": "<COL:02>エージェント・クランク<COL:01>",
+      "ko_raw": "<COL:02>에이전트 클랭크<COL:01>",
+      "ja_term": "エージェント・クランク",
+      "ko_term": "에이전트 클랭크"
+    },
+    {
+      "id": 267,
+      "subkind": "playable_character",
+      "ja_raw": "<COL:02>エージェント・クランクの<COL:01>",
+      "ko_raw": "<COL:02>에이전트 클랭크<COL:01>",
+      "ja_term": "エージェント・クランクの",
+      "ko_term": "에이전트 클랭크"
+    },
+    {
+      "id": 268,
+      "subkind": "playable_character",
+      "ja_raw": "<COL:02>クランク<COL:01>",
+      "ko_raw": "<COL:02>클랭크<COL:01>",
+      "ja_term": "クランク",
+      "ko_term": "클랭크"
+    },
+    {
+      "id": 269,
+      "subkind": "playable_character",
+      "ja_raw": "<COL:02>クランクの<COL:01>",
+      "ko_raw": "<COL:02>클랭크<COL:01>",
+      "ja_term": "クランクの",
+      "ko_term": "클랭크"
+    },
+    {
+      "id": 270,
+      "subkind": "playable_character",
+      "ja_raw": "<COL:02>ロボ・ラチェット<COL:01>",
+      "ko_raw": "<COL:02>로보-라쳇<COL:01>",
+      "ja_term": "ロボ・ラチェット",
+      "ko_term": "로보-라쳇"
+    },
+    {
+      "id": 271,
+      "subkind": "playable_character",
+      "ja_raw": "<COL:02>クラン・フー キック<COL:01>",
+      "ko_raw": "<COL:02>클랭크 쿵푸 킥<COL:01>",
+      "ja_term": "クラン・フー キック",
+      "ko_term": "클랭크 쿵푸 킥"
+    },
+    {
+      "id": 272,
+      "subkind": "playable_character",
+      "ja_raw": "<COL:02>クラン・フー ホットフット<COL:01>",
+      "ko_raw": "<COL:02>클랭크 쿵푸 핫풋<COL:01>",
+      "ja_term": "クラン・フー ホットフット",
+      "ko_term": "클랭크 쿵푸 핫풋"
+    },
+    {
+      "id": 273,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>カフリンクボム<COL:01>",
+      "ko_raw": "<COL:02>손목 폭탄<COL:01>",
+      "ja_term": "カフリンクボム",
+      "ko_term": "손목 폭탄"
+    },
+    {
+      "id": 274,
+      "subkind": "weapon_gadget_item",
+      "ja_raw": "<COL:02>リストグレネイド<COL:01>",
+      "ko_raw": "<COL:02>손목 박격포<COL:01>",
+      "ja_term": "リストグレネイド",
+      "ko_term": "손목 박격포"
+    }
+  ],
+  "savedata_stage_titles": [
+    {
+      "ko_id": 752,
+      "ja_id": 749,
+      "ja_title": "わくせいポクタル: ホワイリゾート",
+      "ko_title": "포키타루, 조와이 리조트"
+    },
+    {
+      "ko_id": 753,
+      "ja_id": 750,
+      "ja_title": "わくせいライラス: ベテガージャングル",
+      "ko_title": "라일러스, 베테가 정글"
+    },
+    {
+      "ko_id": 754,
+      "ja_id": 751,
+      "ja_title": "メカノイド・ファクトリー: わくせいカリドン",
+      "ko_title": "칼리돈, 메카노이드 공장"
+    },
+    {
+      "ko_id": 755,
+      "ja_id": 752,
+      "ja_title": "わくせいメタリス、 スクラップヤード LXIV",
+      "ko_title": "메탈리스, 고물상 LXIV"
+    },
+    {
+      "ko_id": 756,
+      "ja_id": 753,
+      "ja_title": "ナイトメヤー",
+      "ko_title": "꿈 속"
+    },
+    {
+      "ko_id": 757,
+      "ja_id": 754,
+      "ja_title": "バイオステーション、 メディカルエリア 「オメガ」",
+      "ko_title": "오메가 의료 기지, 외과 시설"
+    },
+    {
+      "ko_id": 758,
+      "ja_id": 755,
+      "ja_title": "わくせいチャラックス、 テクノマイト・シティ",
+      "ko_title": "칼락스, 테크노마이트 시"
+    },
+    {
+      "ko_id": 759,
+      "ja_id": 756,
+      "ja_title": "わくせいドナール、 ファーミング・コープ",
+      "ko_title": "데이니 문, 농업 협동 조합"
+    },
+    {
+      "ko_id": 760,
+      "ja_id": 757,
+      "ja_title": "クランクないぶ",
+      "ko_title": "클랭크 내부"
+    },
+    {
+      "ko_id": 761,
+      "ja_id": 758,
+      "ja_title": "わくせいクアドローナ、 クローンこうじょう",
+      "ko_title": "쿼드로나, 클론 공장"
+    },
+    {
+      "ko_id": 762,
+      "ja_id": 759,
+      "ja_title": "メモリースティック_[tm] を けんさちゅう。 しばらく おまちください…",
+      "ko_title": "Memory Stick Duo_[tm]를 점검 중입니다. 잠시만 기다리세요…"
+    },
+    {
+      "ko_id": 763,
+      "ja_id": 760,
+      "ja_title": "メモリースティック_[tm] に アクセスちゅう。 しばらく おまちください…",
+      "ko_title": "Memory Stick Duo_[tm]에 접근 중입니다. 잠시만 기다리세요…"
+    },
+    {
+      "ko_id": 764,
+      "ja_id": 761,
+      "ja_title": "周辺部／ボルテア美術館",
+      "ko_title": "볼테어, 외부"
+    },
+    {
+      "ko_id": 765,
+      "ja_id": 762,
+      "ja_title": "メインホール／ボルテア美術館",
+      "ko_title": "볼테어, 메인 홀"
+    },
+    {
+      "ko_id": 766,
+      "ja_id": 763,
+      "ja_title": "カメラ #12：セルブロック／刑務所プラネット",
+      "ko_title": "12번 카메라: 감옥 행성, 최고 보안 구역"
+    },
+    {
+      "ko_id": 767,
+      "ja_id": 764,
+      "ja_title": "屋上デストラップ／アジャアナカ",
+      "ko_title": "아시아니카, 지붕 함정"
+    },
+    {
+      "ko_id": 768,
+      "ja_id": 765,
+      "ja_title": "屋上スカイライン／アジャアナカ",
+      "ko_title": "아시아니카, 스카이라인"
+    },
+    {
+      "ko_id": 769,
+      "ja_id": 766,
+      "ja_title": "第２章：「巨大化したのさぁ！」／アジャアナカ",
+      "ko_title": "챕터 2: 아시아니카, 훨씬 큰 과장"
+    },
+    {
+      "ko_id": 770,
+      "ja_id": 767,
+      "ja_title": "伯爵夫人屋敷／グラシアラ",
+      "ko_title": "글래시아라, 백작부인 저택"
+    },
+    {
+      "ko_id": 771,
+      "ja_id": 768,
+      "ja_title": "スキースロープ／グラシアラ",
+      "ko_title": "글래시아라, 스키장"
+    },
+    {
+      "ko_id": 772,
+      "ja_id": 769,
+      "ja_title": "カメラ #23：カフェテリア／刑務所プラネット",
+      "ko_title": "23번 카메라: 감옥 행성, 식당"
+    },
+    {
+      "ko_id": 773,
+      "ja_id": 770,
+      "ja_title": "アズコタルストリート／リオノーシス",
+      "ko_title": "리오노시스, 아즈코탈 샛길"
+    },
+    {
+      "ko_id": 774,
+      "ja_id": 771,
+      "ja_title": "マウンテンサイド尾根／リオノーシス",
+      "ko_title": "리오노시스, 산비탈"
+    },
+    {
+      "ko_id": 775,
+      "ja_id": 772,
+      "ja_title": "第４章「キセキの起きた場所さぁ！」／リオノーシス",
+      "ko_title": "챕터 4: 리오노시스, 흡입과 거짓"
+    },
+    {
+      "ko_id": 776,
+      "ja_id": 773,
+      "ja_title": "メインフロア／カジノ「ペテン師パラダイス」",
+      "ko_title": "속임수의 낙원 카지노, 1층"
+    },
+    {
+      "ko_id": 777,
+      "ja_id": 774,
+      "ja_title": "カメラ #6：運動グラウンド／刑務所プラネット",
+      "ko_title": "6번 카메라: 감옥 행성, 운동장"
+    },
+    {
+      "ko_id": 778,
+      "ja_id": 775,
+      "ja_title": "ハイローラールーム／カジノ「ペテン師パラダイス」",
+      "ko_title": "속임수의 낙원 카지노, 큰 내기 방"
+    },
+    {
+      "ko_id": 779,
+      "ja_id": 776,
+      "ja_title": "機密サイエンスラボ／ベナントニオ",
+      "ko_title": "벤안토니오, 비밀 연구소"
+    },
+    {
+      "ko_id": 780,
+      "ja_id": 777,
+      "ja_title": "キャナル水路／ベナントニオ",
+      "ko_title": "벤안토니오, 수로"
+    },
+    {
+      "ko_id": 781,
+      "ja_id": 778,
+      "ja_title": "第６章：「やっぱり富と名誉！」／ベナントニオ",
+      "ko_title": "챕터 6: 벤안토니오, 마담 버터쿼크"
+    },
+    {
+      "ko_id": 782,
+      "ja_id": 779,
+      "ja_title": "採掘場／バンク・スプロケット",
+      "ko_title": "스프라킷 요새, 광산 갱도"
+    },
+    {
+      "ko_id": 783,
+      "ja_id": 780,
+      "ja_title": "銀河政府ボルト金庫／バンク・スプロケット",
+      "ko_title": "스크라킷 요새, 은하계 볼트 저장소"
+    },
+    {
+      "ko_id": 784,
+      "ja_id": 781,
+      "ja_title": "カメラ #4：シャワールーム／刑務所プラネット",
+      "ko_title": "4번 비밀 카메라: 감옥 행성, 샤워실"
+    },
+    {
+      "ko_id": 785,
+      "ja_id": 782,
+      "ja_title": "ランチャーパッド／宇宙船スクラップヤード",
+      "ko_title": "우주선의 무덤, 발사대"
+    },
+    {
+      "ko_id": 786,
+      "ja_id": 783,
+      "ja_title": "第８章：「モテモテのときにもきかれたよ」／宇宙船スクラップヤード",
+      "ko_title": "챕터 8: 우주선의 무덤, 성자 쿼크"
+    },
+    {
+      "ko_id": 787,
+      "ja_id": 784,
+      "ja_title": "クエイサーフィールド／ジャイアント・クランク",
+      "ko_title": "자이언트 클랭크, 퀘이사 지대"
+    },
+    {
+      "ko_id": 788,
+      "ja_id": 785,
+      "ja_title": "臨時カメラ #9：脱獄！／ハイドラーノ",
+      "ko_title": "9번 카메라: 감옥 행성, 탈옥!"
+    },
+    {
+      "ko_id": 789,
+      "ja_id": 786,
+      "ja_title": "ダム・エッジ／ハイドラーノ",
+      "ko_title": "하이드라노, 댐 가장자리"
+    },
+    {
+      "ko_id": 790,
+      "ja_id": 787,
+      "ja_title": "第９章：「ダムから水を盗んでたのさ！」／ハイドラーノ",
+      "ko_title": "챕터 9: 하이드라노, 돈을 움켜쥔 허구!"
+    },
+    {
+      "ko_id": 791,
+      "ja_id": 788,
+      "ja_title": "バルクヘッド隔壁／水中ドーム",
+      "ko_title": "수중 기지, 메인 도어"
+    },
+    {
+      "ko_id": 792,
+      "ja_id": 789,
+      "ja_title": "シークレットベース／水中ドーム",
+      "ko_title": "수중 기지, 비밀 기지"
+    },
+    {
+      "ko_id": 793,
+      "ja_id": 790,
+      "ja_title": "クロンク極悪アジト／水中ドーム",
+      "ko_title": "수중 기지, 클렁크의 아지트"
+    },
+    {
+      "ko_id": 794,
+      "ja_id": 791,
+      "ja_title": "ハイインパクトのツリーハウス ",
+      "ko_title": "HIG 나무집"
+    }
+  ]
+}

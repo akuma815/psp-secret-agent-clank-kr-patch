@@ -1,0 +1,562 @@
+{
+  "generated_at": "2026-10-16T23:44:14+09:00",
+  "status": "ok",
+  "verification": {
+    "localdat_ja": {
+      "path": "extracted/disc_ja/PSP_GAME/USRDIR/DATA/HUD/LOCALDAT_J.BIN",
+      "size_bytes": 185200,
+      "sha256": "4b3b73d9bd29cb2bec69cccbca3635081d5d3d914745ac2fb04cb2d0d39708ba",
+      "rebuilt_sha256": "4b3b73d9bd29cb2bec69cccbca3635081d5d3d914745ac2fb04cb2d0d39708ba",
+      "byte_identical_roundtrip": true,
+      "version_flags_hex": "0x12060101",
+      "entry_count": 2600,
+      "entry_payload_roundtrip_passed": 2600,
+      "utf8_savedata_entry_count": 51,
+      "hud_string_entry_count": 2549,
+      "ltoc": {
+        "a": 68,
+        "b": 184784,
+        "c": 180896
+      },
+      "timing_header": {
+        "n1": 17,
+        "n2": 68,
+        "n3": 442,
+        "byte_length": 3888
+      },
+      "post_ltoc_tail_length": 348
+    },
+    "localdat_ko": {
+      "path": "extracted/disc_ko/PSP_GAME/USRDIR/DATA/HUD/LOCALDAT_K.BIN",
+      "size_bytes": 157320,
+      "sha256": "4d6ef0ca53978a32766da826d2f6283ddc96bc171124d3533d8d50c66c8ec0ae",
+      "rebuilt_sha256": "4d6ef0ca53978a32766da826d2f6283ddc96bc171124d3533d8d50c66c8ec0ae",
+      "byte_identical_roundtrip": true,
+      "version_flags_hex": "0x12060101",
+      "entry_count": 2603,
+      "entry_payload_roundtrip_passed": 2603,
+      "utf8_savedata_entry_count": 51,
+      "hud_string_entry_count": 2552,
+      "ltoc": {
+        "a": 68,
+        "b": 157032,
+        "c": 153144
+      },
+      "timing_header": {
+        "n1": 17,
+        "n2": 68,
+        "n3": 442,
+        "byte_length": 3888
+      },
+      "post_ltoc_tail_length": 220
+    },
+    "helplocaldat_ja": {
+      "path": "extracted/disc_ja/PSP_GAME/USRDIR/DATA/HUD/HELPLOCALDAT_J.BIN",
+      "size_bytes": 43360,
+      "sha256": "d96078f6ad4613d335d97a68243824f093fcd3a871be2cb4b43da6998be05330",
+      "rebuilt_sha256": "d96078f6ad4613d335d97a68243824f093fcd3a871be2cb4b43da6998be05330",
+      "byte_identical_roundtrip": true,
+      "version_flags_hex": "0x12060105",
+      "entry_count": 480,
+      "entry_payload_roundtrip_passed": 480,
+      "utf8_savedata_entry_count": 0,
+      "hud_string_entry_count": 480,
+      "ltoc": {
+        "a": 68,
+        "b": 43292,
+        "c": 43272
+      },
+      "timing_header": {
+        "n1": 1,
+        "n2": 1,
+        "n3": 0,
+        "byte_length": 20
+      },
+      "post_ltoc_tail_length": 0
+    },
+    "helplocaldat_ko": {
+      "path": "extracted/disc_ko/PSP_GAME/USRDIR/DATA/HUD/HELPLOCALDAT_K.BIN",
+      "size_bytes": 34992,
+      "sha256": "6831569ab44b42c0b051ea2fd5ab0b4763d1447a464bd90bb8e14fcffa4598e7",
+      "rebuilt_sha256": "6831569ab44b42c0b051ea2fd5ab0b4763d1447a464bd90bb8e14fcffa4598e7",
+      "byte_identical_roundtrip": true,
+      "version_flags_hex": "0x12060105",
+      "entry_count": 480,
+      "entry_payload_roundtrip_passed": 480,
+      "utf8_savedata_entry_count": 0,
+      "hud_string_entry_count": 480,
+      "ltoc": {
+        "a": 68,
+        "b": 34924,
+        "c": 34904
+      },
+      "timing_header": {
+        "n1": 1,
+        "n2": 1,
+        "n3": 0,
+        "byte_length": 20
+      },
+      "post_ltoc_tail_length": 0
+    }
+  },
+  "timing_tables_identical": {
+    "localdat_ja_vs_ko": true,
+    "helplocaldat_ja_vs_ko": true
+  },
+  "alignment": {
+    "localdat": {
+      "total_ko_entries": 2603,
+      "total_ja_entries": 2600,
+      "paired_count": 2600,
+      "ko_only_count": 3,
+      "shifted_id_count": 204,
+      "printf_mismatch_count": 0,
+      "button_token_diff_count": 36,
+      "untranslated_or_placeholder_count": 27,
+      "english_remnant_candidates": [
+        {
+          "ko_id": 310,
+          "ja_id": 310,
+          "ja_text": "*かりテキスト*",
+          "ko_text": "*PLACEHOLDER*"
+        },
+        {
+          "ko_id": 350,
+          "ja_id": 350,
+          "ja_text": "Do not Translate",
+          "ko_text": "Do not Translate"
+        },
+        {
+          "ko_id": 490,
+          "ja_id": 490,
+          "ja_text": "なんと、 ハードコア モードで ゲームを クリア しました！ すばらしい！ クリアがめんを しゃしんに とって おけば、 いっしょうの きねんに なりますよ！",
+          "ko_text": "와! 하드코어 모드에서 게임을 클리어했군요! 이 화면의 캡처 사진과 함께 이름과 주소를 저희에게 보내서 당신의 성공을 알려주세요. 우편: High Impact Games, 4146 Lankershim Blvd., 2nd Floor, North Hollywood, CA 91602, 이메일: Hardcore@highimpactgames.com "
+        },
+        {
+          "ko_id": 493,
+          "ja_id": 493,
+          "ja_text": "This is to test the '<ELLIPSIS>' - ellipsis char.",
+          "ko_text": "This is to test the '<ELLIPSIS>' - ellipsis char."
+        },
+        {
+          "ko_id": 587,
+          "ja_id": 587,
+          "ja_text": "クレジット",
+          "ko_text": "CREDITS"
+        },
+        {
+          "ko_id": 742,
+          "ja_id": 739,
+          "ja_text": "セーブちゅう です。 メモリースティック<SYM_TM> アクセスランプが てんとう して いる ときは、 メモリースティック<SYM_TM> を ぬいたり、 ほんたいの でんげんを きったりは しないで ください。",
+          "ko_text": "Progress is saving. Do not remove your Memory Stick<SYM_TM> or turn off your PSP<SYM_TM> when the Memory Stick<SYM_TM> access indicator is flashing."
+        },
+        {
+          "ko_id": 743,
+          "ja_id": 740,
+          "ja_text": "データを セーブちゅう です。 この アイコンが がめんに あらわれて いるときは、 メモリースティック<SYM_TM> を ぬいたり、 ほんたいの でんげんを きったりは しないで ください。 ",
+          "ko_text": "Changes and data are saving. When you see this icon on the screen, do not remove your Memory Stick<SYM_TM>, or turn off your PSP<SYM_TM>."
+        }
+      ],
+      "button_token_diffs": [
+        {
+          "ko_id": 279,
+          "ja_id": 279,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE>",
+          "ko_text": "<BTN_CROSS>"
+        },
+        {
+          "ko_id": 280,
+          "ja_id": 280,
+          "ja_btns": [
+            "<BTN_SQUARE>",
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_SQUARE>",
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "<BTN_SQUARE> / <BTN_CROSS> で ズームイン / アウト",
+          "ko_text": "<BTN_SQUARE> / <BTN_CIRCLE>: 줌 인/줌 아웃"
+        },
+        {
+          "ko_id": 295,
+          "ja_id": 295,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "<BTN_CROSS> ぶきガラメカ",
+          "ko_text": "<BTN_CIRCLE> 무기 보기"
+        },
+        {
+          "ko_id": 296,
+          "ja_id": 296,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> そうび",
+          "ko_text": "<BTN_CROSS> 장착"
+        },
+        {
+          "ko_id": 297,
+          "ja_id": 297,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "<BTN_CROSS> クイックチェンジ",
+          "ko_text": "<BTN_CIRCLE> 퀵 체인지"
+        },
+        {
+          "ko_id": 301,
+          "ja_id": 301,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> かう",
+          "ko_text": "<BTN_CROSS> 구입"
+        },
+        {
+          "ko_id": 303,
+          "ja_id": 303,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "<BTN_CROSS> つぎのキャラ",
+          "ko_text": "<BTN_CIRCLE> 다음"
+        },
+        {
+          "ko_id": 352,
+          "ja_id": 352,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> えらぶ",
+          "ko_text": "<BTN_CROSS> 선택"
+        },
+        {
+          "ko_id": 353,
+          "ja_id": 353,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_L>",
+            "<BTN_R>"
+          ],
+          "ja_text": "カーソルかいてん: Lボタン / Rボタン",
+          "ko_text": "<BTN_L> 반시계방향 돌기  <BTN_R> 시계방향 돌기"
+        },
+        {
+          "ko_id": 372,
+          "ja_id": 372,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "<BTN_CROSS> オッケー",
+          "ko_text": "<BTN_CIRCLE> 확인"
+        },
+        {
+          "ko_id": 373,
+          "ja_id": 373,
+          "ja_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "<BTN_CROSS> はい",
+          "ko_text": "<BTN_CIRCLE> 예"
+        },
+        {
+          "ko_id": 376,
+          "ja_id": 376,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> オッケー",
+          "ko_text": "<BTN_CROSS>  확인"
+        },
+        {
+          "ko_id": 377,
+          "ja_id": 377,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> きりかえ",
+          "ko_text": "<BTN_CROSS>바꾸기"
+        },
+        {
+          "ko_id": 384,
+          "ja_id": 384,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> えらぶ ",
+          "ko_text": "<BTN_CROSS>  선택"
+        },
+        {
+          "ko_id": 386,
+          "ja_id": 386,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> だんやくを かう",
+          "ko_text": "<BTN_CROSS> <COL:02>탄약<COL:01> 구입"
+        },
+        {
+          "ko_id": 387,
+          "ja_id": 387,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> だんやく まんタン",
+          "ko_text": "<BTN_CROSS> <COL:02>탄약<COL:01> 최대 구입"
+        },
+        {
+          "ko_id": 388,
+          "ja_id": 388,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> ガラメカを かう",
+          "ko_text": "<BTN_CROSS> 가젯 구입"
+        },
+        {
+          "ko_id": 397,
+          "ja_id": 397,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> たんとうエージェントをえらぶ",
+          "ko_text": "<BTN_CROSS> 파일 선택"
+        },
+        {
+          "ko_id": 399,
+          "ja_id": 399,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> ステージへ ゆく",
+          "ko_text": "<BTN_CROSS> 스테이지로 이동"
+        },
+        {
+          "ko_id": 418,
+          "ja_id": 418,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> ミッションがめん",
+          "ko_text": "<BTN_CROSS> 임무 화면"
+        },
+        {
+          "ko_id": 429,
+          "ja_id": 429,
+          "ja_btns": [
+            "<BTN_CROSS>",
+            "<BTN_CROSS>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>",
+            "<BTN_CROSS>",
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "ガラクトロンせい <COL:02>ヘリパック<COL:01>か ジェット<COL:02>パック<COL:01>を つかえば、 ホバリングライドで くうちゅうを すべるように いどう するコトが できます！ <BTN_CROSS>ボタンで ジャンプしたら、 もういちど すぐに <BTN_CROSS>ボタンを おしつづけます。",
+          "ko_text": "가제트론 헬리 팩을 업그레이드하면 활강할 수 있습니다! <BTN_CROSS>으로 점프한 후 한 번 더 <BTN_CROSS>을 눌러 활강하십시오. 또는 점프 후 <BTN_CROSS>을 누르고 계세요."
+        },
+        {
+          "ko_id": 442,
+          "ja_id": 442,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ja_text": "DO NOT TRANSLATE",
+          "ko_text": "<BTN_CIRCLE>을 누르면 그라인드 락에 입장합니다."
+        },
+        {
+          "ko_id": 500,
+          "ja_id": 500,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> ムービーを みる",
+          "ko_text": "<BTN_CROSS> 동영상 보기"
+        },
+        {
+          "ko_id": 573,
+          "ja_id": 573,
+          "ja_btns": [
+            "<BTN_SQUARE>",
+            "<BTN_CIRCLE>",
+            "<BTN_SQUARE>",
+            "<BTN_CIRCLE>",
+            "<BTN_TRIANGLE>"
+          ],
+          "ko_btns": [],
+          "ja_text": "「<COL:02>ラチェット<COL:01>&<COL:02>クランク<COL:01> FUTURE」 で、 つぎの コマンドを にゅうりょく してみよう: <BTN_SQUARE> <BTN_CIRCLE> <BTN_SQUARE> <BTN_CIRCLE> うえ うえ <BTN_TRIANGLE> した うえ <ELLIPSIS><COL:02>ラチェット<COL:01>が へんしん！",
+          "ko_text": "\"<COL:02>라쳇<COL:01> & <COL:02>클랭크<COL:01> : 퓨처\"에 이 코드를 입력하세요: 네모 동그라미 네모 동그라미 위 위 세모 아래 위. <COL:02>라쳇<COL:01>이 크래그마이트들에게 내면의 삶이 그를 변화시키지 못했다는 것을 보여줍니다."
+        },
+        {
+          "ko_id": 606,
+          "ja_id": 606,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "<BTN_CIRCLE> OK",
+          "ko_text": "<BTN_CROSS> 승락"
+        }
+      ],
+      "printf_mismatches": []
+    },
+    "helplocaldat": {
+      "total_ko_entries": 480,
+      "total_ja_entries": 480,
+      "paired_count": 480,
+      "ko_only_count": 0,
+      "shifted_id_count": 0,
+      "printf_mismatch_count": 0,
+      "button_token_diff_count": 5,
+      "untranslated_or_placeholder_count": 5,
+      "english_remnant_candidates": [
+        {
+          "ko_id": -102,
+          "ja_id": -102,
+          "ja_text": "<COL:02>サンダーブレラ<COL:01>は でんきを ためますの。 <BTN_CIRCLE> を おせば 1 たいの てきを こうげき<ELLIPSIS> ためうち すれば マルチアタックに なりますわよ！",
+          "ko_text": "이 우산은 <COL:02>전기<COL:01>를 비축하고 있어요! _[circlebutton]을 눌러 하나의 대상을 공격하거나 _[circlebutton]을 누른 상태로 에너지를 모아 다수를 공격하세요."
+        },
+        {
+          "ko_id": -103,
+          "ja_id": -103,
+          "ja_text": "あの セキュリティボットを <COL:02>タイブーメラン<COL:01>で やっつけ ましょう！ <BTN_CIRCLE> で なげますわ。",
+          "ko_text": "\"<COL:02>타이어랑<COL:01>\"을 사용해 보안 로봇들을 처치하세요! (던지려면 _[crclesymbol])"
+        },
+        {
+          "ko_id": -340,
+          "ja_id": -340,
+          "ja_text": "トラヴィス: ハイインパクトの しんじん プログラマー、 トラヴィス だよ。 <COL:02>ラチェット<COL:01>せんよう スペシャル アリーナを たのしんでね！",
+          "ko_text": "트래비스: 전 트래비스 산체스입니다. High Impact의 신입 프로그래머죠. <COL:02>라쳇<COL:01> 엑스트라 아레나 부분이 맘에 들었으면 좋겠어요!"
+        }
+      ],
+      "button_token_diffs": [
+        {
+          "ko_id": -7,
+          "ja_id": -7,
+          "ja_btns": [],
+          "ko_btns": [
+            "<BTN_CROSS>"
+          ],
+          "ja_text": "この わくせいで、 すべての ミッションを クリア しました！ START ボタン を おして、 「マップ / ミッション」 メニューから、 プレイできる ミッションを かくにん するコトが できます。",
+          "ko_text": "이 행성에서의 모든 임무를 마쳤습니다. 남아있는 임무를 보려면 START 버튼을 누르고 메뉴에서 '맵/임무'를 고른 뒤 <BTN_CROSS>을 누르세요."
+        },
+        {
+          "ko_id": -40,
+          "ja_id": -40,
+          "ja_btns": [
+            "<BTN_L>",
+            "<BTN_R>"
+          ],
+          "ko_btns": [
+            "<BTN_R>",
+            "<BTN_L>"
+          ],
+          "ja_text": "<BTN_L> <BTN_R> で ズーム イン・アウトが できますわ。",
+          "ko_text": "<BTN_R>과 <BTN_L>을 사용해 줌을 확대하거나 축소할 수 있어요."
+        },
+        {
+          "ko_id": -102,
+          "ja_id": -102,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [],
+          "ja_text": "<COL:02>サンダーブレラ<COL:01>は でんきを ためますの。 <BTN_CIRCLE> を おせば 1 たいの てきを こうげき<ELLIPSIS> ためうち すれば マルチアタックに なりますわよ！",
+          "ko_text": "이 우산은 <COL:02>전기<COL:01>를 비축하고 있어요! _[circlebutton]을 눌러 하나의 대상을 공격하거나 _[circlebutton]을 누른 상태로 에너지를 모아 다수를 공격하세요."
+        },
+        {
+          "ko_id": -103,
+          "ja_id": -103,
+          "ja_btns": [
+            "<BTN_CIRCLE>"
+          ],
+          "ko_btns": [],
+          "ja_text": "あの セキュリティボットを <COL:02>タイブーメラン<COL:01>で やっつけ ましょう！ <BTN_CIRCLE> で なげますわ。",
+          "ko_text": "\"<COL:02>타이어랑<COL:01>\"을 사용해 보안 로봇들을 처치하세요! (던지려면 _[crclesymbol])"
+        },
+        {
+          "ko_id": -145,
+          "ja_id": -145,
+          "ja_btns": [
+            "<BTN_L>",
+            "<BTN_R>",
+            "<BTN_SQUARE>"
+          ],
+          "ko_btns": [
+            "<BTN_SQUARE>",
+            "<BTN_L>",
+            "<BTN_R>"
+          ],
+          "ja_text": " <BTN_L> <BTN_R> そして <BTN_SQUARE> で、 てきミサイルを よけましょう。",
+          "ko_text": "<BTN_SQUARE>과 <BTN_L> 또는 <BTN_R>으로 적의 미사일을 피하세요."
+        }
+      ],
+      "printf_mismatches": []
+    }
+  }
+}

@@ -1,0 +1,20 @@
+# Local copyrighted game images and extracted assets (never commit)
+*.iso
+*.cso
+*.bin
+*.elf
+*.prx
+*.wad
+*.gde
+*.gim
+*.pmf
+*.at3
+original/
+extracted/disc_ja/
+extracted/disc_ko/
+build/
+dist/*.iso
+__pycache__/
+*.pyc
+.emucap/
+

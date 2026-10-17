@@ -43,7 +43,7 @@ PSP **시크릿 에이전트 클랭크 (Secret Agent Clank™)** 일본판(`UCJS
 </p>
 
 <p align="center">
-  <img src="img/comparison_02_highlight_collision.png" alt="키워드 하이라이터 버그 교정 비교" width="100%">
+  <img src="img/comparison_02_highlight_collision.png" alt="속보 뉴스 라쳇 체포 보도 교정 비교" width="100%">
 </p>
 
 ---

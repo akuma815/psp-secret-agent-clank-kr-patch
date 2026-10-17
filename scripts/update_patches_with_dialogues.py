@@ -226,6 +226,14 @@ def main():
         },
         {
             "source": "LOCALDAT",
+            "ko_id": 6557,
+            "category": "Tier 4 - Dialogue Phrasing",
+            "reason": "Fixes typo '할꺼' and matches Clank's polite agent refusal to release Number Woo",
+            "old_ko": "그러면 당신이 날 죽이려 할꺼 같아 안 그러기로 했어요.",
+            "new_ko": "풀어드리고는 싶지만, 절 바로 없애버리려 하실 것 같아서 안 되겠네요."
+        },
+        {
+            "source": "LOCALDAT",
             "ko_id": 6570,
             "category": "Tier 4 - Dialogue Phrasing",
             "reason": "Barney questioning Quark's pseudo-science",
@@ -314,6 +322,62 @@ def main():
         },
         {
             "source": "LOCALDAT",
+            "ko_id": 6658,
+            "category": "Tier 4 - Dialogue Phrasing",
+            "reason": "Removes archaic Joseon '하오체' and restores suave secret agent tone to dealer",
+            "old_ko": "고맙소 레이디. 여기 게임 규칙은 뭐요?",
+            "new_ko": "고마워요, 레이디. 이 게임은 어떻게 하는 건가요?"
+        },
+        {
+            "source": "LOCALDAT",
+            "ko_id": 6659,
+            "category": "Tier 4 - Dialogue Phrasing",
+            "reason": "Removes archaic Joseon '하오체' and restores suave secret agent tone",
+            "old_ko": "음 내 취향과 좀 다르지만 한 번 해보도록 하겠소. 뭘 걸어야하오?",
+            "new_ko": "제 취향엔 조금 시시해 보이지만, 어디 한번 해볼까요? 판돈은 어떻게 걸죠?"
+        },
+        {
+            "source": "LOCALDAT",
+            "ko_id": 6661,
+            "category": "Tier 4 - Dialogue Phrasing",
+            "reason": "Removes archaic Joseon '하오체' and restores suave agent bet declaration",
+            "old_ko": "내 목장 행성의 권리증을 걸겠소. 대신 내가 이기면 저 상자 안에 든 걸 모두 가지겠소.",
+            "new_ko": "제 목장 행성의 소유권을 걸겠습니다. 대신 이기면 저 상자 속 물건은 제 차지가 되는 겁니다."
+        },
+        {
+            "source": "LOCALDAT",
+            "ko_id": 6663,
+            "category": "Tier 4 - Dialogue Phrasing",
+            "reason": "Removes archaic Joseon '하오체' and restores suave agent tone",
+            "old_ko": "이제 저 상자를 가지고 가야겠소.",
+            "new_ko": "아무래도 상자 속 물건은 제 차지인 것 같군요."
+        },
+        {
+            "source": "LOCALDAT",
+            "ko_id": 6665,
+            "category": "Tier 4 - Dialogue Phrasing",
+            "reason": "Removes archaic Joseon '하오체' and restores agent dialogue to dealer ('Then you have swindled me, Madame!')",
+            "old_ko": "그럼 날 물먹인 거란 말이오?",
+            "new_ko": "그럼 절 속이신 건가요, 부인?"
+        },
+        {
+            "source": "LOCALDAT",
+            "ko_id": 6667,
+            "category": "Tier 4 - Dialogue Phrasing",
+            "reason": "Removes awkward translation of 'One cannot wager what one does not possess'",
+            "old_ko": "가지고 있지 않은 것을 잃을 순 없지.",
+            "new_ko": "가지고 있지도 않은 걸 걸어서는 안 되죠."
+        },
+        {
+            "source": "LOCALDAT",
+            "ko_id": 6670,
+            "category": "Tier 4 - Dialogue Phrasing",
+            "reason": "Removes archaic Joseon '하오체' and restores James Bond suave parting line",
+            "old_ko": "그건 다음으로 미룹시다. 여기서의 게임은 이미 끝난 것 같소.",
+            "new_ko": "그건 다음에 하죠. 매력적인 신사는 늘 바쁜 법이거든요."
+        },
+        {
+            "source": "LOCALDAT",
             "ko_id": 6686,
             "category": "Tier 4 - Dialogue Phrasing",
             "reason": "Clank polite agent rescue intro",
@@ -335,6 +399,14 @@ def main():
             "reason": "Clank realizing he was framed by fabricated footage",
             "old_ko": "이건 말도 안돼. 내가 뭘 하고 있는 거지?",
             "new_ko": "이건 가짜 영상이에요! 함정에 빠진 거라고요!"
+        },
+        {
+            "source": "LOCALDAT",
+            "ko_id": 6717,
+            "category": "Tier 4 - Dialogue Phrasing",
+            "reason": "Restores Clank's polite gratitude to Gadgebots ('Thank you, gentlemen. I am in your debt.')",
+            "old_ko": "고맙다. 너희들한테 신세를 졌구나.",
+            "new_ko": "고마워요, 신사 여러분. 큰 신세를 졌네요!"
         },
         {
             "source": "LOCALDAT",
@@ -490,6 +562,14 @@ def main():
         },
         {
             "source": "LOCALDAT",
+            "ko_id": 6883,
+            "category": "Tier 4 - Dialogue Phrasing",
+            "reason": "Fixes awkward honorific phrasing for agent Clank report to President",
+            "old_ko": "또 한 번 <COL:02>클랭크<COL:01>는 요원으로서의 뛰어난 능력을 증명했습니다<ELLIPSIS>게다가 매우 섹시하죠.",
+            "new_ko": "또 한 번 <COL:02>클랭크<COL:01> 요원은 뛰어난 능력을 증명했습니다<ELLIPSIS>게다가 아주 매력적이죠."
+        },
+        {
+            "source": "LOCALDAT",
             "ko_id": 6889,
             "category": "Tier 4 - Dialogue Phrasing",
             "reason": "Restores Klunk turned into vacuum cleaner punchline",
@@ -511,6 +591,14 @@ def main():
             "reason": "Spelling fixes: '뭉겠는데' -> '뭉갰는데', spacing",
             "old_ko": "내가 그 나비를 뭉겠는데 아무일도 없었어. 이상한 일인거 같다고?",
             "new_ko": "내가 그 나비를 뭉갰는데 아무 일도 없었어. 이상한 일인 것 같다고?"
+        },
+        {
+            "source": "LOCALDAT",
+            "ko_id": 6926,
+            "category": "Tier 3 - Typo",
+            "reason": "Spelling fix: '깨달았을꺼야' -> '깨달았을 거야'",
+            "old_ko": "상대를 가려서 덤벼야 한다는 걸 깨달았을꺼야. 이건 사실이지.",
+            "new_ko": "상대를 가려서 덤벼야 한다는 걸 깨달았을 거야. 이건 사실이지."
         },
 
         # --- In-game Profiles (7000..7450) ---

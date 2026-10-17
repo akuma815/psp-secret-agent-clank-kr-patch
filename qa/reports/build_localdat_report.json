@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-17T16:45:03+09:00",
+  "generated_at": "2026-10-17T23:11:08+09:00",
   "status": "ok",
-  "patches_applied_count": 135,
+  "patches_applied_count": 146,
   "files": {
     "LOCALDAT": {
       "output_path": "build/PSP_GAME/USRDIR/DATA/HUD/LOCALDAT_K.BIN",
       "original_size": 157320,
-      "patched_size": 157232,
-      "size_difference": -88,
+      "patched_size": 157288,
+      "size_difference": -32,
       "iso_slot_limit": 163840,
       "fits_in_iso_slot": true,
       "original_sha256": "4d6ef0ca53978a32766da826d2f6283ddc96bc171124d3533d8d50c66c8ec0ae",
-      "patched_sha256": "c989ba67b94614113ede5d4003806162372ec4b4f9ce7e95eba23959fc8733c2",
+      "patched_sha256": "cdb60f87c99ca9b82b5d5e96947b74b8ed17d374c78c2e44965efddf0d314b03",
       "entries_total": 2603,
-      "entries_patched": 115,
+      "entries_patched": 126,
       "reparse_verification_passed": true
     },
     "HELPLOCALDAT": {

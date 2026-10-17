@@ -13,7 +13,7 @@ original/
 extracted/disc_ja/
 extracted/disc_ko/
 build/
-dist/*.iso
+dist/
 __pycache__/
 *.pyc
 .emucap/

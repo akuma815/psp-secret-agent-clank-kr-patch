@@ -36,6 +36,18 @@ PSP **시크릿 에이전트 클랭크 (Secret Agent Clank™)** 일본판(`UCJS
 
 ---
 
+## 공식 정발판 결함 vs v1.0 패치 비교
+
+<p align="center">
+  <img src="img/comparison_01_clank_dialogue.png" alt="클랭크 컷씬 대사 교정 비교" width="100%">
+</p>
+
+<p align="center">
+  <img src="img/comparison_02_highlight_collision.png" alt="키워드 하이라이터 버그 교정 비교" width="100%">
+</p>
+
+---
+
 ## 지원 원본 및 타깃 해시
 
 | 항목 | 디스크 ID / 파일명 | 크기 (bytes) | SHA-256 |

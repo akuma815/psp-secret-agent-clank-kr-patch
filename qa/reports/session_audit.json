@@ -5,8 +5,8 @@
   "utf8_verified": true,
   "tracked_file_hashes": {
     "AGENTS.md": "2bc1469503a92a7f3ebb70f14243b70008713bbf170967875fd159c184e4d58a",
-    "README.md": "53070dabff9e70458026f32ea4f8bd995ed5afbd6cfe91af1dd79e81e6186ce6",
-    ".gitignore": "dd3a5c0de51f58dd12044ec7d47002b031bc67f0b109e0ddd4caa77c9928d2bd",
+    "README.md": "bf66b66344297b5d4db8a0ad68f03fd55ddd8aebea400437a6284050abeb7f53",
+    ".gitignore": "e2631902e31fd3ffae8f91c55ac856ed247659dbd34b1d50a3be7943dc64e43d",
     "manifests/sources.json": "6054a255b585a402d3993a243eddda645f25d19a13b50bf601f7cf8829ccdcf1",
     "manifests/iso_inventory_ja.json": "eb25b389da9a20cf54807c4312a03bd3684d75dc5844b9df86d8db23af357a72",
     "manifests/iso_inventory_ko.json": "afbb6743d97746cfa37ab6589ebdf6fa8a959401b8b2590f1b5b894e8afc6364",
@@ -28,12 +28,12 @@
     "qa/reports/source_survey.json": "9b4dea7c51cc0eb2e10ad853fa4e4c320960ad00d89313205260b59141c7f496",
     "qa/reports/localdat_analysis.json": "8f5a9591f91fb93ee9c54a555dec33a627df365d60ad97c8a88fdef885b57ef7",
     "qa/reports/translation_diff_audit.json": "1337adce9f8b033242ff2c20465b62cde9f507ffbbf0fc6e5a468b7b1e030ca2",
-    "qa/reports/build_localdat_report.json": "f24e7048f2c20f43e7cfadb2e76ea9f3b3b653dee4df878b6e1b25efdce5a940",
-    "qa/reports/build_iso_report.json": "3ff8cc1e232ba27b7cebad5ba699e54030cc346d8ae53127ebc43a183df48cba",
+    "qa/reports/build_localdat_report.json": "67a2371e0e33f63e18afa7dc3f0d6e68785b27bacac0894a446f277ef004a77e",
+    "qa/reports/build_iso_report.json": "fd23b278213a4693fdc8f9c5caa5c67690afe9ca6763976142a335f9031c4d26",
     "docs/LOCALDAT_ANALYSIS_2026-10-16.md": "66bbffdb355883616a0e9c04595dec8a0ac8c98c709fceca763c9e74084574cc",
     "docs/archive/HANDOFF_2026-10-16_init.md": "39b3a617994bd30bcbfcb9ad76191a745d148a9182e7b6f850ee6f5c588afa25",
     "docs/HANDOFF.md": "a7c5eecdb7e87af008f8947e2a0db2534957dec470aa80766d20adf78a048b00",
     "docs/HANDOFF_2026-10-16.md": "e3061c87058e4d6d4b6c27b759c5db756e6cfb20112a81f70715b1ba05b60c22",
-    "docs/HANDOFF_2026-10-17.md": "e2ecb3218172fa77f3935976aa869883c0e1e258cf3eb3cfca329cd4dc189a21"
+    "docs/HANDOFF_2026-10-17.md": "a7760336aaa25831be7002347c2dcedd7fbd4fae1dc4c3c1aacaa6a98b6161d6"
   }
 }

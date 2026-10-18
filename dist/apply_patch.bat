@@ -1,47 +1,179 @@
 @echo off
-chcp 65001 > nul
-echo ========================================================
-echo   ë¹„ë°€ìš”ì› í´ëž­í¬ (Secret Agent Clank) í•œê¸€ íŒ¨ì¹˜ v1.0
-echo ========================================================
+setlocal EnableDelayedExpansion
+title ºñ¹Ð¿ä¿ø Å¬·©Å© ÇÑ±Û ÆÐÄ¡ Àû¿ë±â
+
+echo =======================================================================
+echo   ºñ¹Ð¿ä¿ø Å¬·©Å© (Secret Agent Clank) ÇÑ±Û ÆÐÄ¡ v1.0
+echo =======================================================================
 echo.
 
-set XDELTA=xdelta3.exe
-set PATCH=Secret_Agent_Clank_KR_v1.0.xdelta
-set SRC=Secret Agent Clank [K].iso
-set OUT=Secret Agent Clank [K] (Updated).iso
+set "SCRIPT_DIR=%~dp0"
+set "XDELTA_EXE=%SCRIPT_DIR%xdelta3.exe"
+set "PATCH=%SCRIPT_DIR%Secret_Agent_Clank_KR_v1.0.xdelta"
+set "EXPECTED_HASH=f0d5a191bdbf2fc05b403b065cbbb867a8974dd89686b3deb8a0d69601391007"
+set "OUTPUT_NAME=Secret Agent Clank [K] (Updated).iso"
 
-if not exist "%XDELTA%" (
-    echo [ì˜¤ë¥˜] %XDELTA% íŒŒì¼ì´ ê°™ì€ í´ë”ì— ì—†ìŠµë‹ˆë‹¤.
+if not exist "%XDELTA_EXE%" (
+    echo [¿À·ù] ÆÐÄ¡ ÇÁ·Î±×·¥ [xdelta3.exe] À» Ã£À» ¼ö ¾ø½À´Ï´Ù: "%XDELTA_EXE%"
+    echo.
     pause
     exit /b 1
 )
 
 if not exist "%PATCH%" (
-    echo [ì˜¤ë¥˜] %PATCH% íŒ¨ì¹˜ íŒŒì¼ì´ ì—†ìŠµë‹ˆë‹¤.
-    pause
-    exit /b 1
-)
-
-if not exist "%SRC%" (
-    echo [ì•ˆë‚´] ì›ë³¸ ISO íŒŒì¼("%SRC%")ì„ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
-    echo ì´ ë°°ì¹˜ íŒŒì¼ì´ ìžˆëŠ” í´ë”ì— ì›ë³¸ ISOë¥¼ ë‘ê³  ì´ë¦„ì„ "%SRC%"ë¡œ ë³€ê²½í•´ì£¼ì„¸ìš”.
+    echo [¿À·ù] ÆÐÄ¡ ÆÄÀÏ [.xdelta] À» Ã£À» ¼ö ¾ø½À´Ï´Ù: "%PATCH%"
     echo.
     pause
     exit /b 1
 )
 
-echo [*] íŒ¨ì¹˜ë¥¼ ì ìš©í•˜ê³  ìžˆìŠµë‹ˆë‹¤. ìž ì‹œë§Œ ê¸°ë‹¤ë ¤ì£¼ì„¸ìš”...
-"%XDELTA%" -d -f -s "%SRC%" "%PATCH%" "%OUT%"
+set "TARGET_ISO="
 
-if %ERRORLEVEL% equ 0 (
+rem 1. »ç¿ëÀÚ°¡ µå·¡±× ¾Ø µå·ÓÀ¸·Î ÆÄÀÏÀ» Àü´ÞÇÑ °æ¿ì
+if "%~1" neq "" (
+    set "CANDIDATE=%~1"
+    echo [*] Àü´ÞµÈ ÆÄÀÏÀÇ ÇØ½Ã [SHA-256] ¸¦ °è»êÇÏ¿© ¿øº» ¿©ºÎ¸¦ °ËÁõÇÕ´Ï´Ù...
+    echo     ÆÄÀÏ: "!CANDIDATE!"
     echo.
-    echo [ì„±ê³µ] í•œê¸€ íŒ¨ì¹˜ ì ìš©ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤!
-    echo ìƒì„±ëœ íŒŒì¼: %OUT%
+    if not exist "!CANDIDATE!" (
+        echo [¿À·ù] ÁöÁ¤ÇÑ ÆÄÀÏÀÌ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù: "!CANDIDATE!"
+        echo.
+        pause
+        exit /b 1
+    )
+    call :check_hash "!CANDIDATE!" IS_MATCH CALC_HASH
+    if "!IS_MATCH!"=="1" (
+        set "TARGET_ISO=!CANDIDATE!"
+        goto :apply_patch
+    ) else (
+        echo [¿À·ù] ÆÄÀÏÀÇ SHA-256 ÇØ½Ã°ªÀÌ ¿øº»°ú ÀÏÄ¡ÇÏÁö ¾Ê½À´Ï´Ù.
+        echo   - °è»êµÈ ÇØ½Ã: !CALC_HASH!
+        echo   - ÇÊ¿äÇÑ ÇØ½Ã: %EXPECTED_HASH%
+        echo.
+        echo ÇÑ±¹ Á¤½Ä ¹ß¸ÅÆÇ ¿øº» ISO°¡ ¸Â´ÂÁö ´Ù½Ã È®ÀÎÇØ ÁÖ½Ê½Ã¿À.
+        echo.
+        pause
+        exit /b 1
+    )
+)
+
+rem 2. µå·¡±× ¾Ø µå·Ó ¾øÀÌ Á÷Á¢ ½ÇÇàÇÑ °æ¿ì: ÇöÀç Æú´õÀÇ ¸ðµç *.iso ÆÄÀÏ ÇØ½Ã °Ë»ç
+echo [*] Æú´õ ³» ISO ÆÄÀÏµéÀÇ ÇØ½Ã [SHA-256] ¸¦ °è»êÇÏ¿© ¿øº»À» Å½»öÇÕ´Ï´Ù...
+for %%F in ("%SCRIPT_DIR%*.iso") do (
+    set "FNAME=%%~nxF"
+    if /i not "!FNAME!"=="%OUTPUT_NAME%" (
+        echo   - °Ë»ç Áß: "%%~nxF"
+        call :check_hash "%%~ffF" IS_MATCH CALC_HASH
+        if "!IS_MATCH!"=="1" (
+            echo     -^> [ÀÏÄ¡] ¿øº» ISO È®ÀÎ ¿Ï·á!
+            set "TARGET_ISO=%%~ffF"
+            goto :apply_patch
+        ) else (
+            echo     -^> [ºÒÀÏÄ¡] ÇØ½Ã: !CALC_HASH!
+        )
+    )
+)
+
+rem 3. Æú´õ ³»¿¡¼­ ÀÏÄ¡ÇÏ´Â ISO¸¦ Ã£Áö ¸øÇÑ °æ¿ì Á÷Á¢ ÀÔ·Â ¿äÃ»
+echo.
+echo [¾È³»] Æú´õ ³»¿¡¼­ ÇØ½Ã°¡ ÀÏÄ¡ÇÏ´Â ¿øº» ISO¸¦ Ã£Áö ¸øÇß½À´Ï´Ù.
+echo.
+echo [Áö¿ø ¿øº» Á¤º¸]
+echo   - ´ë»ó Å¸ÀÌÆ²  : ºñ¹Ð¿ä¿ø Å¬·©Å© (Secret Agent Clank)
+echo   - Disc ID      : UCKS45096 (v1.00)
+echo   - ±âÁØ SHA-256 : %EXPECTED_HASH%
+echo.
+echo ¿øº» ISO ÆÄÀÏÀ» ÀÌ Ã¢À¸·Î µå·¡±× ¾Ø µå·ÓÇÑ µÚ Enter¸¦ ´©¸£°Å³ª,
+echo ÆÄÀÏÀÇ ÀüÃ¼ °æ·Î¸¦ ÀÔ·ÂÇØ ÁÖ½Ê½Ã¿À.
+echo.
+set "USER_INPUT="
+set /p "USER_INPUT=ISO ÆÄÀÏ °æ·Î: "
+
+if not defined USER_INPUT (
+    echo [¿À·ù] °æ·Î°¡ ÀÔ·ÂµÇÁö ¾Ê¾Ò½À´Ï´Ù.
+    pause
+    exit /b 1
+)
+
+rem µû¿ÈÇ¥ Á¦°Å
+set "USER_INPUT=%USER_INPUT:"=%"
+
+if not exist "!USER_INPUT!" (
+    echo [¿À·ù] ÁöÁ¤ÇÑ ÆÄÀÏÀÌ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù: "!USER_INPUT!"
+    pause
+    exit /b 1
+)
+
+echo.
+echo [*] ÀÔ·ÂµÈ ÆÄÀÏÀÇ ÇØ½Ã [SHA-256] ¸¦ °è»êÇÏ°í ÀÖ½À´Ï´Ù...
+call :check_hash "!USER_INPUT!" IS_MATCH CALC_HASH
+if "!IS_MATCH!"=="1" (
+    set "TARGET_ISO=!USER_INPUT!"
+    goto :apply_patch
+) else (
+    echo [¿À·ù] ÆÄÀÏÀÇ SHA-256 ÇØ½Ã°ªÀÌ ¿øº»°ú ÀÏÄ¡ÇÏÁö ¾Ê½À´Ï´Ù.
+    echo   - °è»êµÈ ÇØ½Ã: !CALC_HASH!
+    echo   - ÇÊ¿äÇÑ ÇØ½Ã: %EXPECTED_HASH%
+    echo.
+    echo ÇÑ±¹ Á¤½Ä ¹ß¸ÅÆÇ ¿øº» ISO°¡ ¸Â´ÂÁö ´Ù½Ã È®ÀÎÇØ ÁÖ½Ê½Ã¿À.
+    echo.
+    pause
+    exit /b 1
+)
+
+:apply_patch
+echo.
+echo =======================================================================
+echo   ÆÐÄ¡ Àû¿ë ´ë»ó È®ÀÎ ¿Ï·á
+echo =======================================================================
+echo   - ¿øº» ÆÄÀÏ : "!TARGET_ISO!"
+echo   - ÆÐÄ¡ ÆÄÀÏ : "%PATCH%"
+
+for %%I in ("!TARGET_ISO!") do set "TARGET_DIR=%%~dpI"
+set "OUT_FILE=!TARGET_DIR!!OUTPUT_NAME!"
+echo   - »ý¼º ÆÄÀÏ : "!OUT_FILE!"
+echo.
+echo [*] ÇÑ±Û ÆÐÄ¡¸¦ Àû¿ëÇÏ°í ÀÖ½À´Ï´Ù. Àá½Ã¸¸ ±â´Ù·ÁÁÖ¼¼¿ä...
+
+set "XDELTA="
+"%XDELTA_EXE%" -d -f -s "!TARGET_ISO!" "!PATCH!" "!OUT_FILE!"
+set "PATCH_ERR=!ERRORLEVEL!"
+
+if !PATCH_ERR! equ 0 (
+    echo.
+    echo =======================================================================
+    echo   [¼º°ø] ÇÑ±Û ÆÐÄ¡ Àû¿ëÀÌ Á¤»óÀûÀ¸·Î ¿Ï·áµÇ¾ú½À´Ï´Ù!
+    echo =======================================================================
+    echo »ý¼ºµÈ ÆÄÀÏ: "!OUT_FILE!"
+    echo.
+    echo PPSSPP ¿¡¹Ä·¹ÀÌÅÍ ¶Ç´Â PSP ½Ç±â¿¡¼­ ÇÃ·¹ÀÌÇÏ½Ç ¼ö ÀÖ½À´Ï´Ù.
 ) else (
     echo.
-    echo [ì‹¤íŒ¨] íŒ¨ì¹˜ ì ìš© ì¤‘ ì˜¤ë¥˜ê°€ ë°œìƒí–ˆìŠµë‹ˆë‹¤. ì›ë³¸ ISOì˜ ë¬´ê²°ì„±ì„ í™•ì¸í•´ì£¼ì„¸ìš”.
+    echo =======================================================================
+    echo   [½ÇÆÐ] ÆÐÄ¡ Àû¿ë Áß ¿À·ù°¡ ¹ß»ýÇß½À´Ï´Ù. [¿À·ù ÄÚµå: !PATCH_ERR!]
+    echo =======================================================================
+    echo ¿øº» ISO ¼Õ»ó ¿©ºÎ ¶Ç´Â µå¶óÀÌºê ÀúÀå °ø°£ ºÎÁ· ¿©ºÎ¸¦ È®ÀÎÇØÁÖ¼¼¿ä.
 )
 
 echo.
 pause
+exit /b 0
 
+:check_hash
+set "CH_FILE=%~1"
+set "CH_MATCH_VAR=%~2"
+set "CH_HASH_VAR=%~3"
+set "CALC="
+for /f "skip=1 tokens=* delims=" %%H in ('certutil -hashfile "!CH_FILE!" SHA256 2^>nul') do (
+    if not defined CALC (
+        set "CALC=%%H"
+    )
+)
+set "CALC=!CALC: =!"
+set "%CH_HASH_VAR%=!CALC!"
+if /i "!CALC!"=="%EXPECTED_HASH%" (
+    set "%CH_MATCH_VAR%=1"
+) else (
+    set "%CH_MATCH_VAR%=0"
+)
+exit /b 0

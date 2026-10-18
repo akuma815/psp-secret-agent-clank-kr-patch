@@ -62,6 +62,27 @@ def main() -> int:
         out_path = ROOT / out_rel
         out_path.parent.mkdir(parents=True, exist_ok=True)
 
+        if not in_path.exists():
+            iso_path = ROOT / "Secret Agent Clank [K].iso"
+            if not iso_path.exists():
+                iso_path = ROOT / "original/iso/Secret Agent Clank [K].iso"
+            inv_path = ROOT / "manifests/iso_inventory_ko.json"
+            if iso_path.exists() and inv_path.exists():
+                inv = json.loads(inv_path.read_text(encoding="utf-8"))["files"]
+                files_by_path = {item["path"]: item for item in inv}
+                rel_path = in_path.relative_to(ROOT / "extracted/disc_ko").as_posix()
+                if rel_path in files_by_path:
+                    info = files_by_path[rel_path]
+                    print(f"[*] Auto-extracting {rel_path} from {iso_path.name}...")
+                    in_path.parent.mkdir(parents=True, exist_ok=True)
+                    with iso_path.open("rb") as f:
+                        f.seek(info["iso_offset"])
+                        in_path.write_bytes(f.read(info["size"]))
+            if not in_path.exists():
+                print(f"[-] Source file not found: {in_path}", file=sys.stderr)
+                print(f"[-] Please place 'Secret Agent Clank [K].iso' in project root.", file=sys.stderr)
+                return 1
+
         orig_data = in_path.read_bytes()
         parsed = parse_loc_data(orig_data, lang="ko")
 

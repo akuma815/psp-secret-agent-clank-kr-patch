@@ -13,7 +13,10 @@ original/
 extracted/disc_ja/
 extracted/disc_ko/
 build/
-dist/
+dist/*
+!dist/Secret_Agent_Clank_KR_v1.0.xdelta
+!dist/*.bat
+!dist/*.txt
 __pycache__/
 *.pyc
 .emucap/

@@ -28,12 +28,17 @@ def main() -> int:
     args = parser.parse_args()
 
     src_iso = pathlib.Path(args.src_iso)
+    if not src_iso.exists():
+        fallback_root = ROOT / "Secret Agent Clank [K].iso"
+        if fallback_root.exists():
+            src_iso = fallback_root
+        else:
+            raise FileNotFoundError(f"Source ISO not found: {src_iso} (or in project root: {fallback_root})")
+
     out_iso = pathlib.Path(args.out_iso)
     loc_path = pathlib.Path(args.localdat)
     help_path = pathlib.Path(args.helplocaldat)
 
-    if not src_iso.exists():
-        raise FileNotFoundError(f"Source ISO not found: {src_iso}")
     if not loc_path.exists() or not help_path.exists():
         raise FileNotFoundError("Patched localdat binaries not found; run scripts/build_patched_localdat.py first")
 
